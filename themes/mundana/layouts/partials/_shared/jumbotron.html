@@ -1,0 +1,39 @@
+<div class="container">
+	<div
+		class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative"
+	>
+		<div class="h-100 tofront">
+			<div class="row justify-content-between">
+				<div class="col-md-6 pt-6 pb-6 pr-6 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+						{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+						<a class="text-danger" href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+						{{ end }}
+					</p>
+					<h1 class="display-4 secondfont mb-3 font-weight-bold article-headline">
+						{{ .Title }}
+					</h1>
+					<div class="d-flex align-items-center">
+						<img
+							class="rounded-circle"
+							src="{{ .Site.Params.author.thumbnail | urlize | relURL}}" alt="{{ .Site.Params.author.name }}"
+							width="70"
+						/>
+						<small class="ml-2"
+							>{{if isset .Site.Params.author "name"}}
+							<span class="text-muted d-block"
+								>{{ dateFormat "Jan 2, 2006" .PublishDate }} &middot; {{ .ReadingTime }} min read</span
+							>
+						</small>
+					</div>
+				</div>
+				<div class="col-md-6 pr-0">
+					{{$images := .Resources.ByType "image"}}
+                    {{with $images.GetMatch "*cover*" }}
+                        <img class="featured-image img-fluid" src="{{ .Permalink }}" alt="thumbnail for this post">
+                    {{end}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

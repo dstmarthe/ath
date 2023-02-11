@@ -1,0 +1,12 @@
+baseURL = 'http://themundane.com/'
+languageCode = 'en-us'
+title = 'The Mundane'
+
+
+# Theme Settings
+theme = "tale"
+[params]
+  Author = "lgaida"
+[author]
+  name = "lgaida"
+  homepage = "http://lgaida.de"

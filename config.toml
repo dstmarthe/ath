@@ -4,7 +4,7 @@ title = 'The Mundane'
 
 
 # Theme Settings
-theme = "tale"
+theme = "mediumish-gohugo-theme"
 [params]
   Author = "lgaida"
 [author]

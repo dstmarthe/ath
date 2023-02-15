@@ -7,6 +7,7 @@ copyright = "John Doe - All rights reserved"
 enableEmoji = true
 #disqusShortname = "your-shortname-here"
 #googleAnalytics = "UA-1XXXXXXX1-1"
+alertbar = false
 
 [permalinks]
   posts = '/:year/:month/:title/'
@@ -33,7 +34,7 @@ Currently trying to get this blog running, still don't know what the blog will b
 **This textblock is a demonstration of the mdtext-param.**\
 ### This is a markdown heading
 '''
-  alertbar = false
+
 
 [params.social]
   github = "<username>"

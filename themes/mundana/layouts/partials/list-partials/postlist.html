@@ -2,12 +2,10 @@
 <div class="mb-3 d-flex justify-content-between">
 	<div class="pr-3">
 		<h2 class="mb-1 h4 font-weight-bold">
-			<a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
+			<a class="text-dark" href="{{ .Permalink }}">{{ Params.Title }}</a>
 		</h2>
-		<p>{{ .Summary }}summary would go here laa deeee daaa dee daaaaaaa</p>
-		<div class="card-text text-muted small">
-			Jake Bittle in {{.CurrentSection}}
-		</div>
+		<p>{{ Params.Summary }}summary would go here laa deeee daaa dee daaaaaaa</p>
+		<div class="card-text text-muted small">Jake Bittle in {{.Section}}</div>
 		<small class="text-muted"
 			>{{ dateFormat "Jan 2, 2006" .PublishDate }} &middot; {{ .ReadingTime }}
 			min read</small

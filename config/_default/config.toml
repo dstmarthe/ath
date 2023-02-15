@@ -1,9 +1,9 @@
-baseURL = "https://chimerical-florentine-ae4db4.netlify.app/"
+baseURL = "https://chimerical-florentine-ae4db4.netlify.app"
 languageCode = "en-us"
 title = "Answering everyday questions | TheMundane"
 theme = "mundana"
 summaryLength = 25
-copyright = "John Doe - All rights reserved"
+copyright = "Dale St. Marthe - All rights reserved"
 enableEmoji = true
 #disqusShortname = "your-shortname-here"
 #googleAnalytics = "UA-1XXXXXXX1-1"
@@ -48,13 +48,13 @@ Currently trying to get this blog running, still don't know what the blog will b
 [[menu.main]]
     name = "The All"
     weight = 100
-    identifier = "blog"
-    url = "/article/index.html"
+    identifier = "All"
+    url = "/article"
 [[menu.main]]
-    name = "About Me"
+    name = "Trending"
     identifier = "Trending"
     weight = 200
-    url = "/article/trending/index.html"
+    url = "/article/trending/"
 [[menu.main]]
     name = "Imprint"
     identifier = "imprint"

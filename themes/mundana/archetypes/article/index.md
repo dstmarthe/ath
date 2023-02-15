@@ -3,9 +3,9 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 author: ["theMundane"]
 summary:
-categories:
+categories: {{ .Section }}
 tags: []
-keywords:
+keywords: []
 draft: true
 hasVideo: false
 

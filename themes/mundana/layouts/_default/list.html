@@ -4,7 +4,9 @@
 <div class="container">
 	<div class="row justify-content-between">
 		<div class="col-md-8">
-			<h5 class="font-weight-bold spanborder"><span>{{ .Section }}</span></h5>
+			<h5 class="font-weight-bold spanborder">
+				<span>{{ .CurrentSection }}</span>
+			</h5>
 			{{ $post_paginator := .Paginate (.Pages) }} {{ range $post_paginator.Pages
 			}} {{- partial "list-partials/postlist.html" . -}} {{end}} {{- partial
 			"list-partials/pagination.html" $post_paginator -}}

@@ -1,13 +1,15 @@
 {{ define "header"}} {{- partial "_shared/navbar.html" . -}} {{ end }} {{ define
 "main" }}
-
+{{- partial "_shared/jumbotron.html" . -}}
+{{end}} 
+<!--Top Left 1 below Jumbotron -->
 <div class="container pt-4 pb-4">
 	<div class="row">
 		<div class="col-lg-6">
 			<div class="card border-0 mb-4 box-shadow h-xl-300">
 				<div
 					style="
-						background-image: url(./assets/img/demo/1.jpg);
+						background-image: url(/images/1.jpg);
 						height: 150px;
 						background-size: cover;
 						background-repeat: no-repeat;
@@ -35,10 +37,12 @@
 				</div>
 			</div>
 		</div>
+		<!-- Top right 3 article cards-->
 		<div class="col-lg-6">
+			<!-- Article Card 1-->
 			<div class="flex-md-row mb-4 box-shadow h-xl-300">
 				<div class="mb-3 d-flex align-items-center">
-					<img height="80" src="./assets/img/demo/blog4.jpg" />
+					<img height="80" src="/images/blog4.jpg" />
 					<div class="pl-3">
 						<h2 class="mb-2 h6 font-weight-bold">
 							<a class="text-dark" href="./article.html"
@@ -48,11 +52,12 @@
 						<div class="card-text text-muted small">
 							Jake Bittle in LOVE/HATE
 						</div>
-						<small class="text-muted">Dec 12 &middot; 5 min read</small>
+						<small class="text-muted">Dec 12 &middot; {{ .ReadingTime }} min read</small>
 					</div>
 				</div>
+				<!-- Article card 2-->
 				<div class="mb-3 d-flex align-items-center">
-					<img height="80" src="./assets/img/demo/blog5.jpg" />
+					<img height="80" src="/images/blog5.jpg" />
 					<div class="pl-3">
 						<h2 class="mb-2 h6 font-weight-bold">
 							<a class="text-dark" href="./article.html"
@@ -65,8 +70,9 @@
 						<small class="text-muted">Dec 12 &middot; 5 min read</small>
 					</div>
 				</div>
+				<!--Article Card 3-->
 				<div class="mb-3 d-flex align-items-center">
-					<img height="80" src="./assets/img/demo/blog6.jpg" />
+					<img height="80" src="/images/blog6.jpg" />
 					<div class="pl-3">
 						<h2 class="mb-2 h6 font-weight-bold">
 							<a class="text-dark" href="./article.html"
@@ -83,61 +89,20 @@
 		</div>
 	</div>
 </div>
-
+<!--All Post thing-->
 <div class="container">
 	<div class="row justify-content-between">
 		<div class="col-md-8">
-			<h5 class="font-weight-bold spanborder"><span>All Stories</span></h5>
-			<div class="mb-3 d-flex justify-content-between">
-				<div class="pr-3">
-					<h2 class="mb-1 h4 font-weight-bold">
-						<a class="text-dark" href="./article.html"
-							>Nearly 200 Great Barrier Reef coral species also live in the deep
-							sea</a
-						>
-					</h2>
-					<p>
-						There are more coral species lurking in the deep ocean that
-						previously thought.
-					</p>
-					<div class="card-text text-muted small">Jake Bittle in SCIENCE</div>
-					<small class="text-muted">Dec 12 &middot; 5 min read</small>
-				</div>
-				<img height="120" src="./assets/img/demo/blog8.jpg" />
-			</div>
-			<div class="mb-3 d-flex justify-content-between">
-				<div class="pr-3">
-					<h2 class="mb-1 h4 font-weight-bold">
-						<a class="text-dark" href="./article.html"
-							>East Antarctica's glaciers are stirring</a
-						>
-					</h2>
-					<p>
-						Nasa says it has detected the first signs of significant melting in
-						a swathe of glaciers in East Antarctica.
-					</p>
-					<div class="card-text text-muted small">Jake Bittle in SCIENCE</div>
-					<small class="text-muted">Dec 12 &middot; 5 min read</small>
-				</div>
-				<img height="120" src="./assets/img/demo/1.jpg" />
-			</div>
-			<div class="mb-3 d-flex justify-content-between">
-				<div class="pr-3">
-					<h2 class="mb-1 h4 font-weight-bold">
-						<a class="text-dark" href="./article.html"
-							>50 years ago, armadillos hinted that DNA wasn’t destiny</a
-						>
-					</h2>
-					<p>
-						Nasa says it has detected the first signs of significant melting in
-						a swathe of glaciers in East Antarctica.
-					</p>
-					<div class="card-text text-muted small">Jake Bittle in SCIENCE</div>
-					<small class="text-muted">Dec 12 &middot; 5 min read</small>
-				</div>
-				<img height="120" src="./assets/img/demo/5.jpg" />
-			</div>
+			<h5 class="font-weight-bold spanborder"><span>Recent</span></h5>
+			{{ $post_paginator := .Paginate (.Pages) 8 }}
+			{{ range $post_paginator.Pages }}
+				{{- partial "list-partials/postlist.html" . -}}
+			{{end}}
+			{{- partial "list-partials/pagination.html" $post_paginator -}}
 		</div>
+		
+<!-- End All Post thing-->
+<!-- Side Right Thing-->
 		<div class="col-md-4 pl-4">
 			<h5 class="font-weight-bold spanborder"><span>Popular</span></h5>
 			<ol class="list-featured">
@@ -184,6 +149,15 @@
 				</li>
 			</ol>
 		</div>
-	</div>
+	</->
 </div>
-{{end}} {{ define "footer" }} {{- partial "_shared/footer.html" . -}} {{end}}
+{{ if isset .Site.Params.index "alertbar" }}
+{{ if .Site.Params.index.alertbar }}
+	{{- partial "_shared/alertbar.html" . -}}
+{{ end }}
+{{ end }}
+{{end}}
+
+{{ define "footer" }}
+{{- partial "_shared/footer.html" . -}}
+{{end}}

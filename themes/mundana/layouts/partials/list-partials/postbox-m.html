@@ -1,0 +1,36 @@
+<!-- Medium postbox with img on top -->
+<div class="container pt-4 pb-4">
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="card border-0 mb-4 box-shadow h-xl-300">
+				{{$images := .Resources.ByType "image"}} {{with $images.GetMatch
+				"*cover*" }}
+				<div
+					style="
+						background-image: url({{ .Permalink }});
+						height: 150px;
+						background-size: cover;
+						background-repeat: no-repeat;
+					"
+				>
+					{{end}}
+				</div>
+				<div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+					<h2 class="h4 font-weight-bold">
+						<a class="text-dark" href="./article.html">{{ .Title }}</a>
+					</h2>
+					<p class="card-text">{{ .Summary }}</p>
+					<div>
+						<small class="d-block"
+							><a class="text-muted" href="{{ .Author }}">Favid Rick</a></small
+						>
+						<small class="text-muted"
+							>{{dateFormat "Jan 2" .PublishDate}} &middot; {{ .ReadingTime }}
+							min read</small
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,20 @@
+{{ define "header"}} {{- partial "_shared/navbar.html" . -}} {{ end }} {{ define
+"main" }} {{ define "header"}} {{- partial "_shared/navbar.html" . -}} {{ end }}
+{{ define "main" }}
+<!-- Repeating li of All Post component-->
+<div class="container">
+	<div class="row justify-content-between">
+		<div class="col-md-8">
+			<h5 class="font-weight-bold spanborder"><span>{{ .Section }}</span></h5>
+			{{ $post_paginator := .Paginate (.Pages) }} {{ range $post_paginator.Pages
+			}} {{- partial "list-partials/postlist.html" . -}} {{end}} {{- partial
+			"list-partials/pagination.html" $post_paginator -}}
+		</div>
+
+		{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
+		}}
+		<img height="120" src="{{ .Permalink }}" />
+		{{end}}
+	</div>
+	{{ define "footer"}} {{- partial "_shared/footer.html" . -}} {{ end }}
+</div>

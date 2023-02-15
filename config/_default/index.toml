@@ -1,5 +1,5 @@
 [params.featured]
-    thumbnail = "/images/featured.png"
+    thumbnail = "/images/home.png"
     title = "Something Bamboozle-Dazzling"
     subtitle = ""
     tertiary=""

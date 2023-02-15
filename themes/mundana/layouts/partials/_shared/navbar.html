@@ -17,34 +17,37 @@ NAVBAR
 		>
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="navbar-collapse collapse" id="navbarColor02" style="">
+		<div class="navbar-collapse collapse" id="navbarColor02">
 			<ul class="navbar-nav mr-auto d-flex align-items-center">
 				<li class="nav-item">
-					<a class="nav-link" href="{{ .Site.BaseURL }}/"
-						>Intro <span class="sr-only">(current)</span></a
+					<a class="nav-link" href="{{ .Site.BaseURL }}/article/trending"
+						>Trending</a
 					>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="./article.html">Trending</a>
+					<a class="nav-link" href="{{ .Site.BaseURL }}/article/tech">Tech</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="./article.html">Tech</a>
+					<a class="nav-link" href="{{ .Site.BaseURL }}/article/science"
+						>Science</a
+					>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="./article.html">Science</a>
+					<a class="nav-link" href="{{ .Site.BaseURL }}/article/Ent"
+						>Entertainment</a
+					>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="./article.html">Entertainment</a>
+					<a class="nav-link" href="{{ .Site.BaseURL }}/article/themundane"
+						>TheMundane</a
+					>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="./article.html">TheMundane</a>
+					<a class="nav-link" href="{{ .Site.BaseURL }}/article/about">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="./about.html">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="./docs.html"
-						>Template <span class="badge badge-secondary">DONATE</span></a
+					<a class="nav-link" href="{{ .Site.BaseURL }}/"
+						><span class="badge badge-secondary">DONATE</span></a
 					>
 				</li>
 			</ul>

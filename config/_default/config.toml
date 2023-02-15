@@ -48,12 +48,12 @@ Currently trying to get this blog running, still don't know what the blog will b
     name = "The All"
     weight = 100
     identifier = "blog"
-    url = "/articles/index.html"
+    url = "/article/index.html"
 [[menu.main]]
     name = "About Me"
     identifier = "Trending"
     weight = 200
-    url = "/articles/trending/index.html"
+    url = "/article/trending/index.html"
 [[menu.main]]
     name = "Imprint"
     identifier = "imprint"

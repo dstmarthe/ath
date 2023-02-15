@@ -1,6 +1,6 @@
 baseURL = "https://chimerical-florentine-ae4db4.netlify.app"
 languageCode = "en-us"
-title = "Answering everyday questions | TheMundane"
+title = "TheMundane"
 theme = "mundana"
 summaryLength = 25
 copyright = "Dale St. Marthe - All rights reserved"
@@ -22,7 +22,7 @@ alertbar = false
 
 [params]
   logo = "/images/logo.png"
-  description ="Your Everyday Why"
+  description ="Answering Your Everyday Why"
   #mailchimp = "you can provide a mailchimp-link here"
 
 [params.index]

@@ -22,7 +22,7 @@ alertbar = false
 
 [params]
   logo = "/images/logo.png"
-  description ="the clean blog!"
+  description ="Your Everyday Why"
   #mailchimp = "you can provide a mailchimp-link here"
 
 [params.index]

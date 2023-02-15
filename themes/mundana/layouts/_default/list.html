@@ -7,9 +7,9 @@
 			<h5 class="font-weight-bold spanborder">
 				<span>{{ .CurrentSection.Params.category }}</span>
 			</h5>
-			{{ $post_paginator := .Paginate (.Pages) }} {{ range $post_paginator.Pages
-			}} {{- partial "list-partials/postlist.html" . -}} {{end}} {{- partial
-			"list-partials/pagination.html" $post_paginator -}}
+			{{ $post_paginator := .Paginate (.Pages) 7 }} {{ range
+			$post_paginator.Pages }} {{- partial "list-partials/postlist.html" . -}}
+			{{end}} {{- partial "list-partials/pagination.html" $post_paginator -}}
 		</div>
 
 		{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"

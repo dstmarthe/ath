@@ -45,15 +45,15 @@ Currently trying to get this blog running, still don't know what the blog will b
 
 ## Main Menu
 [[menu.main]]
-    name = "Blog"
+    name = "The All"
     weight = 100
     identifier = "blog"
-    url = "/blog"
+    url = "/articles/index.html"
 [[menu.main]]
     name = "About Me"
-    identifier = "about"
+    identifier = "Trending"
     weight = 200
-    url = "/"
+    url = "/articles/trending/index.html"
 [[menu.main]]
     name = "Imprint"
     identifier = "imprint"

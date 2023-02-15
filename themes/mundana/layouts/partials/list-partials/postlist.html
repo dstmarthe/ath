@@ -5,7 +5,9 @@
 			<a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
 		</h2>
 		<p>{{ .Summary }}summary would go here laa deeee daaa dee daaaaaaa</p>
-		<div class="card-text text-muted small">Jake Bittle in {{.Section}}</div>
+		<div class="card-text text-muted small">
+			Jake Bittle in {{.CurrentSection}}
+		</div>
 		<small class="text-muted"
 			>{{ dateFormat "Jan 2, 2006" .PublishDate }} &middot; {{ .ReadingTime }}
 			min read</small

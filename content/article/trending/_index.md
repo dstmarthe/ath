@@ -1,6 +1,5 @@
 ---
-title: 'Trending Now'
-[cascade]
-banner: 'images/banner.jpg'
+title: "Trending Now"
+banner: "images/banner.jpg"
 colorTheme:
 ---

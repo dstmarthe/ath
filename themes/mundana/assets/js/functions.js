@@ -4,7 +4,7 @@ jQuery(document).ready(function () {
 	});
 });
 
-window.addEventListener("scroll", function () {
+/* window.addEventListener("scroll", function () {
 	var sidebar = document.querySelector(".sidebar");
 	var sidebarHeight = sidebar.offsetHeight;
 	var windowHeight = window.innerHeight;
@@ -20,4 +20,4 @@ window.addEventListener("scroll", function () {
 		sidebar.style.position = "absolute";
 		sidebar.style.top = windowHeight - sidebarHeight + "px";
 	}
-});
+});*/

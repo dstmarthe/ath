@@ -29,7 +29,7 @@
 							><a class="text-muted" href="./author.html">Favid Rick</a></small
 						>
 						<small class="text-muted"
-							>Dec 12 &middot; {{ .ReadingTime }} min read</small
+							>Dec 12 &middot; .ReadingTime }} min read</small
 						>
 					</div>
 				</div>
@@ -51,7 +51,7 @@
 							Jake Bittle in LOVE/HATE
 						</div>
 						<small class="text-muted"
-							>Dec 12 &middot; {{ .ReadingTime }} min read</small
+							>Dec 12 &middot; .ReadingTime }} min read</small
 						>
 					</div>
 				</div>
@@ -95,7 +95,7 @@
 	<div class="row justify-content-between">
 		<div class="col-md-8">
 			<h5 class="font-weight-bold spanborder"><span>Recent</span></h5>
-			{{ $post_paginator := .Paginate (site.RegularPages ) }} {{ range
+			{{ $post_paginator := .Paginate ( site.RegularPages ) }} {{ range
 			$post_paginator.Pages }} {{- partial "list-partials/postlist.html" . -}}
 			{{end}} {{- partial "list-partials/pagination.html" $post_paginator -}}
 		</div>

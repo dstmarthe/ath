@@ -95,7 +95,7 @@
 	<div class="row justify-content-between">
 		<div class="col-md-8">
 			<h5 class="font-weight-bold spanborder"><span>Recent</span></h5>
-			{{ $post_paginator := .Paginate (.site.RegularPages ) }} {{ range
+			{{ $post_paginator := .Paginate (site.RegularPages ) }} {{ range
 			$post_paginator.Pages }} {{- partial "list-partials/postlist.html" . -}}
 			{{end}} {{- partial "list-partials/pagination.html" $post_paginator -}}
 		</div>
@@ -152,7 +152,7 @@
 		</div>
 	</div>
 </div>
-{{ end }} {{ if isset .Site.Params.index "alertbar" }} {{ if
+{{ end }} {{ if isset site.Params.index "alertbar" }} {{ if
 .Site.Params.index.alertbar }} {{- partial "_shared/alertbar.html" . -}} {{ end
 }} {{ end }} {{ define "footer" }} {{- partial "_shared/footer.html" . -}} {{
 end }}

@@ -1,6 +1,6 @@
-baseURL = "https://chimerical-florentine-ae4db4.netlify.app"
+baseURL = "https://allthathappens.com/"
 languageCode = "en-us"
-title = "TheMundane"
+title = "All That Happens"
 theme = "mundana"
 summaryLength = 25
 copyright = "Dale St. Marthe - All rights reserved"
@@ -24,16 +24,6 @@ alertbar = false
   logo = "/images/logo.png"
   description ="Answering Your Everyday Why"
   #mailchimp = "you can provide a mailchimp-link here"
-
-[params.index]
-  picture = "/images/author.png"
-  title = "John Doe"
-  subtitle = "I'm a unique placeholder. Working here and there!"
-  mdtext = '''
-Currently trying to get this blog running, still don't know what the blog will be about!\
-**This textblock is a demonstration of the mdtext-param.**\
-### This is a markdown heading
-'''
 
 
 [params.social]

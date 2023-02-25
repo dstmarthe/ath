@@ -1,11 +1,17 @@
 <!--------------------------------------
 NAVBAR
 --------------------------------------->
-<nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+<nav class="topnav navbar navbar-expand-lg navbar-dark bg-black fixed-top">
 	<div class="container">
-		<a class="navbar-brand" href="{{ .Site.BaseURL }}/"
-			><strong>theMundane</strong></a
-		>
+		<!-- Begin Logo -->
+		<a class="navbar-brand" href="{{ .Site.BaseURL }}/">
+			{{ with .Site.Params.navLogo }}
+			<img src="{{ . | urlize | relURL }}" alt="logo" style="width: 5em" />
+			{{ else }}
+			<span style="font-family: Righteous">{{.Site.Title}}</span>
+			{{ end }}
+		</a>
+		<!-- End Logo -->
 		<button
 			class="navbar-toggler collapsed"
 			type="button"
@@ -18,7 +24,7 @@ NAVBAR
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="navbar-collapse collapse" id="navbarColor02">
-			<ul class="navbar-nav mr-auto d-flex align-items-center">
+			<ul class="navbar-nav ml-5 d-flex align-items-center">
 				<li class="nav-item">
 					<a class="nav-link" href="{{ .Site.BaseURL }}/article/trending"
 						>Trending</a
@@ -33,13 +39,13 @@ NAVBAR
 					>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{ .Site.BaseURL }}/article/Ent"
-						>Entertainment</a
+					<a class="nav-link" href="{{ .Site.BaseURL }}/article/gaming"
+						>Gaming</a
 					>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{ .Site.BaseURL }}/article/themundane"
-						>TheMundane</a
+					<a class="nav-link" href="{{ .Site.BaseURL }}/article/The All"
+						>The All</a
 					>
 				</li>
 				<li class="nav-item">

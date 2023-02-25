@@ -1,29 +1,14 @@
-<div class="h-0 bg-gray-900 pb-full-image-ratio my-5">
-	<!--Post Image -->
-
-	<div class="inset-0 opacity-75">
-		<span
-			><img
-				src="https://images.cgames.de/images/gsgp/290/atomic-heart-gp-preview_6213344.jpg"
-				decoding="async"
-				class="mx-auto mb-4"
-		/></span>
-	</div>
-	<!--Post Content -->
-	<div
-		class="carousel-inner z-10 inset-0 flex flex-col px-4 py-4 text-center text-white"
-	>
-		<div class="p-4 tracking-[.05em] uppercase text-md font-hn">
-			{{ .CurrentSection.Params.category }}category<!-- -->
-			<span class="inline-block px-2 opacity-50">|</span>
-			{{ dateFormat "Jan 2" .PublishDate }}
-			<span class="inline-block px-1 text-sm italic lowercase font-g">on</span>
-			<!-- -->millenial moment
-		</div>
-		<div
-			class="absolute inset-0 flex flex-col justify-center flex-grow flex-shrink-0 px-4 font-bold leading-tight text-6 font-ab hover:underline"
+<div class="container position-relative mb-3">
+	<div class="row">
+		<img
+			class="img-fluid mx-auto"
+			src="https://images.cgames.de/images/gsgp/290/atomic-heart-gp-preview_6213344.jpg"
+		/>
+		<h1
+			class="position-absolute text-monospace font-bold hover:underline text-white text-wrap top-50 start-50 translate-middle"
+			style="width: 300px"
 		>
-			<div>{{.Title}} bigaaaahhh title</div>
-		</div>
+			This is the fantastic title of the article
+		</h1>
 	</div>
 </div>

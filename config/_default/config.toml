@@ -22,6 +22,7 @@ alertbar = false
 
 [params]
   logo = "/images/logo.png"
+  navLogo = "/images/athlogowords.svg"
   description ="Answering Your Everyday Why"
   #mailchimp = "you can provide a mailchimp-link here"
 

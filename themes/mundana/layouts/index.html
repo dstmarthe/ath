@@ -1,16 +1,17 @@
 {{ define "header"}} {{- partial "_shared/navbar.html" . -}} {{ end }} {{ define
 "main" }}
 <!--{{- partial "_shared/indexTitle.html" . -}}-->
-{{- partial "list-partials/lead.html" . -}}
-<!--Top Left 1 below Jumbotron -->
-<div class="container pt-4 pb-4">
-	<div class="row">
-		<div class="col-lg-6">
-			<div class="card border-0 mb-4 box-shadow h-xl-300">
+<!--{{- partial "list-partials/lead.html" . -}}-->
+<!--Top Left 1 below Jumbotron/Lead row-->
+<div class="full-width py-5 mb-5" style="background-color: #9afbef">
+	<div class="container d-flex">
+		<div class="col-lg-8">
+			{{- partial "list-partials/lead.html" . -}} {{/*
+			<div class="card border-0 mb-4 box-shadow h-xl-400">
 				<div
 					style="
 						background-image: url(images/1.jpg);
-						height: 150px;
+						height: 450px;
 						background-size: cover;
 						background-repeat: no-repeat;
 					"
@@ -34,9 +35,10 @@
 					</div>
 				</div>
 			</div>
+			*/}}
 		</div>
 		<!-- Top right 3 article cards-->
-		<div class="col-lg-6">
+		<div class="col-lg-4">
 			<!-- Article Card 1-->
 			<div class="flex-md-row mb-4 box-shadow h-xl-300">
 				<div class="mb-3 d-flex align-items-center">
@@ -94,7 +96,9 @@
 <div class="container">
 	<div class="row justify-content-between">
 		<div class="col-md-8">
-			<h5 class="font-weight-bold spanborder"><span>Recent</span></h5>
+			<h5 class="font-weight-bold fs-1 text-danger spanborder">
+				<span>Recent</span>
+			</h5>
 			{{ $post_paginator := .Paginate ( site.RegularPages ) }} {{ range
 			$post_paginator.Pages }} {{- partial "list-partials/postlist.html" . -}}
 			{{end}} {{- partial "list-partials/pagination.html" $post_paginator -}}

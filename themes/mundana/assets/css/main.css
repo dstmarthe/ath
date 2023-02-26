@@ -40,7 +40,8 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #A7FFE4; }
+/*  background-color: #A7FFE4; }*/
+background-color: #fff; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -3803,7 +3804,6 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
   background-clip: border-box;
   border: 1px solid #e8f3ec;
   border-radius: 0.25rem; }

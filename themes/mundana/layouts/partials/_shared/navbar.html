@@ -2,9 +2,9 @@
 NAVBAR
 --------------------------------------->
 <nav class="topnav navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-	<div class="container px-4">
+	<div class="full-width d-flex px-4">
 		<!-- Begin Logo -->
-		<a class="navbar-brand" href="{{ .Site.BaseURL }}/">
+		<a class="navbar-brand ml-4 mr-0" href="{{ .Site.BaseURL }}/">
 			{{ with .Site.Params.navLogo }}
 			<img src="{{ . | urlize | relURL }}" alt="logo" style="width: 5em" />
 			{{ else }}
@@ -24,7 +24,7 @@ NAVBAR
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="navbar-collapse collapse" id="navbarColor02">
-			<ul class="navbar-nav mx-auto d-flex align-items-center">
+			<ul class="navbar-nav ml-6 d-flex align-items-center">
 				<li class="nav-item">
 					<a class="nav-link" href="{{ .Site.BaseURL }}/article/trending"
 						>Trending</a

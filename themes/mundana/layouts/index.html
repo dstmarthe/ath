@@ -5,7 +5,7 @@
 <!--Top Left 1 below Jumbotron/Lead row-->
 <div class="full-width py-5 mb-5" style="background-color: #9afbef">
 	<div class="container d-flex">
-		<div class="col-lg-8">
+		<div class="col-md-8">
 			{{- partial "list-partials/lead.html" . -}} {{/*
 			<div class="card border-0 mb-4 box-shadow h-xl-400">
 				<div
@@ -38,7 +38,7 @@
 			*/}}
 		</div>
 		<!-- Top right 3 article cards-->
-		<div class="col-lg-4">
+		<div class="col-md-4">
 			<!-- Article Card 1-->
 			<div class="flex-md-row mb-4 box-shadow h-xl-300">
 				<div class="mb-3 d-flex align-items-center">
@@ -96,9 +96,7 @@
 <div class="container">
 	<div class="row justify-content-between">
 		<div class="col-md-8">
-			<h5 class="font-weight-bold fs-1 text-danger spanborder">
-				<span>Recent</span>
-			</h5>
+			<h5 class="font-weight-bold fs-1 spanborder text-danger mb-4">Recent</h5>
 			{{ $post_paginator := .Paginate ( site.RegularPages ) }} {{ range
 			$post_paginator.Pages }} {{- partial "list-partials/postlist.html" . -}}
 			{{end}} {{- partial "list-partials/pagination.html" $post_paginator -}}
@@ -107,50 +105,62 @@
 		<!-- End All Post thing-->
 		<!-- Side Right Thing-->
 		<div class="col-md-4 pl-4">
-			<h5 class="font-weight-bold spanborder"><span>Popular</span></h5>
-			<ol class="list-featured">
-				<li>
-					<span>
-						<h6 class="font-weight-bold">
-							<a href="./article.html" class="text-dark"
-								>Did Supernovae Kill Off Large Ocean Animals?</a
-							>
-						</h6>
-						<p class="text-muted">Jake Bittle in SCIENCE</p>
-					</span>
-				</li>
-				<li>
-					<span>
-						<h6 class="font-weight-bold">
-							<a href="./article.html" class="text-dark"
-								>Humans Reversing Climate Clock: 50 Million Years</a
-							>
-						</h6>
-						<p class="text-muted">Jake Bittle in SCIENCE</p>
-					</span>
-				</li>
-				<li>
-					<span>
-						<h6 class="font-weight-bold">
-							<a href="./article.html" class="text-dark"
-								>Unprecedented Views of the Birth of Planets</a
-							>
-						</h6>
-						<p class="text-muted">Jake Bittle in SCIENCE</p>
-					</span>
-				</li>
-				<li>
-					<span>
-						<h6 class="font-weight-bold">
-							<a href="./article.html" class="text-dark"
-								>Effective New Target for Mood-Boosting Brain Stimulation
-								Found</a
-							>
-						</h6>
-						<p class="text-muted">Jake Bittle in SCIENCE</p>
-					</span>
-				</li>
-			</ol>
+			<h5 class="font-weight-bold display-6 spanborder text-danger mb-4">
+				Popular
+			</h5>
+			<div class="position-sticky" style="top: 2rem">
+				<div class="p-4 mb-3 bg-light rounded">
+					<h4 class="fst-italic">About</h4>
+					<p class="mb-0">
+						Customize this section to tell your visitors a little bit about your
+						publication, writers, content, or something else entirely. Totally
+						up to you.
+					</p>
+				</div>
+				<ol class="list-featured">
+					<li>
+						<span>
+							<h6 class="font-weight-bold">
+								<a href="./article.html" class="text-dark"
+									>Did Supernovae Kill Off Large Ocean Animals?</a
+								>
+							</h6>
+							<p class="text-muted">Jake Bittle in SCIENCE</p>
+						</span>
+					</li>
+					<li>
+						<span>
+							<h6 class="font-weight-bold">
+								<a href="./article.html" class="text-dark"
+									>Humans Reversing Climate Clock: 50 Million Years</a
+								>
+							</h6>
+							<p class="text-muted">Jake Bittle in SCIENCE</p>
+						</span>
+					</li>
+					<li>
+						<span>
+							<h6 class="font-weight-bold">
+								<a href="./article.html" class="text-dark"
+									>Unprecedented Views of the Birth of Planets</a
+								>
+							</h6>
+							<p class="text-muted">Jake Bittle in SCIENCE</p>
+						</span>
+					</li>
+					<li>
+						<span>
+							<h6 class="font-weight-bold">
+								<a href="./article.html" class="text-dark"
+									>Effective New Target for Mood-Boosting Brain Stimulation
+									Found</a
+								>
+							</h6>
+							<p class="text-muted">Jake Bittle in SCIENCE</p>
+						</span>
+					</li>
+				</ol>
+			</div>
 		</div>
 	</div>
 </div>

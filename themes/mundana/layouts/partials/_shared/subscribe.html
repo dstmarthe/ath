@@ -1,22 +1,25 @@
 <div class="border p-5 bg-lightblue">
 	<div class="row justify-content-between">
 		<div class="col-md-5 mb-2 mb-md-0">
-			<h5 class="font-weight-bold secondfont">Become a member</h5>
-			Get the latest news right in your inbox. We never spam!
+			<h5 class="font-weight-bold secondfont">Witness All That Happens.</h5>
+			Get the most interesting news about our world straight to your inbox. We never spam!
 		</div>
 		<div class="col-md-7">
 			<div class="row">
 				<div class="col-md-12">
-					<input
-						type="text"
-						class="form-control"
-						placeholder="Enter your e-mail address"
-					/>
+					<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+					</label>
+						<input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL" required>
+						<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+					</div>
+						<div id="mce-responses" class="clear foot">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="{{ with .Site.Params.mailprotect }}{{.}}{{end}}" tabindex="-1" value=""></div>
 				</div>
 				<div class="col-md-12 mt-2">
-					<button type="submit" class="btn btn-success btn-block">
-						Subscribe
-					</button>
+					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-block">
 				</div>
 			</div>
 		</div>

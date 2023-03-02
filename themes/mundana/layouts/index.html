@@ -3,7 +3,7 @@
 <!--{{- partial "_shared/indexTitle.html" . -}}-->
 <!--{{- partial "list-partials/lead.html" . -}}-->
 <!--Top Left 1 below Jumbotron/Lead row-->
-<div class="full-width py-5 mb-5" style="background-color: #9afbef">
+<div class="full-width py-5 mb-5 bg-slant" style="background-color: #fff">
 	<div class="container d-flex">
 		<div class="col-md-8">
 			{{- partial "list-partials/lead.html" . -}} {{/*
@@ -41,8 +41,8 @@
 		<div class="col-md-4">
 			<!-- Article Card 1-->
 			<div class="flex-md-row mb-4 box-shadow h-xl-300">
-				<div class="mb-3 d-flex align-items-center">
-					<img height="80" src="/images/blog4.jpg" />
+				<div class="mb-3 d-flex align-items-start">
+					<img height="90" src="/images/blog4.jpg" />
 					<div class="pl-3">
 						<h2 class="mb-2 h6 font-weight-bold">
 							<a class="text-dark" href="./article.html"
@@ -58,8 +58,8 @@
 					</div>
 				</div>
 				<!-- Article card 2-->
-				<div class="mb-3 d-flex align-items-center">
-					<img height="80" src="/images/blog5.jpg" />
+				<div class="mb-3 d-flex align-items-start">
+					<img height="90" src="/images/blog5.jpg" />
 					<div class="pl-3">
 						<h2 class="mb-2 h6 font-weight-bold">
 							<a class="text-dark" href="./article.html"
@@ -73,8 +73,8 @@
 					</div>
 				</div>
 				<!--Article Card 3-->
-				<div class="mb-3 d-flex align-items-center">
-					<img height="80" src="/images/blog6.jpg" />
+				<div class="mb-3 d-flex align-items-start">
+					<img height="90" src="/images/blog6.jpg" />
 					<div class="pl-3">
 						<h2 class="mb-2 h6 font-weight-bold">
 							<a class="text-dark" href="./article.html"
@@ -96,7 +96,9 @@
 <div class="container">
 	<div class="row justify-content-between">
 		<div class="col-md-8">
-			<h5 class="font-weight-bold fs-1 spanborder text-danger mb-4">Recent</h5>
+			<h5 class="font-weight-bold fs-1 spanborder text-secondary mb-5">
+				<span>Recent</span>
+			</h5>
 			{{ $post_paginator := .Paginate ( site.RegularPages ) }} {{ range
 			$post_paginator.Pages }} {{- partial "list-partials/postlist.html" . -}}
 			{{end}} {{- partial "list-partials/pagination.html" $post_paginator -}}
@@ -105,8 +107,8 @@
 		<!-- End All Post thing-->
 		<!-- Side Right Thing-->
 		<div class="col-md-4 pl-4">
-			<h5 class="font-weight-bold display-6 spanborder text-danger mb-4">
-				Popular
+			<h5 class="font-weight-bold display-6 spanborder text-secondary mb-4">
+				<span>Popular</span>
 			</h5>
 			<div class="position-sticky" style="top: 2rem">
 				<div class="p-4 mb-3 bg-light rounded">
@@ -114,7 +116,7 @@
 					<p class="mb-0">
 						Customize this section to tell your visitors a little bit about your
 						publication, writers, content, or something else entirely. Totally
-						up to you.
+						up to you. Adspace.
 					</p>
 				</div>
 				<ol class="list-featured">

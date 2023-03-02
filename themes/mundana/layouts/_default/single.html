@@ -6,6 +6,23 @@
 		<div class="col-md-12 col-lg-8">
 			<article class="article-post">{{ .Content }}</article>
 			{{- partial "_shared/subscribe.html" . -}}
+
+			<!-- Next and PrevPage inside current section -->
+			<div
+				class="row text-primary mt-3 PageNavigation d-flex justify-content-between font-weight-bold"
+			>
+				{{with .NextInSection}}
+				<a class="d-block col-md-6" href="{{.Permalink}}">
+					&laquo; {{.Title}}</a
+				>
+				{{end}} {{with .PrevInSection}}
+				<a class="d-block col-md-6 text-lg-right" href="{{.Permalink}}"
+					>{{.Title}} &raquo;</a
+				>
+				{{end}}
+				<div class="clearfix"></div>
+			</div>
+			<!-- End Next and PrevPage -->
 		</div>
 	</div>
 </div>

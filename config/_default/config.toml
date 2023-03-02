@@ -24,7 +24,7 @@ alertbar = true
   logo = "/images/logo.png"
   navLogo = "/images/athlogowords.svg"
   description ="Answering Your Everyday Why"
-  mailchimp = "https://chimpstatic.com/mcjs-connected/js/users/d36e79b42a287b4496fe407e2/36813f5d459934bd9d7845380.js"
+  mailchimp = "https://gmail.us12.list-manage.com/subscribe/post?u=d36e79b42a287b4496fe407e2&amp;id=ec8bb659a9&amp;f_id=003343e0f0"
 mailprotect= "b_d36e79b42a287b4496fe407e2_ec8bb659a9"
 
 [params.social]

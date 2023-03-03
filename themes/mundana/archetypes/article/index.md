@@ -1,12 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}" ## Means name of the article is filename
 date: {{ .Date }}
-author: ["ath"]
+author: ["ATH"]
 summary:
-categories: ["{{.CurrentSection.Params.category}}"]
+categories: [""]
 tags: []
 keywords: []
-draft: true
+draft: false
 hasVideo: false
 
 ---

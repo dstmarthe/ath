@@ -1,5 +1,5 @@
 ---
-title: "Why do we celebrate valentine?" ## Means name of the article is filename
+title: "Why do we celebrate Valentine's Day?" ## Means name of the article is filename
 date: 2023-03-02T19:01:33-05:00
 author: ["ATH"]
 summary:

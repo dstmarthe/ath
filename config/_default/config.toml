@@ -1,4 +1,4 @@
-baseURL = "https://allthathappens.com/"
+baseURL = "https://allthathappens.com"
 languageCode = "en-us"
 title = "All That Happens"
 theme = "mundana"
@@ -7,7 +7,7 @@ copyright = "Dale St. Marthe - All rights reserved"
 enableEmoji = true
 #disqusShortname = "your-shortname-here"
 #googleAnalytics = "UA-1XXXXXXX1-1"
-alertbar = true
+
 
 [permalinks]
   posts = ':title/'
@@ -22,10 +22,12 @@ alertbar = true
 
 [params]
   logo = "/images/logo.png"
+  alertbar = true
   navLogo = "/images/athlogowords.svg"
   description ="Answering Your Everyday Why"
   mailchimp = "https://gmail.us12.list-manage.com/subscribe/post?u=d36e79b42a287b4496fe407e2&amp;id=ec8bb659a9&amp;f_id=003343e0f0"
 mailprotect= "b_d36e79b42a287b4496fe407e2_ec8bb659a9"
+
 
 [params.social]
   github = "<username>"

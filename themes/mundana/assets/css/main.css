@@ -41,7 +41,7 @@ body {
   color: #212529;
   text-align: left;
 /*  background-color: #A7FFE4; }*/
-background-color: #fff; }
+background-color: #fffffe; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }

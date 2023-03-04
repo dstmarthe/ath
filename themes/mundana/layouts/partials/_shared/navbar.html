@@ -24,7 +24,7 @@ NAVBAR
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="navbar-collapse collapse" id="navbarColor02">
-			<ul class="navbar-nav ml-6 d-flex align-items-center">
+			<ul class="navbar-nav mx-auto d-flex align-items-center">
 				<li class="nav-item">
 					<a class="nav-link" href="{{ .Site.BaseURL }}/gaming">Gaming</a>
 				</li>
@@ -51,6 +51,15 @@ NAVBAR
 					>
 				</li>
 			</ul>
+			<form action="/search" role="search" method="GET">
+				<input
+					type="search"
+					name="q"
+					id="search-query"
+					placeholder="Search...."
+					class="form-control form-control-dark text-bg-dark"
+				/>
+			</form>
 		</div>
 	</div>
 </nav>

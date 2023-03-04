@@ -29,6 +29,7 @@ enableEmoji = true
   description ="Answering Your Everyday Why"
   mailchimp = "https://gmail.us12.list-manage.com/subscribe/post?u=d36e79b42a287b4496fe407e2&amp;id=ec8bb659a9&amp;f_id=003343e0f0"
 mailprotect= "b_d36e79b42a287b4496fe407e2_ec8bb659a9"
+meta = ["blog", "ai", "software", "space", "news", "global news", "online"]
 
 
 [params.social]
@@ -43,15 +44,10 @@ mailprotect= "b_d36e79b42a287b4496fe407e2_ec8bb659a9"
 [[menu.main]]
     name = "The All"
     weight = 100
-    identifier = "All"
-    url = "/article"
+    identifier = "he All"
+    url = "/theall"
 [[menu.main]]
     name = "Trending"
     identifier = "Trending"
     weight = 200
-    url = "/article/trending/"
-[[menu.main]]
-    name = "Imprint"
-    identifier = "imprint"
-    weight = 200
-    url = "/static/imprint"
+    url = "/trending/"

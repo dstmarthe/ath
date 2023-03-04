@@ -8,6 +8,8 @@ enableEmoji = true
 #disqusShortname = "your-shortname-here"
 #googleAnalytics = "UA-1XXXXXXX1-1"
 
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
 
 [permalinks]
   posts = ':title/'

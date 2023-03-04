@@ -7,11 +7,17 @@
 		<div class="col-md-7">
 			<div class="row">
 				<div class="col-md-12">
-					<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+					<label for="mce-EMAIL">Email Address  <span class="mc-field-group .asterisk">*</span>
 					</label>
+					<form action="{{ with .Site.Params.mailchimp }}{{.}}{{end}}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 						<input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL" required>
 						<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
 					</div>
+							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="{{ with .Site.Params.mailprotect }}{{.}}{{end}}" tabindex="-1" value=""></div>
+						<input type="submit" value="Subscribe" name="subscribe" >
+						</form>
+						
 						<div id="mce-responses" class="clear foot">
 							<div class="response" id="mce-error-response" style="display:none"></div>
 							<div class="response" id="mce-success-response" style="display:none"></div>

@@ -16,19 +16,25 @@
 						class="validate"
 						target="_self"
 					>
-						<div class="mc-field-group">
-							<label for="mce-EMAIL"
-								>Email Address <span class="mc-field-group .asterisk">*</span>
-							</label>
-
+						<div class="d-flex justify-content-start align-items-center mt-3">
 							<input
 								type="email"
 								value=""
 								name="EMAIL"
-								class="required email"
+								placeholder="E-mail"
+								class="post-content required email py-1"
 								id="mce-EMAIL"
 								required
 							/>
+
+							<input
+								type="submit"
+								value="Subscribe"
+								name="subscribe"
+								id="mc-embedded-subscribe"
+								class="btn btn-success btn-block"
+							/>
+
 							<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
 
 							<div id="mce-responses" class="clear foot">
@@ -51,15 +57,6 @@
 								name="{{ with .Site.Params.mailprotect }}{{.}}{{end}}"
 								tabindex="-1"
 								value=""
-							/>
-						</div>
-						<div class="col-md-12 mt-2">
-							<input
-								type="submit"
-								value="Subscribe"
-								name="subscribe"
-								id="mc-embedded-subscribe"
-								class="btn btn-success btn-block"
 							/>
 						</div>
 					</form>

@@ -1,4 +1,4 @@
 *All That Happens*
 
-All that happensis a blog dedicated to interesting news. Stories that moves the zietgiest.
-This blog was built with Hugo
+All that happens - a blog dedicated to interesting news. Stories about things that move the zietgiest.
+This blog was built with Hugo, and the Mundana theme.

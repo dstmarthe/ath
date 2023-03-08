@@ -1,22 +1,23 @@
-<div class="flex-md-row mb-4 box-shadow h-xl-300">
-	<div class="mb-3 d-flex align-items-center">
+<div class="mb-3 d-flex align-items-center">
+	<div class="col-5 col-md-5 pl-0">
 		<a href="{{ .Permalink }}">
 			{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "cover*"
 			}}
-			<img height="80" src="{{ .Permalink }}" alt="thumb" />
+			<img height="90" width="100%" src="{{ .Permalink }}" alt="thumb" />
 			{{end}}
 		</a>
-		<div class="pl-3">
-			<h2 class="mb-2 h6 font-weight-bold">
-				<a class="text-dark" href="{{.Permalink}}">{{.Title}}</a>
-			</h2>
-			<div class="card-text text-muted small">
-				{{ .Author }}} in {{.Section}}
-			</div>
-			<small class="text-muted"
-				>{{dateFormat "Jan 2" .PublishDate}} &middot; {{ .ReadingTime }} min
-				read</small
-			>
+	</div>
+	<div class="pl-1">
+		<h2 class="mb-1 h6 font-weight-bold">
+			<a class="text-dark" href="{{.Permalink}}">{{.Title}}</a>
+		</h2>
+		<div class="card-text text-muted small">
+			{{ range .Param "author" }} {{ . }}{{end}} in
+			{{.CurrentSection.Params.category}}
 		</div>
+		<small class="text-muted"
+			>{{dateFormat "Jan 2" .PublishDate}} &middot; {{ .ReadingTime }} min
+			read</small
+		>
 	</div>
 </div>

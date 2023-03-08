@@ -23,7 +23,7 @@ HEADER
 						/>
 
 						<small class="ml-2"
-							>{{ .Params.author }}
+							>{{ range .Param "author" }}{{ . }}{{end}}
 							<span class="text-muted d-block"
 								>{{ dateFormat "Jan 2, 2006" .PublishDate }} &middot; {{
 								.ReadingTime }} min read</span

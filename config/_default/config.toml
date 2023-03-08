@@ -6,7 +6,7 @@ summaryLength = 25
 copyright = "Dale St. Marthe - All rights reserved"
 enableEmoji = true
 #disqusShortname = "your-shortname-here"
-googleAnalytics = "G-T57XGJWMW5"
+#googleAnalytics = "G-XXXXXXX"
 
 [outputs]
     home = ["HTML", "RSS", "JSON"]

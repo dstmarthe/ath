@@ -7,7 +7,7 @@
 			<div class="container">{{- block "main" . }}{{- end }}</div>
 			{{- block "footer" . }}{{- end }}
 		</div>
-		{{- partial "_shared/js.html" . -}} {{ template
-		"_internal/google_analytics.html" . }}
+		{{- partial "_shared/js.html" . -}} {{- partial
+		"_shared/google_analytics4.html" . }}
 	</body>
 </html>

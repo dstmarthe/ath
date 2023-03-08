@@ -3,90 +3,18 @@
 <!--{{- partial "_shared/indexTitle.html" . -}}-->
 <!--{{- partial "list-partials/lead.html" . -}}-->
 <!--Top Left 1 below Jumbotron/Lead row-->
-<div class="full-width py-5 mb-5 bg-slant" style="background-color: #fff">
+<div class="full-width py-5 mb-4 bg-slant" style="background-color: #ffffff">
 	<div class="container d-flex">
 		<div class="col-md-8">
-			{{- partial "list-partials/lead.html" . -}} {{/*
-			<div class="card border-0 mb-4 box-shadow h-xl-400">
-				<div
-					style="
-						background-image: url(images/1.jpg);
-						height: 450px;
-						background-size: cover;
-						background-repeat: no-repeat;
-					"
-				></div>
-				<div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
-					<h2 class="h4 font-weight-bold">
-						<a class="text-dark" href="./article.html"
-							>Brain Stimulation Relieves Depression Symptoms</a
-						>
-					</h2>
-					<p class="card-text">
-						Researchers have found an effective target in the brain for
-						electrical stimulation to improve mood in people suffering from
-						depression.
-					</p>
-					<div>
-						<small class="d-block"
-							><a class="text-muted" href="./author.html">Favid Rick</a></small
-						>
-						<small class="text-muted">Dec 12 &middot; 5 min read</small>
-					</div>
-				</div>
-			</div>
-			*/}}
+			{{- partial "list-partials/lead.html" . -}}
 		</div>
 		<!-- Top right 3 article cards-->
 		<div class="col-md-4">
 			<!-- Article Card 1-->
 			<div class="flex-md-row mb-4 box-shadow h-xl-300">
-				<div class="mb-3 d-flex align-items-start">
-					<img height="90" src="/images/blog4.jpg" />
-					<div class="pl-3">
-						<h2 class="mb-2 h6 font-weight-bold">
-							<a class="text-dark" href="./article.html"
-								>Nasa's IceSat space laser makes height maps of Earth</a
-							>
-						</h2>
-						<div class="card-text text-muted small">
-							Jake Bittle in LOVE/HATE
-						</div>
-						<small class="text-muted"
-							>Dec 12 &middot; .ReadingTime }} min read</small
-						>
-					</div>
-				</div>
-				<!-- Article card 2-->
-				<div class="mb-3 d-flex align-items-start">
-					<img height="90" src="/images/blog5.jpg" />
-					<div class="pl-3">
-						<h2 class="mb-2 h6 font-weight-bold">
-							<a class="text-dark" href="./article.html"
-								>Underwater museum brings hope to Lake Titicaca</a
-							>
-						</h2>
-						<div class="card-text text-muted small">
-							Jake Bittle in LOVE/HATE
-						</div>
-						<small class="text-muted">Dec 12 &middot; 5 min read</small>
-					</div>
-				</div>
-				<!--Article Card 3-->
-				<div class="mb-3 d-flex align-items-start">
-					<img height="90" src="/images/blog6.jpg" />
-					<div class="pl-3">
-						<h2 class="mb-2 h6 font-weight-bold">
-							<a class="text-dark" href="./article.html"
-								>Sun-skimming probe starts calling home</a
-							>
-						</h2>
-						<div class="card-text text-muted small">
-							Jake Bittle in LOVE/HATE
-						</div>
-						<small class="text-muted">Dec 12 &middot; 5 min read</small>
-					</div>
-				</div>
+				{{- range first 3 ( where site.RegularPages "Section" "theall" ) }}
+				{{- partial "list-partials/postbox.html" . -}} 
+				{{- end}}
 			</div>
 		</div>
 	</div>
@@ -107,23 +35,15 @@
 		<!-- End All Post thing-->
 		<!-- Side Right Thing-->
 		<div class="col-md-4 pl-4">
-			<h5 class="font-weight-bold display-6 spanborder text-secondary mb-4">
-				<span>Popular</span>
+			<h5 class="font-weight-bold italicize fs-1 text-secondary mb-5">
+				The All <span class="text-muted small">videos + more</span>
 			</h5>
-			<div class="position-sticky" style="top: 2rem">
-				<div class="p-4 mb-3 bg-light rounded">
-					<h4 class="fst-italic">About</h4>
-					<p class="mb-0">
-						Customize this section to tell your visitors a little bit about your
-						publication, writers, content, or something else entirely. Totally
-						up to you. Adspace.
-					</p>
-				</div>
+			<iframe width="100%" height="auto" src="https://www.youtube.com/embed/+lastest?list=PLUgnTmQUMaDJ7VOCxLlNoUfAgIN8Ki9fz" frameborder="0" allowfullscreen></iframe> 
 				<ol class="list-featured">
 					<li>
 						<span>
 							<h6 class="font-weight-bold">
-								<a href="./article.html" class="text-dark"
+								<a href="/article.html" class="text-dark"
 									>Did Supernovae Kill Off Large Ocean Animals?</a
 								>
 							</h6>

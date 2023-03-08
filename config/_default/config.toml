@@ -1,4 +1,4 @@
-baseURL = "https://allthathappens.com"
+baseURL = "https://www.allthathappens.com"
 languageCode = "en-us"
 title = "All That Happens"
 theme = "mundana"
@@ -6,7 +6,7 @@ summaryLength = 25
 copyright = "Dale St. Marthe - All rights reserved"
 enableEmoji = true
 #disqusShortname = "your-shortname-here"
-#googleAnalytics = "UA-1XXXXXXX1-1"
+googleAnalytics = "G-T57XGJWMW5"
 
 [outputs]
     home = ["HTML", "RSS", "JSON"]

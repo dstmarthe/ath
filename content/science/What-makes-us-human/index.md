@@ -1,14 +1,15 @@
 ---
 title: "What Makes Us Human?" ## Means name of the article is filename
 date: 2023-03-02T19:27:07-05:00
-author: ["ATH"]
+author: ["M&D"]
 summary:
 categories: ["Science"]
-tags: []
+tags: [meaning, symbolism, history]
 keywords: []
 draft: false
 hasVideo: false
 ---
+
 "What Makes Us Human?" - Exploring the Unique Qualities that Define Our Species
 
 As a species, humans have always been fascinated by what sets us apart from other animals. From our ability to think, communicate, and create, to our capacity for emotions, empathy, and morality, there are many traits that make us unique. But what exactly makes us human? In this article, we'll explore some of the key characteristics that define our species and what makes us truly unique.
@@ -32,4 +33,3 @@ Humans are also known for our remarkable creativity and ability to innovate. Fro
 Conclusion
 
 Humans are a unique and remarkable species, defined by our advanced cognitive abilities, emotional capacity, morality and ethics, and creativity and innovation. These qualities set us apart from other animals and shape our experiences in the world. Whether you're exploring your own humanity or trying to understand what makes us truly unique, the study of what makes us human is a never-ending journey of discovery and insight.
-

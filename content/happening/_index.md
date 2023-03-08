@@ -1,6 +1,6 @@
 ---
-category: "Trending"
-title: "Trending Now"
+category: "Happening"
+title: "Trending Now | Happening"
 banner: "images/banner.jpg"
 colorTheme:
 ---

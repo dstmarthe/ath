@@ -17,11 +17,13 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 	<meta name="msapplication-TileColor" content="#da532c" />
 	<meta name="theme-color" content="#ffffff" />
+
 	<title>{{ .Page.Title }} | {{ .Site.Title }}</title>
 	{{ with .Site.Params.meta.description }}
 	<meta name="description" content="{{ . }}" />
 	{{ end }} {{ with .Site.Params.meta.keywords }}
 	<meta name="keywords" content="{{ . }}" />
+	{{ end }}
 
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -72,38 +74,10 @@
 		src="https://unpkg.com/@popperjs/core@2"
 		crossorigin="anonymous"
 	></script>
-	<script id="mcjs">
-		!(function (c, h, i, m, p) {
-			(m = c.createElement(h)),
-				(p = c.getElementsByTagName(h)[0]),
-				(m.async = 1),
-				(m.src = i),
-				p.parentNode.insertBefore(m, p);
-		})(
-			document,
-			"script",
-			"https://chimpstatic.com/mcjs-connected/js/users/d36e79b42a287b4496fe407e2/36813f5d459934bd9d7845380.js"
-		);
-	</script>
 	<script async src="https://static.addtoany.com/menu/page.js"></script>
 
-	<!-- Custom css -->
-	{{ range .Site.Params.customCSS -}} {{ $style := resources.Get . }}
-	<link
-		rel="stylesheet"
-		href="{{ $style.RelPermalink }}"
-		integrity="{{ $style.Data.Integrity }}"
-		crossorigin="anonymous"
-		media="screen"
-	/>
-	{{- end }}
-
 	<!-- Begin Mailchimp Signup Form -->
-	<link
-		href="//cdn-images.mailchimp.com/embedcode/classic-071822.css"
-		rel="stylesheet"
-		type="text/css"
-	/>
+
 	<style type="text/css">
 		#mc_embed_signup {
 			background: #fff;
@@ -111,7 +85,5 @@
 			font: 14px Helvetica, Arial, sans-serif;
 			width: 600px;
 		}
-		/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 	</style>
 </head>

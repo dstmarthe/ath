@@ -26,11 +26,12 @@ enableEmoji = true
   logo = "/images/logo.png"
   alertbar = true
   navLogo = "/images/athlogowords.svg"
-  description ="Answering Your Everyday Why"
   mailchimp = "https://gmail.us12.list-manage.com/subscribe/post?u=d36e79b42a287b4496fe407e2&amp;id=ec8bb659a9&amp;f_id=003343e0f0"
 mailprotect= "b_d36e79b42a287b4496fe407e2_ec8bb659a9"
-meta = ["blog", "ai", "software", "space", "news", "global news", "online"]
 
+[meta]
+description ="Answering Your Everyday Why"
+keywords = ["blog", "ai", "software", "space", "news", "global news", "online"]
 
 [params.social]
   github = "<username>"

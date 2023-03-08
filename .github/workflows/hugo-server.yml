@@ -1,0 +1,23 @@
+name: Run Hugo Server
+
+on:
+  push:
+    paths:
+      - 'content/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Start Hugo server
+        run: |
+          cd <path-to-hugo-directory>
+          hugo server
+
+      - name: Stop Hugo server
+        run: |
+          killall hugo

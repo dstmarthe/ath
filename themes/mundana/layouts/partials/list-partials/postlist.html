@@ -1,19 +1,37 @@
 <!-- Repeating li of All Post component-->
-<div class="mb-3 d-flex justify-content-between">
-	<div class="pr-3">
+<div class="mb-5 row d-lg-flex justify-content-between postbox">
+	<div class="col-7 col-lg-8">
 		<h2 class="mb-1 h4 font-weight-bold">
 			<a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
 		</h2>
-		<p>{{ .Summary }}summary would go here laa deeee daaa dee daaaaaaa</p>
-		<div class="card-text text-muted small">
-			Jake Bittle in {{.CurrentSection.Params.category}}
+		<p class="excerpt">{{ .Summary }}</p>
+
+		<div class="d-flex justify-content-between align-items-center">
+			<div>
+				<div class="card-text text-muted small">
+					{{ .Params.Author }} in {{.CurrentSection.Params.category}}
+				</div>
+				<div class="text-muted small">
+					{{ dateFormat "Jan 2, 2006" .PublishDate }} &middot; {{ .ReadingTime
+					}} min read
+				</div>
+			</div>
+			<div></div>
 		</div>
-		<small class="text-muted"
-			>{{ dateFormat "Jan 2, 2006" .PublishDate }} &middot; {{ .ReadingTime }}
-			min read</small
-		>
 	</div>
-	{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*" }}
-	<img height="120" src="{{ .Permalink }}" />
-	{{end}}
+	<div class="col-5 col-lg-4 mt-4 mt-lg-0 text-lg-right">
+		<a href="{{.Permalink}}">
+			{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
+			}}
+			<img
+				width="250"
+				height="150"
+				src="{{ .Permalink }}"
+				class="attachment-thumbnail size-thumbnail wp-post-image"
+				alt
+				loading="lazy"
+			/>
+			{{end}}
+		</a>
+	</div>
 </div>

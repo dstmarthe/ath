@@ -41,7 +41,7 @@ body {
   color: #212529;
   text-align: left;
 /*  background-color: #A7FFE4; }*/
-background-color: #fffffe; }
+background-color: #ffffff; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -4607,6 +4607,76 @@ input[type="button"].btn-block {
 
 .media-body {
   flex: 1; }
+
+  .bottompagination .pagination, .bottompagination span.navigation {
+    display: block;
+    font-size: 0.93rem;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: #292929;
+    border-top: 1px solid #e8f3ec;
+    border-radius: 0;
+  }
+  
+  .bottompagination span.navigation a {
+    color: #999;
+  }
+  
+  .bottompagination .pagination .page-numbers, .bottompagination span.navigation li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 2px;
+    padding: 0 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    position: relative;
+    color: #999;
+  }
+  
+  .bottompagination .pagination .page-numbers.current, .bottompagination span.navigation li a.active {
+    color: #111;
+    font-weight: 700;
+  }
+  
+  .bottompagination .pagination .page-numbers.current:after, .bottompagination span.navigation li a.active:after {
+    content: "";
+    background-color: #111;
+    height: 1px;
+    position: absolute;
+    top: -17px;
+    left: 0;
+    right: 0;
+  }
+  
+  li.disabled {
+    cursor: not-allowed;
+  }
+  
+  li.disabled a {
+    pointer-events: none;
+  }
+  
+  .pointerup {
+    margin-bottom: -36px;
+    margin-left: 49%;
+    font-size: 30px;
+  }
+  
+  .pointerup i.fa {
+    color: #eaeaea;
+  }
+  
+  .bottompagination span.navigation i {
+    display: inline-block;
+  }
+  
+
+
+
+
+
 
 .list-group {
   display: flex;

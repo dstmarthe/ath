@@ -9,7 +9,8 @@
 		<div class="d-flex justify-content-between align-items-center">
 			<div>
 				<div class="card-text text-muted small">
-					{{ .Params.Author }} in {{.CurrentSection.Params.category}}
+					{{ range .Param "author" }}{{ . }}{{end}} in
+					{{.CurrentSection.Params.category}}
 				</div>
 				<div class="text-muted small">
 					{{ dateFormat "Jan 2, 2006" .PublishDate }} &middot; {{ .ReadingTime

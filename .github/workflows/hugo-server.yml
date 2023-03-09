@@ -1,6 +1,6 @@
 ---
 name: Hugo build
-on: null
+on: 
 push:
   paths:
     - content/*

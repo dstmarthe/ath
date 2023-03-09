@@ -16,15 +16,3 @@ jobs:
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.TOKEN }}
-          external_repository: <username>/<username>.github.io
-          publish_dir: ./public
-          #   keep_files: true
-          user_name: <username>
-          user_email: <username@email.com>
-          publish_branch: master
-        #   cname: example.com

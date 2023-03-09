@@ -8,9 +8,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out code
-        uses: actions/checkout@v3
-      - name: Build Hugo
-        uses: lowply/build-hugo@v0.110.0
+    - name: Checkout code
+      uses: actions/checkout@v3
 
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.4.16
+      with:
+        hugo-version: '0.110.0'
+        extended: true
+
+    - name: Build Hugo site
+      run: hugo
+      
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      if: ${{ github.ref == 'refs/heads/main' }}
+      with:
+          github_token: ${{ secrets.TOKEN }}
+          publish_dir: ./public
 

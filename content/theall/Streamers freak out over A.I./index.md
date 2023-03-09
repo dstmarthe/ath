@@ -7,7 +7,7 @@ categories: ["The All"]
 tags: ['cool', 'funny', 'ai', 'innovation']
 keywords: ['innovation', 'funny']
 draft: false
-hasVideo: false
+hasVideo: true
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PSktiduS5wU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>

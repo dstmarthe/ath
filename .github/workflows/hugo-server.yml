@@ -18,4 +18,9 @@ jobs:
           extended: true
       - name: Build Hugo site
         run: hugo
+        
+      - name: Stop workflow
+        uses: actions/checkout@v2
+        with:
+          clean: true
 ---

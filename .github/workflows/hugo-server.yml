@@ -1,7 +1,6 @@
 ---
 name: Hugo build
-on: 
-push:
+on: push
   paths:
     - content/*
 jobs:

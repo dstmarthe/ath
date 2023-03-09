@@ -1,6 +1,6 @@
 ---
-title: "Streamers shocked by A.I. clones" ## Means name of the article is filename
-date: {{ .Date }}
+title: "Streamers shocked by hilarious A.I. clones" ## Means name of the article is filename
+date: {{ .Date }} 
 author: ["M&D"]
 summary:
 categories: ["The All"]

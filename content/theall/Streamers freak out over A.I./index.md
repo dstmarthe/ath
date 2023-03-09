@@ -4,7 +4,7 @@ date: {{ .Date }} ## {{ . Date }}
 author: ["M&D"]
 summary:
 categories: ["The All"]
-tags: ['cool', 'funny', 'ai, 'innovation']
+tags: ['cool', 'funny', 'ai', 'innovation']
 keywords: ['innovation', 'funny']
 draft: false
 hasVideo: false

@@ -8,17 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2.6.0
-        with:
-          hugo-version: 0.110.0
-          extended: true
-      - name: Build Hugo site
-        run: hugo
-      - name: Stop workflow
-        uses: actions/checkout@v3
-        with:
-          clean: true
+      - name: Build Hugo
+        uses: lowply/build-hugo@v0.110.0
+
 

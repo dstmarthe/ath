@@ -2,7 +2,7 @@
 name: Hugo build
 on: push
   paths:
-    - content/*
+    - 'content/*'
 jobs:
   build:
     runs-on: ubuntu-latest

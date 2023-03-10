@@ -13,7 +13,7 @@ hasVideo: false
 The Seven Wonders of the World have captured the imagination of people for centuries. These incredible structures, spread across the ancient world, represent the pinnacle of human achievement and engineering prowess. They have inspired awe, wonder, and even a sense of mystery and magic. In this article, we'll explore the Seven Wonders of the World and what makes each one so special.
 
 The Great Pyramid of Giza - This ancient Egyptian pyramid is the only one of the Seven Wonders that still stands today. Built as a tomb for Pharaoh Khufu, the Great Pyramid is made of over 2 million stone blocks and stands at 146 meters (480 feet) tall.
-## <img src="https://images.adsttc.com/media/images/5cc4/4594/284d/d11a/2b00/00eb/original/02_Seven-Wonders-Giza_GIF.gif?1556366735" class="img" alt="Giza">
+<img src="https://images.adsttc.com/media/images/5cc4/4594/284d/d11a/2b00/00eb/original/02_Seven-Wonders-Giza_GIF.gif?1556366735" class="img" alt="Giza">
 The Hanging Gardens of Babylon - This stunning garden was said to have been built by King Nebuchadnezzar II for his wife, who missed the lush greenery of her homeland. The Hanging Gardens were said to have been built on a series of terraces, with water being pumped from the Euphrates River to irrigate the plants.
 
 The Statue of Zeus at Olympia - This magnificent statue stood in the Temple of Zeus in Olympia, Greece, and was considered one of the greatest works of art in the ancient world. It depicted Zeus, the king of the gods, seated on his throne and was said to have been made of ivory and gold.

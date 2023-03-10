@@ -3,7 +3,7 @@ title: "What Are The Seven Wonders of The World?" ## Means name of the article i
 date: 2023-03-10T19:28:37-05:00
 author: ["M&D"]
 summary:
-categories: ["TheAll"]
+categories: ["The All"]
 tags: ["World", "Interesting"]
 keywords: ["Giza", "Pyramid", "Zeus","Babylon"]
 draft: false

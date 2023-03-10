@@ -4,8 +4,8 @@ date: 2023-03-10T19:28:37-05:00
 author: ["M&D"]
 summary:
 categories: ["TheAll"]
-tags: ["World", "Interesting",]
-keywords: ["Giza", "Pyramid", "Zeus" "Babylon"]
+tags: ["World", "Interesting"]
+keywords: ["Giza", "Pyramid", "Zeus","Babylon"]
 draft: false
 hasVideo: false
 ---

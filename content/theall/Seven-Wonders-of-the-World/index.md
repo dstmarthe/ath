@@ -1,6 +1,6 @@
 ---
 title: "What Are The Seven Wonders Of The World?" ## Means name of the article is filename
-date: 2023-03-10T19:28:37-05:00
+date: 2023-03-10
 author: ["M&D"]
 summary:
 categories: ["The All"]

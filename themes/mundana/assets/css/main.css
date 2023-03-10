@@ -591,7 +591,9 @@ h6, .h6 {
   font-size: 1rem; }
 
 .lead {
-  font-size: 1.25rem;
+  font-family: 'Tilt Warp', Georgia, Cambria, Times New Roman, Times serif;
+	padding-top: 15%;
+	font-size: 3vw;
   font-weight: 300; }
 
 .display-1 {

@@ -20,10 +20,10 @@ jobs:
     - name: Build Hugo site
       run: hugo
       
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      if: ${{ github.ref == 'refs/heads/main' }}
+    - name: Commit Changes
+      uses: EndBug/add-and-commit@v7
       with:
-          github_token: ${{ secrets.TOKEN }}
-          publish_dir: ./public
-
+        message: "Build site"
+        add: 'public'
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}

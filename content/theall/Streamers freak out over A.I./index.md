@@ -1,6 +1,6 @@
 ---
 title: "Streamers shocked by hilarious A.I. clones" ## Means name of the article is filename
-date: "{{ .Date }}" 
+date: "{{ .Date }}"
 author: ["M&D"]
 summary:
 categories: ["The All"]
@@ -10,7 +10,7 @@ draft: false
 hasVideo: true
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PSktiduS5wU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/PSktiduS5wU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Twitch is the platform known for rocketing livestreaming into the stratosphere. It attracts gamers who find communities around games, politicians and thinkers debate government actions while those actions are on the Senate floor, and regular people push initiatives and build communities. 
 

@@ -1,23 +1,29 @@
-name: Run Hugo Server
-
+---
+name: Hugo build
 on:
   push:
     paths:
-      - 'content/**'
-
+      - content/**
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: Start Hugo server
-        run: |
-          cd <path-to-hugo-directory>
-          hugo server
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.110.0'
+        extended: true
 
-      - name: Stop Hugo server
-        run: |
-          killall hugo
+    - name: Build Hugo site
+      run: hugo
+      
+    - name: Add & Commit
+      uses: EndBug/add-and-commit@v9.1.1
+      with:
+        message: "Added new blog post"
+        add: 'content'
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}

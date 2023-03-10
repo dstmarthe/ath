@@ -5,12 +5,12 @@ author: ["M&D"]
 summary:
 categories: ["The All"]
 tags: []
-keywords: []
+keywords: ['valentines']
 draft: false
 hasVideo: false
 ---
 
-"The Surprising History Behind the Heart Symbol"
+#### "The Surprising History Behind the Heart Symbol"
 
 When we think of a heart, we usually picture a simple, stylized red symbol that is universally recognized as a symbol of love and affection. But have you ever wondered why the heart symbol looks the way it does, and why it's so different from an actual human heart? In this article, we'll explore the surprising history behind the heart symbol and discover how it became one of the most recognizable symbols in the world.
 

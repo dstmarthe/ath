@@ -1,6 +1,4 @@
 ---
-category: "Gaming"
-title: "Gaming"
-banner: "images/banner.jpg"
-colorTheme:
+title: "Gaming and Online"
+category: ["Gaming"]
 ---

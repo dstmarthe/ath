@@ -1,5 +1,5 @@
 ---
-title: "What Are The Seven Wonders of The World?" ## Means name of the article is filename
+title: "What Are The Seven Wonders Of The World?" ## Means name of the article is filename
 date: 2023-03-10T19:28:37-05:00
 author: ["M&D"]
 summary:

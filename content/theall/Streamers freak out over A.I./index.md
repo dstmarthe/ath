@@ -5,7 +5,7 @@ author: ["M&D"]
 summary:
 categories: ["The All"]
 tags: ['cool', 'funny', 'ai', 'innovation']
-keywords: ['innovation', 'funny']
+keywords: ['innovation', 'funny', 'millenial']
 draft: false
 hasVideo: true
 ---

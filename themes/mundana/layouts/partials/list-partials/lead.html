@@ -28,8 +28,8 @@
 	</a>
 </div>
 -->
-<div class="position-relative d-flex flex-column border-0 text-bg-dark">
-	<a href="{{.Permalink}}">
+<a href="{{.Permalink}}">
+	<div class="position-relative d-flex flex-column border-0 text-bg-dark">
 		{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
 		}}
 		<img
@@ -39,28 +39,29 @@
 			loading="lazy"
 		/>
 		{{end}}
-	</a>
-	<div
-		class="card-img-overlay w-100 start-50 translate-middle-x text-center pt-n2"
-		style="box-shadow: inset 0 0 130px #000; padding-top: 0em !important"
-	>
-		<h5
-			class="card-title font-bold text-uppercase px-2 text-center align-self-center text-wrap lead"
+
+		<div
+			class="card-img-overlay w-100 start-50 translate-middle-x text-center pt-n2"
+			style="box-shadow: inset 0 0 130px #000; padding-top: 0em !important"
 		>
-			<span class="content-title d-inline-flex">{{ .Title }}</span>
-		</h5>
-		<p class="card-text">{{ .Summary }}</p>
-		<p class="card-text">
-			<small
-				>{{ dateFormat "Jan 2, 2006" .PublishDate }} in
-				<span class="text-danger font-bold mark"
-					>{{.CurrentSection.Params.category}}</span
-				></small
+			<h5
+				class="card-title font-bold text-uppercase px-2 text-center align-self-center text-wrap lead"
 			>
-		</p>
-	</div>
-	<!--<div
+				<span class="content-title d-inline-flex">{{ .Title }}</span>
+			</h5>
+			<p class="card-text">{{ .Summary }}</p>
+			<p class="card-text">
+				<small
+					>{{ dateFormat "Jan 2, 2006" .PublishDate }} in
+					<span class="text-danger font-bold mark"
+						>{{.CurrentSection.Params.category}}</span
+					></small
+				>
+			</p>
+		</div>
+		<!--<div
 		class="position-absolute top-0 start-50 translate-middle-x vw-100 z-n1 h-100"
 		style="background-color: #9afbef"
 	></div>-->
-</div>
+	</div>
+</a>

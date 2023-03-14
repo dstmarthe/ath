@@ -1,4 +1,4 @@
 ---
 title: "Gaming and Online"
-category: ["Gaming"]
+category: "Gaming"
 ---

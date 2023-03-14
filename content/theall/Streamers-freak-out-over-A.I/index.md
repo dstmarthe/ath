@@ -19,3 +19,5 @@ Many digital innovations are also born here, and we are seeing the embers of A.I
 Combining the random, chaotic, and adult nature of popular twitch steamers with A.I.'s unpredictable yet familiar nature, creates a truly unique experience, where we are all laughing at a robot while the flesh-and-blood surrogate laughs along.
 
 We've been watching the development of these A.I's and over the course of a month they improved drastically. You can watch streamers react to themselves with their live-chats asking questions to the A.I. I truly believe this will be the makings of new entertainment.
+
+

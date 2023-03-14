@@ -2,11 +2,14 @@
 "main" }}
 <!--{{- partial "_shared/indexTitle.html" . -}}-->
 <!--Top Left 1 below Jumbotron/Lead row-->
-<div class="full-width py-5 mb-4 bg-slant" style="background-color: #ffffff">
+
+<div class="full-width py-5 mb-4 bg-slant">
 	<div class="container">
 	<div class="row row-gap-3">
 		<div class="col-md-8 col-12">
+			{{- range first 2 (where ( where site.RegularPages "Section" "science" ) ".Params.featured" "=" true) }}
 			{{- partial "list-partials/lead.html" . -}}
+			{{- end}}
 		</div>
 		<!-- Top right 3 article cards-->
 		<div class="col-md-4 col-12">
@@ -22,7 +25,7 @@
 <!-- |Your Varo Account      $5,096,875| -->
 <!--All Post thing-->
 <div class="container">
-	<div class="row justify-content-between">
+	<div class="row justify-content-between bg-white">
 		<div class="col-md-8">
 			<h5 class="font-weight-bold fs-1 spanborder text-secondary mb-5">
 				<span>Recent</span>

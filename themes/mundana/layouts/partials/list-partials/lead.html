@@ -29,11 +29,17 @@
 </div>
 -->
 <div class="position-relative d-flex flex-column border-0 text-bg-dark">
-	<img
-		src="https://images.interestingengineering.com/1200x675/filters:format(webp)/2023/02/23/image/png/yya4v8nPPugYlxbIyhUQwCakvmgI3J2m8vbddCcx.png"
-		class="card-img shadow"
-		alt="..."
-	/>
+	<a href="{{.Permalink}}">
+		{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
+		}}
+		<img
+			src="{{ .Permalink }}"
+			class="card-img shadow img"
+			alt
+			loading="lazy"
+		/>
+		{{end}}
+	</a>
 	<div
 		class="card-img-overlay w-100 start-50 translate-middle-x text-center pt-n2"
 		style="box-shadow: inset 0 0 130px #000; padding-top: 0em !important"
@@ -41,16 +47,15 @@
 		<h5
 			class="card-title font-bold text-uppercase px-2 text-center align-self-center text-wrap lead"
 		>
-			<mark>This is the dramatic title of the article</mark>
+			<span class="content-title d-inline-flex">{{ .Title }}</span>
 		</h5>
-		<p class="card-text">
-			This is a wider card with supporting text below as a natural lead-in to
-			additional content. This content is a little bit longer.
-		</p>
+		<p class="card-text">{{ .Summary }}</p>
 		<p class="card-text">
 			<small
-				>Mar 21 on
-				<span class="text-danger font-bold mark">Trending</span></small
+				>{{ dateFormat "Jan 2, 2006" .PublishDate }} in
+				<span class="text-danger font-bold mark"
+					>{{.CurrentSection.Params.category}}</span
+				></small
 			>
 		</p>
 	</div>

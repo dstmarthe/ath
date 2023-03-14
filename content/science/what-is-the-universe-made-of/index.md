@@ -29,7 +29,7 @@ Modified Gravity: Some scientists have proposed that the laws of gravity need to
 
 Dark Photons: Dark photons are hypothetical particles that are thought to interact with dark matter through a force similar to the electromagnetic force. They could be a candidate for dark matter if they have a mass in the range of a few electronvolts.
 
-In conclusion, while scientists have proposed various theories about what dark matter could be, its true nature remains a mystery. Future research and observations may help to shed light on this enigmatic substance and unravel the secrets of the universe
+While scientists have proposed various theories about what dark matter could be, its true nature remains a mystery. Future research and observations may help to shed light on this enigmatic substance and unravel the secrets of the universe
 
 ### Dark Energy
 

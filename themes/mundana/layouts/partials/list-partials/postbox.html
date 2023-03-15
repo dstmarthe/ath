@@ -11,13 +11,14 @@
 		<h2 class="mb-1 h6 font-weight-bold">
 			<a class="text-dark" href="{{.Permalink}}">{{.Title}}</a>
 		</h2>
-		<div class="card-text text-muted small">
+		<div class="card-text text-muted">
 			{{ range .Param "author" }} {{ . }}{{end}} in
-			{{.CurrentSection.Params.category}}
+			<a href="{{ .Site.BaseURL }}/{{.Section}}"
+				>{{.CurrentSection.Params.category}}</a
+			>
 		</div>
-		<small class="text-muted"
-			>{{dateFormat "Jan 2" .PublishDate}} &middot; {{ .ReadingTime }} min
-			read</small
-		>
+		<div class="text-muted card-text">
+			{{dateFormat "Jan 2" .PublishDate}} &middot; {{ .ReadingTime }} min read
+		</div>
 	</div>
 </div>

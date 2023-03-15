@@ -3,11 +3,11 @@
 <!--{{- partial "_shared/indexTitle.html" . -}}-->
 <!--Top Left 1 below Jumbotron/Lead row-->
 
-<div class="full-width py-5 mb-4 bg-slant">
+<div class="full-width py-5 mb-4">
 	<div class="container">
 	<div class="row row-gap-3">
 		<div class="col-md-8 col-12">
-			{{- range first 2 (where ( where site.RegularPages "Section" "science" ) ".Params.featured" "=" true) }}
+			{{- range first 1 ( where site.RegularPages ".Params.featured" "=" true) }}
 			{{- partial "list-partials/lead.html" . -}}
 			{{- end}}
 		</div>

@@ -1,0 +1,37 @@
+{{ define "header"}} {{- partial "_shared/navbar.html" . -}} {{ end }} {{ define
+"main" }}
+<div class="container">
+	<div class="py-5 mt-4 mb-6 text-center">
+		<a class="d-block mx-auto mb-4" href="{{ .Site.BaseURL }}/">
+			{{ with .Site.Params.navLogo }}
+			<img src="{{ . | urlize | relURL }}" alt="logo" style="width: 14em" />
+			{{ else }}
+			<span style="font-family: Righteous">{{.Site.Title}}</span>
+			{{ end }}
+		</a>
+		{{/*
+		<h1 class="display-6 fw-bold">About Us</h1>
+		*/}}
+		<div class="col-lg-6 mx-auto">
+			<p class="lead text-justify mb-4">
+				Our vision is to provide informative and engaging content that answers
+				some of the most searched questions and ideas on the web. From gaming to
+				tech, science, and trends. Even the mundane things in life, we cover it
+				all. Join us on this journey of discovery and knowledge-sharing.
+			</p>
+			<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+				<button type="button" class="btn d-none btn-primary btn-lg px-4 gap-3">
+					Primary button
+				</button>
+				<button
+					type="button"
+					class="btn d-none btn-outline-secondary btn-lg px-4"
+				>
+					Secondary
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Main -->
+{{end}} {{ define "footer" }} {{- partial "_shared/footer.html" . -}} {{end}}

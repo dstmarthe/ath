@@ -16,7 +16,7 @@ NAVBAR
 		</button>
 
 		<!-- Begin Logo -->
-		<a class="navbar-brand ml-4 mr-0" href="{{ .Site.BaseURL }}/">
+		<a class="navbar-brand mx-auto ml-md-3 mr-md-0" href="{{ .Site.BaseURL }}/">
 			{{ with .Site.Params.navLogo }}
 			<img src="{{ . | urlize | relURL }}" alt="logo" style="width: 5em" />
 			{{ else }}

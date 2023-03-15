@@ -1,9 +1,9 @@
 <!-- Repeating li of All Post component-->
 <div
-	class="mb-4 pb-3 row d-lg-flex border-bottom border-1 justify-content-between postbox"
+	class="row d-flex mb-4 pb-3 border-bottom border-1 justify-content-between postbox"
 >
-	<div class="col-7 col-lg-8">
-		<h2 class="mb-1 h4 font-weight-bold">
+	<div class="col-md-7 col-lg-8 mt-1 mt-md-0">
+		<h2 class="mb-1 mb-sm-0 h4 font-weight-bold">
 			<a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
 		</h2>
 		<p class="excerpt">{{ .Summary }}</p>
@@ -12,7 +12,9 @@
 			<div>
 				<div class="card-text text-muted small">
 					{{ range .Param "author" }}{{ . }}{{end}} in
-					{{.CurrentSection.Params.category}}
+					<a href="{{ .Site.BaseURL }}/{{.Section}}"
+						>{{.CurrentSection.Params.category}}</a
+					>
 				</div>
 				<div class="text-muted small">
 					{{ dateFormat "Jan 2, 2006" .PublishDate }} &middot; {{ .ReadingTime
@@ -22,7 +24,7 @@
 			<div></div>
 		</div>
 	</div>
-	<div class="col-5 col-lg-4 mt-4 mt-lg-0 text-lg-right">
+	<div class="col-12 col-md-5 col-lg-4 mt-4 mt-lg-0 order-first order-md-last">
 		<a href="{{.Permalink}}">
 			{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
 			}}

@@ -299,7 +299,7 @@ template {
   --gray: #6c757d;
   --gray-dark: #343a40;
   --light-blue: #e8f3ec;
-  --primary: #80FFDB;
+  --primary: #D3EBCD;
   --secondary: #3A1078;
   --success: #03a87c;
   --info: #09ebaf;
@@ -4292,10 +4292,10 @@ input[type="button"].btn-block {
   
   .postbox .excerpt {
     color: rgba(0, 0, 0, 0.59);
-    height: 3rem;
+    max-height: 3rem;
     overflow: hidden;
     text-overflow: ellipsis;
-    word-wrap: break-word;
+    word-wrap: break-word ;
   }
   
   .postbox p {

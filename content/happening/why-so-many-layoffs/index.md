@@ -1,5 +1,5 @@
 ---
-title: "Why are there so many layoffs in the tech industry?" ## Means name of the article is filename
+title: "Why Are There So Many Layoffs in the Tech Industry?" ## Means name of the article is filename
 date: 2023-03-17T00:37:11-04:00
 author: ["M&D"]
 summary:

@@ -285,7 +285,7 @@ template {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #7832e2;
+  --blue: hsl(180, 100%, 65%);
   --indigo: #502c6c;
   --purple: #ad6edd;
   --pink: #ff0266;
@@ -299,7 +299,7 @@ template {
   --gray: #6c757d;
   --gray-dark: #343a40;
   --light-blue: #e8f3ec;
-  --primary: #D3EBCD;
+  --primary: #9dffee;
   --secondary: #3A1078;
   --success: #03a87c;
   --info: #09ebaf;
@@ -683,6 +683,33 @@ mark,
   border-radius: 30px;
 
 }
+
+.section-title-root {
+  text-transform: uppercase;
+  font-feature-settings: normal;
+  font-style: normal;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-break: auto;
+  line-height: 1.4923076923076923em;
+  font-size: 13px;
+  font-weight: 700;
+  overflow-wrap: normal;
+  color: rgba(255, 255, 255, 1);
+   border-top: 2px solid black;
+}
+.section-title-text {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 0.25rem 0.75rem;
+  width: max-content;
+  margin-top: 0;
+}
+
+
+
 
 
   .article-post ol,
@@ -1919,7 +1946,7 @@ textarea.form-control {
   .realistic-marker-highlight:before{
     content:"";
     background-color:#ff6db7;
-    width:100%;
+    width:110%;
     height:1em;
     position:absolute;
     z-index:-1;
@@ -1930,7 +1957,7 @@ textarea.form-control {
   }
 
   .content-title {
-    font-family: 'Tilt Warp', Georgia, Cambria, Times New Roman, Times serif;
+    font-family: "Segoe UI", "Arial";
     background: #000;
     padding: 5px 0;
     color: #fff;
@@ -3928,8 +3955,8 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.85);
-  border-color: rgba(255, 255, 255, 0.1); }
-
+  /* border-color: rgba(255, 255, 255, 0.1); } */
+}
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 
@@ -4732,8 +4759,8 @@ input[type="button"].btn-block {
     margin-bottom: 0;
     margin-top: 20px;
     color: #292929;
-    border-top: 1px solid #e8f3ec;
-    border-radius: 0;
+    /* border-top: 1px solid #e8f3ec; */
+    /* border-radius: 0; */
   }
   
   .bottompagination span.navigation a {
@@ -5598,7 +5625,7 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #03a87c !important; }
+  background-color: var(--primary) !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -9474,12 +9501,12 @@ article {
     opacity: 1;
     float: left;
     line-height: 1; }
-  article:first-letter {
+  /* article:first-letter {
     float: left;
     font-size: 5em;
     line-height: 1;
     margin: 0 .2em 0 0;
-    vertical-align: top; }
+    vertical-align: top; } */
 
 .spanborder {
   border-bottom: 1px solid #e8f3ec;
@@ -9491,25 +9518,28 @@ article {
   padding-bottom: 20px;
   margin-bottom: -1px; }
 
-  .bg-slant {
-    background: rgb(154,251,239);
-    background: -moz-linear-gradient(170deg, rgba(154,251,239,1) 57%, rgba(255,255,255,1) 57%);
-    background: -webkit-linear-gradient(170deg, rgba(154,251,239,1) 57%, rgba(255,255,255,1) 57%);
-    background: linear-gradient(170deg, rgba(154,251,239,1) 57%, rgba(255,255,255,1) 57%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9afbef",endColorstr="#ffffff",GradientType=1);
+.bg-slant {
+  background: rgb(154,251,239);
+  background: -moz-linear-gradient(170deg, rgba(154,251,239,1) 57%, rgba(255,255,255,1) 57%);    background: -webkit-linear-gradient(170deg, rgba(154,251,239,1) 57%, rgba(255,255,255,1) 57%);
+  background: linear-gradient(170deg, rgba(154,251,239,1) 57%, rgba(255,255,255,1) 57%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9afbef",endColorstr="#ffffff",GradientType=1);
+  }
 
+  .mc-email-field {
+    height: 2em;
+    margin-top: 1em;
 
   }
 
-  .alertbar {
-    box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, .0785);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background-color: #fff;
-    width: 100%;
-    padding: 14px 0;
-    z-index: 1;
+.alertbar {
+  box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, .0785);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 14px 0;
+  z-index: 1;
   
 }
 

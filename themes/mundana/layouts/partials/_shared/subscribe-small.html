@@ -1,0 +1,70 @@
+<div class="p-0 bg-primary">
+	<div class="d-flex flex-column">
+		<div class="col-12">
+			<h5 class="font-weight-bold secondfont">Witness All That Happens.</h5>
+			Get the most interesting news about our world straight to your inbox. We
+			never spam!
+		</div>
+
+		<div class="col-12">
+			<div class="d-flex justify-content-start">
+				<form
+					action="{{ with .Site.Params.mailchimp }}{{.}}{{end}}&SIGNUP={{ .Permalink }}"
+					method="post"
+					id="mc-embedded-subscribe-form"
+					name="mc-embedded-subscribe-form"
+					class="validate"
+					target="_self"
+				>
+					<div class="d-flex flex-column justify-content-center mt-md-2">
+						<input
+							type="email"
+							value=""
+							name="EMAIL"
+							placeholder="E-mail"
+							class="required email mc-email-field"
+							id="mce-EMAIL"
+							required
+						/>
+						<input
+							type="submit"
+							value="Subscribe"
+							name="subscribe"
+							id="mc-embedded-subscribe"
+							class="btn btn-purple mx-0"
+						/>
+					</div>
+
+					<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+
+					<div id="mce-responses" class="clear foot">
+						<div
+							class="response"
+							id="mce-error-response"
+							style="display: none"
+						></div>
+						<div
+							class="response"
+							id="mce-success-response"
+							style="display: none"
+						></div>
+					</div>
+					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					<div style="position: absolute; left: -5000px" aria-hidden="true">
+						<input
+							type="text"
+							name="{{ with .Site.Params.mailprotect }}{{.}}{{end}}"
+							tabindex="-1"
+							value=""
+						/>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script
+	type="text/javascript"
+	src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+></script>
+<!--End mc_embed_signup-->

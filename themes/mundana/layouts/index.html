@@ -25,10 +25,10 @@
 
 <!--   ----------------------------Recent--------------------------------- Post -->
 <div class="container">
-	<div class="d-flex flex-column flex-md-row justify-content-between bg-white">
+	<div class="d-flex flex-column flex-md-row justify-content-between pt-3 px-2">
 		<div class="col-12 col-md-8 order-md-first order-last">
-			<h5 class="font-weight-bold fs-1 spanborder text-secondary mb-5">
-				<span>Recent</span>
+			<h5 class="font-weight-bold fs-2 mb-4 section-title-root">
+				<span class="section-title-text">Recent</span>
 			</h5>
 			{{ $post_paginator := .Paginate ( site.RegularPages ) }} {{ range
 			$post_paginator.Pages }} {{- partial "list-partials/postlist.html" . -}}
@@ -36,12 +36,15 @@
 		</div>
 		<!------------------------- End Recent ------------------------------->
 		<!--------------------------Right aside-------------------------------->
-		<div class="col-md-4 order-md-last order-first pl-md-4 mb-5">
-			<h5 class="font-weight-bold fs-1 text-secondary mb-5 ">
-				The All <span class="text-muted small">videos + more</span>
+		<div class="col-md-4 order-md-last order-first pl-md-3 mb-5">
+			<h5 class="font-weight-bold fs-3 mb-4 section-title-root">
+				<span class="section-title-text">Subscribe</span> 
 			</h5>
-			<iframe width="100%" height="auto" src="https://www.youtube.com/embed/+lastest?list=PLUgnTmQUMaDJ7VOCxLlNoUfAgIN8Ki9fz" frameborder="0" allowfullscreen></iframe> 
-				
+			{{- partial "_shared/subscribe-small.html" . -}}
+
+
+			{{/*  <iframe width="100%" height="auto" src="https://www.youtube.com/embed/+lastest?list=PLUgnTmQUMaDJ7VOCxLlNoUfAgIN8Ki9fz" frameborder="0" allowfullscreen></iframe> 
+				  */}}
 			{{/*  Numbered list of articles  -------------------------
 				<ol class="list-featured">
 					<li>

@@ -1,8 +1,8 @@
 {{ define "header"}} {{- partial "_shared/navbar.html" . -}} {{ end }} {{ define
 "main" }}
 <div class="container">
-	<div class="py-5 mt-4 mb-3 text-center">
-		<a class="d-block mx-auto mb-4" href="{{ .Site.BaseURL }}/">
+	<div class="py-5 mt-4 mb-2 text-center">
+		<a class="d-block mx-auto mb-3" href="{{ .Site.BaseURL }}/">
 			{{ with .Site.Params.navLogo }}
 			<img src="{{ . | urlize | relURL }}" alt="logo" style="width: 14em" />
 			{{ else }}
@@ -13,7 +13,7 @@
 		<h1 class="display-6 fw-bold">About Us</h1>
 		*/}}
 		<div class="col-lg-6 mx-auto">
-			<p class="lead text-justify mb-4">
+			<p class="lead text-justify mb-3">
 				Our vision is to provide informative and engaging content that answers
 				some of the most searched questions and ideas on the web. From gaming to
 				tech, science, and trends. Even the mundane things in life, we cover it
@@ -36,6 +36,12 @@
 		</div>
 		<div class="col-lg-6 mx-auto">
 			{{- partial "_shared/subscribe.html" . -}}
+		</div>
+		<div class="col-lg-6 mx-auto">
+			<h5>Contact:</h5>
+			<p class="text-center">
+				For all inquires email: allthathappensnews@gmail.com
+			</p>
 		</div>
 	</div>
 </div>

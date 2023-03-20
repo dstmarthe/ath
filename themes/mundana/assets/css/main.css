@@ -118,12 +118,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #03a87c;
+  color: var(--purple);
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #025d45;
+    color: #deace2;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -286,8 +286,7 @@ template {
  */
 :root {
   --blue: hsl(180, 100%, 65%);
-  --indigo: #502c6c;
-  --purple: #ad6edd;
+  --purple: #c56cf0;
   --pink: #ff0266;
   --red: #ea2f65;
   --orange: #fbb500;
@@ -304,11 +303,10 @@ template {
   --success: #03a87c;
   --info: #09ebaf;
   --warning: #ffd803;
-  --danger: #FF2E63;
+  --danger: #ff4d4d;
   --light: #f8f9fa;
   --dark: #212529;
   --white: #fff;
-  --purple: #ad6edd;
   --salmon: #ff977a;
   --cyan: #35bdff;
   --gray: #ced4da;
@@ -402,15 +400,6 @@ sub {
 
 sup {
   top: -.5em; }
-
-a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects; }
-  a:hover {
-    color: #245486;
-    text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -694,11 +683,10 @@ mark,
   letter-spacing: normal;
   line-break: auto;
   line-height: 1.4923076923076923em;
-  font-size: 13px;
   font-weight: 700;
   overflow-wrap: normal;
   color: rgba(255, 255, 255, 1);
-   border-top: 2px solid black;
+  border-top: 2px solid black;
 }
 .section-title-text {
   background-color: rgb(0, 0, 0);
@@ -822,8 +810,6 @@ pre {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
@@ -1419,9 +1405,9 @@ pre {
     border-top: 1px solid #dee2e6; }
   .table thead th {
     vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6; }
+    border-bottom: 2px solid #c5cbd1; }
   .table tbody + tbody {
-    border-top: 2px solid #dee2e6; }
+    border-top: 2px solid #c5cbd1; }
   .table .table {
     background-color: #fff; }
 
@@ -5776,7 +5762,7 @@ button.bg-lightblue:focus {
   border-right: 1px solid #e8f3ec !important; }
 
 .border-bottom {
-  border-bottom: 1px solid #e8f3ec !important; }
+  border-bottom: 1px solid #c5cbd1 !important; }
 
 .border-left {
   border-left: 1px solid #e8f3ec !important; }
@@ -8993,9 +8979,6 @@ img {
 
 a, a:hover {
   transition: all .2s; }
-
-a {
-  color: #03a87c; }
 
 a.text-dark:hover {
   color: #72757e !important; }

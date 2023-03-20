@@ -70,12 +70,13 @@
 	/>
 
 	<!--JAVASCRIPt-->
-	<script
-		src="https://unpkg.com/@popperjs/core@2"
-		crossorigin="anonymous"
-	></script>
-	<script async src="https://static.addtoany.com/menu/page.js"></script>
 
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+		function onSubmit(token) {
+			document.getElementById("contact-form").submit();
+		}
+	</script>
 	<!-- Begin Mailchimp Signup Form -->
 
 	<style type="text/css">

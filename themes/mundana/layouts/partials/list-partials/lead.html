@@ -32,12 +32,7 @@
 	<div class="position-relative d-flex flex-column border-0 text-bg-dark">
 		{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
 		}}
-		<img
-			src="{{ .Permalink }}"
-			class="card-img shadow img"
-			alt
-			loading="lazy"
-		/>
+		<img src="{{ .Permalink }}" class="card-img shadow" alt loading="lazy" />
 		{{end}}
 
 		<div

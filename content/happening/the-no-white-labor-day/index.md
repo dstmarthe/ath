@@ -1,5 +1,5 @@
 ---
-title: "The No White Labor Day" ## Means name of the article is filename
+title: "Why Can't You Wear White on Labor Day?" ## Means name of the article is filename
 date: 2023-03-20T23:21:50-04:00
 author: ["M&D"]
 summary: "The Fascinating Origin of the 'No White After Labor Day' Fashion Rule"

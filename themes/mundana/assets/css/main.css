@@ -694,7 +694,7 @@ mark,
 }
 
 .searchinput:focus::placeholder {
-  color: #3E00FF;
+  color: var(--gray);
 }
 
 .section-title-root {

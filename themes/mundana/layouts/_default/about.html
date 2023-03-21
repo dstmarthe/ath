@@ -1,9 +1,9 @@
 {{ define "header"}} {{- partial "_shared/navbar.html" . -}} {{ end }} {{ define
 "main" }}
 <div class="container">
-	<div class="py-5 mt-4 mb-2 text-center">
-		<a class="d-block mx-auto mb-3" href="{{ .Site.BaseURL }}/">
-			{{ with .Site.Params.navLogo }}
+	<div class="py-4 mt-2 mb-2 text-center">
+		<a class="d-block mx-auto" href="{{ .Site.BaseURL }}/">
+			{{ with .Site.Params.logo }}
 			<img src="{{ . | urlize | relURL }}" alt="logo" style="width: 14em" />
 			{{ else }}
 			<span style="font-family: Righteous">{{.Site.Title}}</span>

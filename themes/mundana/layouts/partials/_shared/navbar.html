@@ -1,10 +1,10 @@
 <!--------------------------------------
 NAVBAR
 --------------------------------------->
-<nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top">
-	<div class="full-width d-flex px-4">
+<nav class="navbar navbar-expand-md">
+	<div class="container d-flex flex-column mx-auto">
 		<button
-			class="navbar-toggler"
+			class="navbar-dark navbar-toggler"
 			type="button"
 			data-bs-toggle="collapse"
 			data-bs-target="#navbarColor02"
@@ -16,52 +16,66 @@ NAVBAR
 		</button>
 
 		<!-- Begin Logo -->
-		<a class="navbar-brand mx-auto ml-md-3 mr-md-0" href="{{ .Site.BaseURL }}/">
+		<a
+			class="navbar-brand mx-auto p-0 order-first bg-primary"
+			href="{{ .Site.BaseURL }}/"
+		>
 			{{ with .Site.Params.navLogo }}
-			<img src="{{ . | urlize | relURL }}" alt="logo" style="width: 5em" />
+			<img src="{{ . | urlize | relURL }}" alt="logo" style="width: 9em" />
 			{{ else }}
 			<span style="font-family: Righteous">{{.Site.Title}}</span>
 			{{ end }}
 		</a>
 		<!-- End Logo -->
 
-		<div class="navbar-collapse collapse" id="navbarColor02">
-			<ul class="navbar-nav mx-md-auto align-items-center">
-				<li class="nav-item">
-					<a class="nav-link" href="{{ .Site.BaseURL }}/gaming">Gaming</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="{{ .Site.BaseURL }}/science">Science</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="{{ .Site.BaseURL }}/tech">Tech</a>
-				</li>
+		<div class="navbar-light navbar-collapse collapse" id="navbarColor02">
+			<ul class="navbar-nav mx-md-auto align-items-center fs-5">
 				<li class="nav-item">
 					<a class="nav-link" href="{{ .Site.BaseURL }}/happening"
 						>What's Happening</a
 					>
 				</li>
+				|
+				<li class="nav-item">
+					<a class="nav-link" href="{{ .Site.BaseURL }}/gaming">Gaming</a>
+				</li>
+				|
+				<li class="nav-item">
+					<a class="nav-link" href="{{ .Site.BaseURL }}/science">Science</a>
+				</li>
+				|
+				<li class="nav-item">
+					<a class="nav-link" href="{{ .Site.BaseURL }}/tech">Tech</a>
+				</li>
+
+				|
 				<li class="nav-item">
 					<a class="nav-link" href="{{ .Site.BaseURL }}/theall">The All</a>
 				</li>
+				|
 				<li class="nav-item">
 					<a class="nav-link" href="{{ .Site.BaseURL }}/about">About</a>
 				</li>
+				|
 				<li class="nav-item">
 					<a class="nav-link" href="https://www.buymeacoffee.com/allthathappens"
-						><span class="badge badge-secondary btn-purple">SUPPORT</span></a
+						><span class="badge btn-purple">SUPPORT</span></a
 					>
 				</li>
+
+				<li class="nav-item">
+					<form action="/search" role="search" method="GET">
+						<input
+							type="search"
+							name="q"
+							placeholder="search..."
+							id="search-query"
+							class="searchinput fs-6"
+							autocomplete="off"
+						/>
+					</form>
+				</li>
 			</ul>
-			<form action="/search" role="search" method="GET" class="mr-2 d-flex">
-				<input
-					type="search"
-					name="q"
-					id="search-query"
-					placeholder="Search...."
-					class="form-control form-control-dark text-bg-dark"
-				/>
-			</form>
 		</div>
 	</div>
 </nav>

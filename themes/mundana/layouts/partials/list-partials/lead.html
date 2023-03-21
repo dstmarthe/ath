@@ -28,7 +28,7 @@
 	</a>
 </div>
 -->
-<a href="{{.Permalink}}">
+<a href="{{.Permalink}}" title="Go to article">
 	<div class="position-relative d-flex flex-column border-0 text-bg-dark">
 		{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
 		}}
@@ -37,7 +37,7 @@
 
 		<div
 			class="card-img-overlay w-100 start-50 translate-middle-x text-center pt-n2"
-			style="box-shadow: inset 0 0 130px #000; padding-top: 0em !important"
+			style="padding-top: 0em !important"
 		>
 			<h5
 				class="card-title font-bold text-uppercase text-center align-self-center text-wrap"

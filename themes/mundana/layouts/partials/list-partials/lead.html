@@ -32,28 +32,33 @@
 	<div class="position-relative d-flex flex-column border-0 text-bg-dark">
 		{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
 		}}
-		<img src="{{ .Permalink }}" class="card-img shadow" alt loading="lazy" />
+		<img
+			src="{{ .Permalink }}"
+			class="card-img h-50"
+			alt
+			loading="lazy"
+			style="filter: url(#dark-blue-sepia)"
+		/>
 		{{end}}
 
 		<div
-			class="card-img-overlay w-100 start-50 translate-middle-x text-center pt-n2"
+			class="card-img-overlay w-100 start-50 translate-middle-x text-center"
 			style="padding-top: 0em !important"
 		>
-			<h5
-				class="card-title font-bold text-uppercase text-center align-self-center text-wrap"
-				style="margin-top: 15%"
-			>
-				<span class="content-title d-inline-flex">{{ .Title }}</span>
-			</h5>
-			<p class="card-text">{{ .Summary }}</p>
-			<p class="card-text">
-				<small
-					>{{ dateFormat "Jan 2" .PublishDate }} in
-					<span class="text-danger font-bold mark"
-						>{{.CurrentSection.Params.category}}</span
-					></small
-				>
-			</p>
+			<div class="p-4" style="margin-top: 18%">
+				<h5 class="card-title font-bold text-uppercase text-wrap">
+					<span class="d-inline-flex font-inter">{{ .Title }}</span>
+				</h5>
+				<p class="card-text fs-6">{{ .Summary }}</p>
+				<p class="card-text">
+					<small
+						>{{ dateFormat "Jan 2" .PublishDate }} in
+						<span class="text-danger font-bold mark"
+							>{{.CurrentSection.Params.category}}</span
+						></small
+					>
+				</p>
+			</div>
 		</div>
 		<!--<div
 		class="position-absolute top-0 start-50 translate-middle-x vw-100 z-n1 h-100"

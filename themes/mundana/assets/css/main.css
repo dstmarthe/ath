@@ -135,6 +135,14 @@ a:not([href]):not([tabindex]) {
   a:not([href]):not([tabindex]):focus {
     outline: 0; }
 
+
+.img-hover:hover {
+  transition: ease;
+  filter: url('#x-rays');
+}
+
+
+
 pre,
 code,
 kbd,

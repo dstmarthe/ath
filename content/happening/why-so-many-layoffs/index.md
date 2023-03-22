@@ -2,12 +2,13 @@
 title: "Why Are There So Many Layoffs in the Tech Industry?" ## Means name of the article is filename
 date: 2023-03-17T00:37:11-04:00
 author: ["M&D"]
-summary:
+summary: "The tech industry is often touted as one of the most lucrative and stable industries, but in recent years, we've seen a wave of layoffs"
 categories: ["Happening"]
 tags: ["business", "big tech", "artificial intelligence", "innovation"]
 keywords: ["ai", "meta"]
 draft: false
 hasVideo: false
+featured: true
 ---
 
 The tech industry is often touted as one of the most lucrative and stable industries, but in recent years, we've seen a wave of layoffs and job cuts. From small start-ups to big tech giants such as Google, Amazon, Facebook and Twitter, no company is immune to the impact of a volatile economy. In this article, we'll explore some of the reasons why layoffs in the tech industry are so prevalent and what it means for workers and the industry as a whole.

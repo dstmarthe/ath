@@ -3986,6 +3986,14 @@ input[type="button"].btn-block {
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
       color: #fff; }
 
+.font-montserrat {
+  font-family: 'Montserrat',inherit, sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
 .card {
   position: relative;
   display: flex;
@@ -4014,7 +4022,7 @@ input[type="button"].btn-block {
 
   @media (min-width: 768px) {
     .card-title {
-      font-size: 1.5em;
+      font-size: 1.75em;
     }}
  
   @media (max-width: 576px) {

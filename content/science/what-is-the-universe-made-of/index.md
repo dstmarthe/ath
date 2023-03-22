@@ -4,11 +4,11 @@ date: 2023-03-13T20:21:50-04:00
 author: ["M&D"]
 summary: "Exploring the Mysterious Composition of Our Cosmic Home"
 categories: ["Science"]
-tags: [stars, astronomy, matter]
+tags: [stars, astronomy, matter, space]
 keywords: [tmyk, how was universe, formed]
 draft: false
 hasVideo: false
-featured: true
+featured: false
 ---
 
 The universe is a vast and complex entity that has been the subject of human curiosity for centuries. Despite our many advancements in science and technology, we still have much to learn about the universe and what it's made of. In this article, we'll explore the mysterious composition of the universe and what scientists have discovered so far.

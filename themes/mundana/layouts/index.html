@@ -17,7 +17,7 @@
 				<h5 class="font-weight-bold fs-3 section-title-root">
 					<span class="section-title-text">The All</span>
 				</h5>
-				{{- range first 3 ( where site.RegularPages "Section" "theall" ) }}
+				{{- range first 4 ( where site.RegularPages "Section" "theall" ) }}
 				{{- partial "list-partials/postbox.html" . -}} 
 				{{- end}}
 			</div>

@@ -3,11 +3,11 @@
 <!-- Repeating li of All Post component-->
 <div class="container">
 	<div class="row justify-content-between">
-		<div class="col-md-8">
+		<div class="col-md-10">
 			<h5 class="font-weight-bold spanborder pt-4 display-4">
 				<span>{{ .CurrentSection.Params.category }}</span>
 			</h5>
-			{{ $post_paginator := .Paginate (.Pages) 7 }} {{ range
+			{{ $post_paginator := .Paginate (.Pages) 10 }} {{ range
 			$post_paginator.Pages }} {{- partial "list-partials/postlist.html" . -}}
 			{{end}} {{- partial "list-partials/pagination.html" $post_paginator -}}
 		</div>

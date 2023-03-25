@@ -3987,7 +3987,7 @@ input[type="button"].btn-block {
       color: #fff; }
 
 .font-montserrat {
-  font-family: 'Montserrat',inherit, sans-serif;
+  font-family: 'Montserrat','Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
 .font-inter {
@@ -9533,11 +9533,13 @@ article {
     vertical-align: top; } */
 
 .spanborder {
-  border-bottom: 1px solid #e8f3ec;
-  margin-bottom: 2rem; }
+  /* border-bottom: 1px solid #e8f3ec; */
+  border-bottom: 1px solid var(--gray);
+ }
 
 .spanborder span {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.44);
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.44); */
+  border-bottom: 1px solid black;
   display: inline-block;
   padding-bottom: 20px;
   margin-bottom: -1px; }

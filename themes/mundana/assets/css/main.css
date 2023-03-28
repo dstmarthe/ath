@@ -9550,6 +9550,13 @@ article {
   background: linear-gradient(170deg, rgba(154,251,239,1) 57%, rgba(255,255,255,1) 57%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9afbef",endColorstr="#ffffff",GradientType=1);
   }
+	
+  #mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 600px;
+  }
 
   .mc-email-field {
     height: 2em;

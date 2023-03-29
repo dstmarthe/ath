@@ -197,6 +197,12 @@ function render(templateString, data) {
 	return templateString;
 }
 
+// Contentful preview
+const baseUrl =
+	process.env.IS_PREVIEW === "true"
+		? "preview.contentful.com"
+		: "cdn.contentful.com";
+
 // Helper Functions
 function show(elem) {
 	elem.style.display = "block";

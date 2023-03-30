@@ -29,7 +29,9 @@
 </div>
 -->
 <a href="{{.Permalink}}" title="Go to article">
-	<div class="position-relative d-flex flex-column border-0 text-bg-dark">
+	<div
+		class="position-relative d-flex flex-column border-0 text-bg-dark w-100 m-0"
+	>
 		{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
 		}}
 		<img
@@ -53,7 +55,7 @@
 				<p class="card-text">
 					<small
 						>{{ dateFormat "Jan 2" .PublishDate }} in
-						<span class="text-danger font-bold mark"
+						<span class="text-danger badge badge-white"
 							>{{.CurrentSection.Params.category}}</span
 						></small
 					>

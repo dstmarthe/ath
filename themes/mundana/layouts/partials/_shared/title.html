@@ -9,7 +9,9 @@ HEADER
 			<div class="row justify-content-between">
 				<div class="col-md-6 pt-5 pb-3 pr-6 align-self-center">
 					<p class="text-uppercase font-weight-bold">
-						<a class="text-danger" href="./category.html">{{ .Section }}</a>
+						<a class="text-danger" href="{{ .Site.BaseURL }}/{{.Section}}"
+							>{{ .Section }}</a
+						>
 					</p>
 					<h1 class="display-4 secondfont mb-3 font-weight-bold">
 						{{ .Title }}
@@ -31,7 +33,7 @@ HEADER
 						</small>
 					</div>
 				</div>
-				<div class="col-md-6 pr-0">
+				<div class="col-md-6 pr-0 pt-3">
 					{{$images := .Resources.ByType "image"}} {{with $images.GetMatch
 					"*cover*"}}
 					<img src="{{ .Permalink }}" />

@@ -8,7 +8,7 @@ tags: ["web"]
 keywords: []
 draft: false
 hasVideo: false
-attrib: "Photo by Claudio Schwarz on Unsplash"
+attrib: "Photo by Praveesh Palakeel on Unsplash"
 ---
 
 Have you ever wondered why some websites seem to remember your preferences or login information, even after you close your browser? The answer to this mystery lies in small text files called Internet cookies. In this article, we'll explore what Internet cookies are, how they work, and how to clear them for a safer and faster browsing experience.

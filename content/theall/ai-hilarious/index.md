@@ -9,6 +9,7 @@ keywords: ["youtube", "ai", "entertainment"]
 draft: false
 hasVideo: false
 featured: true
+attrib: "Generated using A.I."
 ---
 
 A.I. has the ability to assemble and synthesize hilarious monologues and playscripts. Naturally, something like humor would be the first thing someone would train a complex algorithm to mimic as humor is one of the most human, no, _conscious_ traits.

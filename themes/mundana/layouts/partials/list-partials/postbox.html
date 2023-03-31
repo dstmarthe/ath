@@ -1,7 +1,7 @@
 <div class="mt-2 pb-2 pl-2 d-flex align-items-center border-bottom border-1">
 	<div class="col-5 col-md-5 pl-0">
 		<a href="{{ .Permalink }}">
-			{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "cover*"
+			{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
 			}}
 			<img height="100" width="100%" src="{{ .Permalink }}" alt="thumb" />
 			{{end}}

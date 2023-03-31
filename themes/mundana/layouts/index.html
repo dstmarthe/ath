@@ -1,7 +1,7 @@
 {{ define "header"}} {{- partial "_shared/navbar.html" . -}} {{ end }} {{ define
 "main" }}
 <!--{{- partial "_shared/indexTitle.html" . -}}-->
-<!--Top Left 1 below Jumbotron/Lead row-->
+<!--Lead row-->
 
 <div class="pt-4 mb-md-1">
 	<div class="container mx-auto">
@@ -34,17 +34,6 @@
 				<span class="section-title-text">Recent</span>
 			</h5>
 			<div class="px-3">
-				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6364158409116386"
-				crossorigin="anonymous"></script>
-		   <ins class="adsbygoogle"
-				style="display:block"
-				data-ad-format="fluid"
-				data-ad-layout-key="-gd+13-5j-de+19i"
-				data-ad-client="ca-pub-6364158409116386"
-				data-ad-slot="3308906575"></ins>
-		   <script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-		   </script>
 			{{ $post_paginator := .Paginate ( site.RegularPages ) }} {{ range
 			$post_paginator.Pages }} {{- partial "list-partials/postlist.html" . -}}
 			{{end}} {{- partial "list-partials/pagination.html" $post_paginator -}}
@@ -61,15 +50,6 @@
 			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6364158409116386"
      crossorigin="anonymous"></script>
 <!-- Aside ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6364158409116386"
-     data-ad-slot="9357355892"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 			</div>
 
 			{{/*  <iframe width="100%" height="auto" src="https://www.youtube.com/embed/+lastest?list=PLUgnTmQUMaDJ7VOCxLlNoUfAgIN8Ki9fz" frameborder="0" allowfullscreen></iframe> 

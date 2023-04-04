@@ -3994,6 +3994,9 @@ input[type="button"].btn-block {
   font-family: 'Inter', sans-serif;
 }
 
+.font-bebas {
+  font-family: 'Bebas Neue', 'Inter', sans-serif, cursive;
+}
 .card {
   position: relative;
   display: flex;
@@ -4022,12 +4025,12 @@ input[type="button"].btn-block {
 
   @media (min-width: 768px) {
     .card-title {
-      font-size: 1.75em;
+      font-size: 2em;
     }}
  
   @media (max-width: 576px) {
   .card-title {
-    font-size: 1em;
+    font-size: 1.25em;
   }}
 
 .card-subtitle {
@@ -4049,7 +4052,7 @@ input[type="button"].btn-block {
  
   @media (max-width: 576px) {
   .card-text {
-    font-size: .75em;
+    font-size: .65em;
   }}
 
 

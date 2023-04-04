@@ -13,11 +13,11 @@
 		</div>
 		<!-- Top right 3 article cards-->
 		<div class="col-md-4 col-12">
-			<div class="flex-md-row box-shadow h-xl-300 bg-white h-100">
+			<div class="flex-md-row box-shadow bg-white h-100">
 				<h5 class="font-weight-bold fs-3 section-title-root">
 					<span class="section-title-text">The All</span>
 				</h5>
-				{{- range first 4 ( where site.RegularPages "Section" "theall" ) }}
+				{{- range first 3 ( where site.RegularPages "Section" "theall" ) }}
 				{{- partial "list-partials/postbox.html" . -}} 
 				{{- end}}
 			</div>

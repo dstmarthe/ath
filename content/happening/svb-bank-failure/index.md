@@ -2,7 +2,7 @@
 title: "Why Did Silicon Valley Bank and Credit Suisse Bank Fail; How Does It Impact The Economy?"
 date: 2023-04-03T20:36:39-04:00
 author: ["Mr. Mo"]
-summary:
+summary: "If you have not heard of the recent collapse of the Silicon Valley Bank (SVB) and Credit Suisse Bank (CSB), here is a quick rundown of who they are"
 categories: ["Trending"]
 tags: ["economy", "banks", "finance", "Credit Suisse Bank"]
 keywords: ["svb", "Credit Suisse Bank"]
@@ -11,7 +11,7 @@ hasVideo: false
 featured: true
 ---
 
-If you have not heard of the recent collapse of the Silicon Valley Bank (SVB) and Credit Suisse Bank (CSB), we are here to give you a quick rundown of who they are, what they do and explore the potential impact of their failure on the economy. SVB and CSB are two of the biggest banks in the world, known for their investments in the tech and finance sectors.
+If you have not heard of the recent collapse of the Silicon Valley Bank (SVB) and Credit Suisse Bank (CSB), here is a quick rundown of who they are, what they do and explore the potential impact of their failure on the economy. SVB and CSB are two of the biggest banks in the world, known for their investments in the tech and finance sectors.
 
 ## Silicon Valley Bank and Its Importance to the Tech Industry
 

@@ -3,7 +3,7 @@ title: "Why Did Silicon Valley Bank and Credit Suisse Bank Fail; How Does It Imp
 date: 2023-04-03T20:36:39-04:00
 author: ["Mr. Mo"]
 summary:
-categories: ["Tech"]
+categories: ["Trending"]
 tags: ["economy", "banks", "finance", "Credit Suisse Bank"]
 keywords: ["svb", "Credit Suisse Bank"]
 draft: false

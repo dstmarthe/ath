@@ -17,7 +17,7 @@ If you have not heard of the recent collapse of the Silicon Valley Bank (SVB) an
 
 Silicon Valley Bank is a bank that primarily serves the technology industry. It provides banking services to many tech startups, venture capitalists, and private equity firms such as Roku, Etsy, BuzzFeed, Roblux, and more. The bank is known for its expertise in the tech industry and has been a vital player in the growth of many successful startups.
 
-If Silicon Valley Bank were to fail, it could have a devastating effect not only on the tech industry but the entire as the tech industry has become a significant driver of economic growth in recent years. Many startups may lose their funding, and venture capitalists may lose their investments.
+If Silicon Valley Bank were to fail, it could have a devastating effect not only on the tech industry but the world's entire economic infrastructure as the tech industry has become a significant driver of economic growth in recent years. Many startups may lose their funding, and venture capitalists may lose their investments.
 
 Like SVB, Credit Suisse Bank is a major player in the financial industry, providing banking services to individuals and businesses worldwide. The bank is known for its expertise in wealth management, investment banking, and asset management, among others.
 

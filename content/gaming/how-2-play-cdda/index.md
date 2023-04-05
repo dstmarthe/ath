@@ -31,27 +31,27 @@ The most basic enemy, the zombie, will delete your character if you try to fight
 
 Useful default keybind I know and/or use often:
 
-"&": Craft menu
-"\*": Construction menu (here you can board up doors, deconstruct object if you have the right tools, and a lot of other things, just look at it.)
-"a": **a**ctivate, Use Item (pulls up a menu of all useable items you have and immedietly around you)
-"A": **A**ctivate, Use the current item wielded in your hands
-"e": **E**xamine object around you (can be used to examine in certain menus)
-"g": **g**et, or pickup an item
-"G": **G**rab (Pull a bike through a fence)
-"F": **F**ire
-"R": **R**eload
-"U": **U**nload (take credit cards out of wallets, batteries from other devices...)
-"x" Look around
-"V": **V**iew (Pulls up a list of all items the character can see)
-"B" **B**utcher a corpse (Usefule for sinew, fats, harvesting) or disassemble an object
-"@": Character sheet
-"N": Stats, character health summary
-"P": Bionics
+"&": Craft menu  
+"\*": Construction menu (here you can board up doors, deconstruct object if you &emsp;&emsp;&ensp;have the right tools, and a lot of other things, just look at it.)  
+"a": **a**ctivate, Use Item (pulls up a menu of all useable items you have immediately around you)  
+"A": **A**ctivate, Use the current item wielded in your hands  
+"e": **E**xamine object around you (can be used to examine in certain menus)  
+"g": **g**et, or pickup an item  
+"G": **G**rab (Pull a bike through a fence)  
+"F": **F**ire  
+"R": **R**eload  
+"U": **U**nload (take credit cards out of wallets, batteries from other devices...)  
+"x" Look around  
+"V": **V**iew (Pulls up a list of all items the character can see)  
+"B": **B**utcher a corpse (Usefule for sinew, fats, harvesting) or disassemble an object  
+"@": Character sheet  
+"N": Stats, character health summary  
+"P": Bionics  
 "\[": Mutatons
 
 ### 5. Meds
 
-You can find meds in bathrooms.
+You can find meds in bathrooms, and use cotton patches to craft bandages.
 
 ### 6. Useful tools to pick up/craft
 

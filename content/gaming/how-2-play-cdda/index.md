@@ -8,6 +8,7 @@ tags: ["cdda", "tile", "strategy", "tips", "keybindings", "walkthrough"]
 keywords: ["walkthrough", "cdda"]
 draft: false
 hasVideo: false
+attrib: Initial image from [D'anke Laeshmma](https://www.instagram.com/p/CqWkOWhp2kY/) colorized by A.I.
 ---
 
 Cataclysm Dark Days Ahead has consumed many of my waking hours these past few months. It's one of those games that unknowingly, unexpectedly enraptures you. The strategy and survical aspects are the main hook of CDDA. If you find that most games don't have a level of complexity enough to satisfy you, then this game might be the gem that sits perfectly. My first tip is to _browse the Reddit._ even randomly looking at other people's questions will teach you a lot about the game, and spark inspiration for you next session. If you take the time to learn the basics, the game will quickly open up to you and the reward of braving the eldritch nights will become more apperent.

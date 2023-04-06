@@ -1,5 +1,5 @@
 ---
-title: "Why Is the Ocean Salty" ## Means name of the article is filename
+title: "Why Is the Ocean Salty?" ## Means name of the article is filename
 date: 2023-04-05T23:33:20-04:00
 author: ["M&D"]
 summary: "Have you ever wondered why the ocean is salty?"

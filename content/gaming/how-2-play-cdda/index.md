@@ -1,5 +1,5 @@
 ---
-title: "How to Play Cataclysm: Dark Days Ahead - 6 Important Things to Know" ## Means name of the article is filename
+title: "How to Play Cataclysm: Dark Days Ahead - 7 Important Things to Know" ## Means name of the article is filename
 date: 2023-04-04T20:17:23-04:00
 author: ["Dale S."]
 summary: "This game is harder than life itself. Survive the eldritch nights with these tips."
@@ -52,18 +52,20 @@ Useful default keybind I know and/or use often:
 ### 5. Meds
 
 You can find meds in bathrooms, and use cotton patches to craft bandages.
+To put pressure on bleeding wounds to stop them from bleeding, make sure you are not holding anything and the character will do it automatically if t hey are bleeding.
 
 ### 6. Useful tools to pick up/craft
 
 **Screwdriver** Allows you to disassemble things and gain valuable crafting resources.
 **Hammer:** Pry open doors, boxes, has "level 3 hammering quality" for crafting. Can be found in kitchens, sheds, and where you would usually find a hammer. Not a very goodd weapon.
-**String:** String can be found in the same place as the hammer usually, but can be crafted from tree bark and sinew. Any sort of cordage is good, a lot of crafting option will open up. If you can craft or find a rope or long cordage string, crafting a "loop of rope" with it will enable you to carry more than one wooden plank, and stack certain large objects for carrying.
+**String:** String can be found in the same place as the hammer usually, but can be crafted from tree bark, plant fibers. and sinew. Any sort of cordage is good, a lot of crafting option will open up. If you can craft or find a rope or long cordage string, crafting a "loop of rope" with it will enable you to carry more than one wooden plank, and stack certain large objects for carrying.
 **Books:** Books are the best and fastest way to learn skills.
 **Duct Tape:** Just get it. It's as useful as it is in real life.
 **Long Stick:** You can make some great weapons with this. Reach weapons. It is different from just the regular "Stick." Get it from cutting down trees, disassembling coat racks or certain things that look like they would have a long stick in their construction.
 **Axe:** Of course.
 **Crowbar:** Self-explanatory. Gordan Freeman it up.
 **Shovel:** Great starting weapon. But past this you can dig a pit, and later build a great trap called the "Spike pit." Overall very useful.
+**Guns:** If you find a working car, ram a couple of police zombies, make sure you can escape or eliminate the rest. You can end up with a lot of guns. Vehicles are very useful
 
 Rapid-fire resources:
 
@@ -76,3 +78,9 @@ Rapid-fire resources:
 - matchsticks
 - food and water
 - any adhesives
+
+### 7. General advice/How to play
+
+Fire is your friend. When running from zeds, sometimes I will run to a wooden doorway and set the entrance on fire (a, then active a lighter/matchbook). Then I will stand behind the fire, blocking the way in and forcing zombies to stand on the fire in a single file line, taking damage from the fire and my melee hits. A combat knife is one of the best early weapons for this tactic because it does A LOT of damae and is quick to holster and bring out. Look for Humvees, they usually have great armor and a mounted weapon. But you will end up running over hoards of zombies with it more than shooting in the long run.
+
+You won't have to get food that much, but it's usueful to have a canteen to store water in to drink on the go, or to collect clean water from water heating tanks, or fetid water from recesses and ponds to purify(boil) later. With a good vehicle and some looted weaponry, you will find success on the cursed lands.

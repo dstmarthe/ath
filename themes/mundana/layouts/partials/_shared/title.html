@@ -38,7 +38,12 @@ HEADER
 					"*cover*"}}
 					<img src="{{ .Permalink }}" />
 					{{end}}
-					<small class="text-muted">{{.Params.attrib}}</small>
+					<small class="text-muted"
+						>{{.Params.attrib}}
+						<a href="{{.Params.attriblink}}" alt="Visit"
+							>{{.Params.attribname}}</a
+						>
+					</small>
 				</div>
 			</div>
 		</div>

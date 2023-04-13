@@ -39,7 +39,7 @@
 			class="card-img"
 			alt
 			loading="lazy"
-			style="filter: url(#red-sunset-with-purple)"
+			style="filter: url(#x-rays)"
 		/>
 		{{end}}
 
@@ -47,9 +47,13 @@
 			class="card-img-overlay w-100 start-50 translate-middle-x text-center"
 			style="padding-top: 0em !important"
 		>
-			<div class="p-4" style="margin-top: 5vw">
+			<div class="p-4" style="margin-top: 5.25vw">
 				<h5 class="card-title font-bold text-uppercase text-wrap">
-					<span class="d-inline-flex font-bebas">{{ .Title }}</span>
+					<span
+						class="d-inline-flex font-bebas"
+						style="text-shadow: 1px 1px 3px hsla(0, 0%, 0%, 0.126)"
+						>{{ .Title }}</span
+					>
 				</h5>
 				<p class="card-text fs-6">{{ .Summary }}</p>
 				<p class="card-text">

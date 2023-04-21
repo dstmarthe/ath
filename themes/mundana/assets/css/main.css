@@ -55,7 +55,7 @@ body {
   color: #212529;
   text-align: left;
   /*  background-color: #A7FFE4; }*/
-  background-color: #F8F5F1;
+  background-color: var(--white);
 }
 
 [tabindex="-1"]:focus {

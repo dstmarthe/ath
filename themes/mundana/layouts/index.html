@@ -14,9 +14,9 @@
 		<!-- Top right 3 article cards-->
 		<div class="col-md-4 col-12">
 			<div class="flex-md-row box-shadow bg-white h-100">
-				<h5 class="font-weight-bold fs-3 section-title-root">
+				<a href="{{ .Site.BaseURL }}/theall" style="text-decoration: none;"><h5 class="font-weight-bold fs-3 section-title-root">
 					<span class="section-title-text">The All</span>
-				</h5>
+				</h5></a>
 				{{- range first 3 ( where site.RegularPages "Section" "theall" ) }}
 				{{- partial "list-partials/postbox.html" . -}} 
 				{{- end}}
@@ -30,9 +30,9 @@
 <div class="container">
 	<div class="d-flex flex-column flex-md-row justify-content-between align-items-start pt-3">
 		<div class="bg-white col-12 col-md-8 order-md-first order-last px-0">
-			<h5 class="font-weight-bold fs-3 mb-4 section-title-root">
+			<a href="{{ .Site.BaseURL }}/all-articles" style="text-decoration: none;"><h5 class="font-weight-bold fs-3 mb-4 section-title-root">
 				<span class="section-title-text">Recent</span>
-			</h5>
+			</h5></a>
 			<div class="px-3">
 			{{ $post_paginator := .Paginate ( site.RegularPages ) }} {{ range
 			$post_paginator.Pages }} {{- partial "list-partials/postlist.html" . -}}

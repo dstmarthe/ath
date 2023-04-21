@@ -32,7 +32,7 @@ enableGitInfo = true
   mailprotect = "b_d36e79b42a287b4496fe407e2_ec8bb659a9"
   gRecaptchaSitekey = "6LeoXRolAAAAAAcQHmcBYg0uRb_z4NEzG6G0UuZV"
   gRecaptchaSecret = "6LeoXRolAAAAACWQl5LziCRP-vnjVi9TnchCWY8i"
-  googleTag - "G-T57XGJWMW5 "
+  googleTag = "G-T57XGJWMW5 "
 
 [meta]
   description ="Our vision is to provide informative and engaging content that answers some of the most searched questions and ideas on the web. From gaming to tech, science, and trends. Even the mundane things in life, we cover it all. Join us on this journey of discovery and knowledge-sharing."

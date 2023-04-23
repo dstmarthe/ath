@@ -33,6 +33,10 @@ HEADER
 								>{{ dateFormat "Jan 2, 2006" .PublishDate }} &middot; {{
 								.ReadingTime }} min read</span
 							>
+							{{ $date := .Date.UTC.Format "Jan 2, 2006" }} {{ $lastmod :=
+							.Lastmod.UTC.Format "Jan 2, 2006" }} Published {{ $date }} {{ if
+							and (ne $lastmod $date) (gt .Lastmod .Date) }} &nbsp;&middot;
+							Updated {{ $lastmod }} {{ end }}
 						</small>
 					</div>
 				</div>

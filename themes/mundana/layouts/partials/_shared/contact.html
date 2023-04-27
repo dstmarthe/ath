@@ -1,0 +1,45 @@
+<form
+	id="contact-form"
+	class="d-flex flex-col justify-center items-center my-4 px-4 py-8 gap-6"
+>
+	<div class="d-flex flex-col justify-center items-center gap-1">
+		<h1 class="text-lg fs-sm-3 fs-md-2 font-semibold">Contact Us</h1>
+		<p class="text-center text-muted">For all inquires email:</p>
+	</div>
+
+	<!-- Recaptcha -->
+	{{ with .Site.Params.gRecaptchaSitekey }}
+	<div
+		class="g-recaptcha"
+		data-sitekey="{{.}}"
+		data-callback="onRecaptchaSuccess"
+		data-expired-callback="onRecaptchaResponseExpiry"
+		data-error-callback="onRecaptchaError"
+	></div>
+	{{end}}
+
+	<!-- Recaptcha Error -->
+	<div
+		id="recaptcha-form-error"
+		style="display: none"
+		class="bg-red-200 rounded py-1 px-2 text-sm sm:text-md"
+	>
+		Please fill the recaptcha checkbox.
+	</div>
+
+	<!-- Recaptcha Success -->
+	<div
+		id="recaptcha-form-success"
+		style="display: none"
+		class="bg-green-200 rounded py-1 px-2 text-sm sm:text-md"
+	>
+		Recaptcha validated Successfully..!
+		<a href="/" class="px-2 text-slate-800">Retry</a>
+	</div>
+
+	<button
+		class="bg-slate-800 hover:bg-slate-900 text-white rounded transition duration-75 px-3 py-1 sm:px-4 sm:py-2 text-sm sm:text-md"
+	>
+		Submit
+	</button>
+</form>

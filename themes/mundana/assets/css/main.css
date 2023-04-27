@@ -379,7 +379,6 @@ template {
   --teal: #80FFDB;
   --cyan: #35bdff;
   --white: #fff;
-  --gray: #6c757d;
   --gray-dark: #343a40;
   --light-blue: #e8f3ec;
   --primary: #dfefe8;
@@ -393,7 +392,8 @@ template {
   --dark: #212529;
   --salmon: #ff977a;
   --cyan: #35bdff;
-  --gray: #ced4da;
+  --gray: #bbbfc3;
+  --lightgray: #e6e8ea;
   --indigo: #502c6c;
   --orange: #fbb500;
   --lightblue: #e8f3ec;
@@ -508,6 +508,7 @@ sub {
 sup {
   top: -.5em;
 }
+
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -1000,6 +1001,12 @@ code {
   color: #ff0266;
   word-break: break-word;
 }
+
+a.def-a {
+  color: #0000EE;
+  ;
+}
+
 
 a>code {
   color: inherit;
@@ -8227,6 +8234,20 @@ button.bg-gray:hover,
 button.bg-gray:focus {
   background-color: #b1bbc4 !important;
 }
+
+.bg-lightgray {
+  background-color: var(--lightgray) !important;
+}
+
+a.bg-lightgray:hover,
+a.bg-lightgray:focus,
+button.bg-lightgray:hover,
+button.bg-lightgray:focus {
+  background-color: #b1bbc4 !important;
+}
+
+
+
 
 .bg-indigo {
   background-color: #502c6c !important;

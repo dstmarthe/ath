@@ -6,7 +6,7 @@ summary: "Chat-GPT Tells Us Exactly How To Talk To it, With Some Prompting."
 categories: ["Tech"]
 tags: []
 keywords: []
-draft: false
+draft: true
 hasVideo: false
 attrib: ""
 attribname: ""

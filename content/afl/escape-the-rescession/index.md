@@ -7,9 +7,9 @@ layout: "ad-single"
 
 <span class="display-3 fs-1">Most people are shocked when they learn that <em>more millionaires were created during the great depression</em> in the 1930s than in any other time in history.</span>
 
-<div class="bg-lightgray p-2"><span class="display-3 fs-3">But the economic disaster that we're facing now will crush the livelihoods of all those who are unprepared!</span>
+<div class="bg-lightgray p-2"><span class="display-3 fs-2">But the economic disaster that we're facing now will crush the livelihoods of all those who are unprepared!</span>
 <br/><br/>
-<span class="display-3 fs-3">Make no mistake… the virus was just the beginning. And it’s about to get a
+<span class="display-3 fs-2">Make no mistake… the virus was just the beginning. And it’s about to get a
 hell of a lot worse. How3ver, for those on the inside this is crisis is a
 hidden chance to collect insane amounts of wealth!</span></div>
 
@@ -20,7 +20,7 @@ hidden chance to collect insane amounts of wealth!</span></div>
 Learn More
 </a>
 
-<p class=" display-3 fs-2 mb-5">Avoid the grave mistake that 99% of people are about to make in this
+<p class="display-3 fs-2 mb-5">Avoid the grave mistake that 99% of people are about to make in this
 recession.
 <br><br>
 A mistake that will cause people to loose their savings and

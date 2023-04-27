@@ -1,0 +1,31 @@
+{{ define "header"}} {{- partial "_shared/navbar.html" . -}} {{ end }} {{ define
+"main" }}
+<div class="container mt-4 pb-4">
+	<div class="row justify-content-center">
+		<div class="col-12">
+			<article class="article-post mb-3">{{ .Content | safeHTML }}</article>
+			{{- partial "_shared/subscribe.html" . -}}
+
+			<!-- Next and PrevPage inside current section -->
+			<div
+				class="row text-primary mt-3 PageNavigation d-flex justify-content-between font-weight-bold"
+			>
+				{{with .NextInSection}}
+				<a class="d-block col-md-6" href="{{.Permalink}}">
+					&laquo; {{.Title}}</a
+				>
+				{{end}} {{with .PrevInSection}}
+				<a class="d-block col-md-6 text-lg-right" href="{{.Permalink}}"
+					>{{.Title}} &raquo;</a
+				>
+				{{end}}
+				<div class="clearfix"></div>
+			</div>
+			<!-- End Next and PrevPage -->
+		</div>
+	</div>
+</div>
+
+{{ if isset .Site.Params.index "alertbar" }} {{ if .Site.Params.index.alertbar
+}} {{- partial "_shared/alertbar.html" . -}} {{ end }} {{ end }} {{end}} {{
+define "footer"}} {{- partial "_shared/footer.html" . -}} {{ end }}

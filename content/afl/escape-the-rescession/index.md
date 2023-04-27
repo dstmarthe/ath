@@ -5,7 +5,7 @@ layout: "ad-single"
 
 <h1 class="text-danger display-4">How to Turn a Recession into a Wealth Opportunity.</h1>
 
-<span class="display-3 fs-1">Most people are shocked when they learn that <u>more millionaires were created during the great depression</u> in the 1930s than in any other time in history.</span>
+<span class="display-3 fs-1">Most people are shocked when they learn that <em>more millionaires were created during the great depression</em> in the 1930s than in any other time in history.</span>
 
 <div class="bg-lightgray p-2"><span class="display-3 fs-3">But the economic disaster that we're facing now will crush the livelihoods of all those who are unprepared!</span>
 <br/><br/>

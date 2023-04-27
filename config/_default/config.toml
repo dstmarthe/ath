@@ -35,7 +35,7 @@ enableGitInfo = true
   googleTag = "G-T57XGJWMW5"
 
 [meta]
-  description ="Our vision is to provide informative and engaging content that answers some of the most searched questions and ideas on the web. From gaming to tech, science, and trends. Even the mundane things in life, we cover it all. Join us on this journey of discovery and knowledge-sharing."
+  description = "Our vision is to provide informative and engaging content that answers some of the most searched questions and ideas on the web. From gaming to tech, science, and trends. Even the mundane things in life, we cover it all. Join us on this journey of discovery and knowledge-sharing."
   keywords = ["blog", "ai", "software", "space", "news", "global news", "online","geek"]
 
 [markup]

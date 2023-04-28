@@ -1,9 +1,10 @@
 ---
 type: "page"
 layout: "ad-single"
+title: "How to Turn a Recession into a Wealth Opportunity in 2023"
 ---
 
-<h1 class="text-danger text-center display-4">How to Turn a Recession into a Wealth Opportunity.</h1>
+<h1 class="text-danger text-center display-4">How to Turn a Recession into a Wealth Opportunity in 2023.</h1>
 <div class="text-muted small mb-3">
 By<span class=" text-uppercase"> m&d</span>
 <span class="d-block">Published 4/27/23</span><br/></div>
@@ -11,9 +12,9 @@ By<span class=" text-uppercase"> m&d</span>
 <br/><br/>
 
 <div class="bg-lightgray p-2"><span class="display-3 fs-2">But the economic disaster that we're facing now will crush the livelihoods of all those who are unprepared!</span>
-<br/>
+<br/><br/>
 <span class="display-3 fs-2">Make no mistake… the virus was just the beginning. And it’s about to get a
-hell of a lot worse. How3ver, for those on the inside this is crisis is a
+hell of a lot worse. However, for those on the inside this is crisis is a
 hidden chance to collect insane amounts of wealth!</span></div>
 
 <p class="text-center display-2 fs-1"><br/>Claim your <strong><u>FREE</u></strong> Recession Remedy here and profit from this crisis</p>

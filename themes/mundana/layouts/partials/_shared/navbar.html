@@ -26,16 +26,15 @@ NAVBAR
 		</button>
 
 		<!-- Begin Logo -->
-		<a class="navbar-brand mx-auto p-0 order-first" href="{{ .Site.BaseURL }}/">
+		<a
+			class='navbar-brand mx-auto p-0 order-first {{ if .IsHome }}{{ print "logo-hover" }}
+		{{ else }}{{ print "xray" }}{{ end }}'
+			href="{{ .Site.BaseURL }}/"
+		>
 			{{ with .Site.Params.navLogo }}
-			<img
-				src="{{ . | urlize | relURL }}"
-				alt="logo"
-				style="width: 9em"
-				class="img-hover"
-			/>
-			{{ else }}
-			<span style="font-family: Righteous">{{.Site.Title}}</span>
+			<img src="{{ . | urlize | relURL }}" alt="logo" style="width: 9em" /> {{
+			else }}
+			<span class="font-inter">{{.Site.Title}}</span>
 			{{ end }}
 		</a>
 		<!-- End Logo -->

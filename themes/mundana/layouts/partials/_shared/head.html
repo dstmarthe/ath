@@ -17,11 +17,10 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 	<meta name="msapplication-TileColor" content="#da532c" />
 	<meta name="theme-color" content="#ffffff" />
-
 	<title>{{ .Page.Title }} | {{ .Site.Title }}</title>
-	{{ with .Site.Params.meta.description }}
+	{{ with site.Params.meta.description }}
 	<meta name="description" content="{{ . }}" />
-	{{ end }} {{ with .Site.Params.meta.keywords }}
+	{{ end }} {{ with site.Params.meta.keywords }}
 	<meta name="keywords" content="{{ . }}" />
 	{{ end }} {{/* -------- Google Fonts preconnects -------- */}}
 	<link rel="preconnect" href="https://fonts.googleapis.com" />

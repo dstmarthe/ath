@@ -182,12 +182,19 @@ a:not([href]):not([tabindex]):focus {
 }
 
 
-.img-hover:hover {
-  transition: ease;
+.logo-hover:hover {
+  transition: ease 5ms;
   filter: url('#x-rays');
 }
 
+.xray {
+  filter: url('#x-rays');
+}
 
+.xray:hover {
+  transition: ease 5ms;
+  filter: none;
+}
 
 pre,
 code,

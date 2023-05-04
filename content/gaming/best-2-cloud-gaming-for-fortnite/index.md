@@ -1,5 +1,5 @@
 ---
-title: "Best 2 Cloud Gaming for Fortnite" ## Means name of the article is filename
+title: "Best 2 Cloud Gaming Platforms For Fortnite" ## Means name of the article is filename
 date: 2023-04-30T21:01:55-04:00
 author: ["M&D"]
 summary:

@@ -155,14 +155,14 @@ sup {
 }
 
 a {
-  color: var(--purple);
+  color: var(--green);
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #deace2;
+  color: #5ae6e6;
   text-decoration: underline;
 }
 
@@ -380,12 +380,12 @@ template {
   --purple: #b161da;
   --pink: #ff0266;
   --red: #ea2f65;
-  --orange: #fbb500;
+  --orange: #f45d48;
   --yellow: #ffd803;
-  --green: #03a87c;
+  --green: #078080;
   --teal: #80FFDB;
   --cyan: #35bdff;
-  --white: #fff;
+  --white: #f8f5f2;
   --gray-dark: #343a40;
   --light-blue: #e8f3ec;
   --primary: #dfefe8;
@@ -402,8 +402,6 @@ template {
   --gray: #bbbfc3;
   --lightgray: #e6e8ea;
   --indigo: #502c6c;
-  --orange: #fbb500;
-  --lightblue: #e8f3ec;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;

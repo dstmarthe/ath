@@ -1,8 +1,8 @@
 ---
-title: "What Is the Universe Made Of?" ## Means name of the article is filename
+title: "The Mysterious Universe: Dark Matter, Dark Energy, and More!" ## Means name of the article is filename
 date: 2023-03-13T20:21:50-04:00
 author: ["M&D"]
-summary: "Exploring the Mysterious Composition of Our Cosmic Home"
+summary: ' "What is the Universe Made Of?" - Exploring the Mysterious Composition of Our Cosmic Home'
 categories: ["Science"]
 tags: [stars, astronomy, matter, space]
 keywords: [tmyk, how was universe, formed]
@@ -17,6 +17,7 @@ featured: false
 2. [The Mysterious Force of Dark Energy](#heading2)
 3. [Visible Matter: The Tip of the Iceberg](#heading3)
 4. [Conclusion The Never-Ending Journey of Discovery](#end)
+<hr>
 
 Are you ready to explore the depths of the universe? Hold on tight, because it's going to be a wild ride! The universe is a vast and complex entity that has been the subject of human curiosity for centuries. Despite our many advancements in science and technology, we still have much to learn about the universe and what it's made of. So, let's dive in!
 
@@ -54,6 +55,7 @@ The universe is a complex and mysterious entity that scientists are still trying
 So, keep your eyes on the stars and your mind open to the possibilities!
 
 _References:_
+<br>
 Luminet, J. (2021). The Dark Matter Enigma. ArXiv. /abs/2101.10127
 https://science.nasa.gov/astrophysics/focus-areas/what-is-dark-energy
 https://home.cern/science/physics/dark-matter

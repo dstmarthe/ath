@@ -4,10 +4,11 @@ date: 2023-03-28T13:53:13-04:00
 author: ["M&D"]
 summary: "Understanding The Most Common Causes And Symptoms"
 categories: ["Science"]
-tags: ["pain"]
+tags: ["pain", "Gas and Bloating"]
 keywords: ["stomachache", "pain", "symptoms"]
 draft: false
 hasVideo: false
+attrib: "Photo via Unsplash"
 ---
 
 Stomach pain is a common problem that affects people of all ages. There are many different causes of stomach pain, ranging from minor indigestion to more serious conditions like ulcers or appendicitis. Understanding the underlying cause of your stomach pain can help you find relief and prevent further discomfort. In this article, we'll explore some of the most common causes of stomach pain and what you can do to alleviate it.

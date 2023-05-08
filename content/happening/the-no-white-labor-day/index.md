@@ -10,7 +10,7 @@ draft: false
 hasVideo: false
 ---
 
-Have you ever heard of the fashion rule that says you shouldn't wear white after Labor Day? This age-old rule has been around for decades, but have you ever wondered where it came from and why it's still so prevalent today? In this article, we'll take a closer look at the fascinating origin of the "No White After Labor Day" fashion rule and explore why it still holds such a strong influence over our fashion choices.
+Have you ever heard of the fashion rule that says you shouldn't wear white after Labor Day? This age-old rule has been around for decades, but have you ever wondered where it came from and why it's still so prevalent today? 
 
 ### The History of the Rule
 

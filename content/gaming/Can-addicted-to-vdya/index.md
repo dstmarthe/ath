@@ -4,10 +4,13 @@ date: 2023-03-17T03:30:23-04:00
 author: ["M&D"]
 summary: "When the virtual becomes the reality."
 categories: ["Gaming"]
-tags: []
+tags: ["addiction", "video games", "young", "genz", "psychology"]
 keywords: ["addiction", "video games", "young", "genz", "adolescents"]
 draft: false
 hasVideo: false
+attrib: "Photo via Unsplash"
+attribname:
+attriblink:
 ---
 
 The widespread availability of video games, coupled with the ease of access to the internet and affordable digital devices, has led to a significant increase in video game usage over the last decade. While video games can be a fun and engaging way to pass the time, there has been growing concern about the risks of addiction to them, especially among young people.

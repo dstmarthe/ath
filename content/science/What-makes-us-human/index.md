@@ -2,7 +2,7 @@
 title: "What Makes Us Human?" ## Means name of the article is filename
 date: 2023-03-02T19:27:07-05:00
 author: ["M&D"]
-summary:
+summary: "Exploring the Unique Qualities that Define Our Species"
 categories: ["Science"]
 tags: ["meaning", "symbolism", "history"]
 keywords: []
@@ -10,9 +10,7 @@ draft: false
 hasVideo: false
 ---
 
-#### "What Makes Us Human?" - Exploring the Unique Qualities that Define Our Species
-
-As a species, humans have always been fascinated by what sets us apart from other animals. From our ability to think, communicate, and create, to our capacity for emotions, empathy, and morality, there are many traits that make us unique. But what exactly makes us human? In this article, we'll explore some of the key characteristics that define our species and what makes us truly unique.
+Humans are pretty cool, huh? We've got all sorts of unique qualities that set us apart from the rest of the animal kingdom. But what exactly makes us human? Let's dive into the wacky and wonderful world of humanity and find out!
 
 #### Cognitive Abilities
 
@@ -31,5 +29,9 @@ Humans are the only animals with a sense of morality and ethics. We've got compl
 Humans are a creative bunch. We've been making art and tools since the dawn of time, and we're not stopping anytime soon. We've got an innate desire to create and explore, and that's what's driven us to achieve great feats and make countless contributions to science, art, and culture. So go ahead, let your imagination run wild. You never know what kind of crazy stuff us humans will come up with next!
 
 #### The Weird and Wonderful
+
+<img src="san-fermin-pamplona-navarra-0D7Wtqhe-AQ-unsplash.jpg" alt="Final dance at the city hall in San Fermin Pamplona" class="img-fluid" loading="lazy"></img><br/>
+<small class="text-muted">Photo by <a href="https://unsplash.com/@sanfermin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">San Fermin Pamplona - Navarra</a> on <a href="https://unsplash.com/photos/0D7Wtqhe-AQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
+  
 
 Humans are a weird and wonderful species, and that's what makes us so darn special. We've got advanced cognitive abilities, emotional depth, complex moral systems, and a never-ending thirst for creativity and innovation. So the next time you're feeling down about being human, just remember that you're part of a pretty amazing club. And who knows, maybe one day we'll even figure out how to do calculus underwater.

@@ -8,6 +8,9 @@ tags: ["online gaming", "help", "latency","multiplayer"]
 keywords: ["online gaming"]
 draft: false
 hasVideo: false
+attrib: "Photo by JJ Ying on"  
+attribname: "Unsplash"
+attriblink: "https://unsplash.com/photos/8bghKxNU1j0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
 ---
 
 You're playing your favorite game, and suddenly, the screen freezes, and your character is unresponsive. The lag spike has struck again. If you're an avid gamer, you've probably experienced this frustrating phenomenon of being stuck in a virtual limbo.  So, what causes lag spikes in games?

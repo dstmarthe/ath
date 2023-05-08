@@ -2,12 +2,13 @@
 title: "Streamers shocked by hilarious A.I. clones" ## Means name of the article is filename
 date: 2023-03-08
 author: ["M&D"]
-summary:
+summary: "They can stream better than us"
 categories: ["The All"]
 tags: ['cool', 'funny', 'ai', 'innovation']
 keywords: ['innovation', 'funny', 'millenial']
 draft: false
 hasVideo: true
+attrib: "Screenshot from Alinity livestream"
 ---
 
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/PSktiduS5wU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>

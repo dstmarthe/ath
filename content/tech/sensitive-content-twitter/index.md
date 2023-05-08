@@ -2,7 +2,7 @@
 title: "Why Can't I See Sensitive Content on Twitter?" ## Means name of the article is filename
 date: 2023-03-24T07:06:17-04:00
 author: ["M&D"]
-summary: "How to have a more explicit experience"
+summary: "Breaking Down Twitter's Sensitive Content Filter: Why You Can't See I"
 categories: ["Tech"]
 tags: ["social media"]
 keywords: ["twitter", "censorship"]

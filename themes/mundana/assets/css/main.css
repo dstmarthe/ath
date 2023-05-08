@@ -14341,13 +14341,13 @@ article blockquote:before {
   line-height: 1;
 }
 
-article:first-letter {
+/* article:first-letter {
   float: left;
   font-size: 5em;
   line-height: 1;
   margin: 0 .2em 0 0;
   vertical-align: top;
-}
+} */
 
 .spanborder {
   /* border-bottom: 1px solid #e8f3ec; */

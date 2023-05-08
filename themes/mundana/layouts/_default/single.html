@@ -4,12 +4,12 @@
 	<div class="row justify-content-center">
 		{{- partial "_shared/share.html" . -}}
 		<div class="col-md-12 col-lg-8">
-			<article class="article-post">{{ .Content }}</article>
+			<article class="article-post mb-5">{{ .Content }}</article>
 			{{- partial "_shared/subscribe.html" . -}}
 
 			<!-- Next and PrevPage inside current section -->
 			<div
-				class="row text-primary mt-3 PageNavigation d-flex justify-content-between font-weight-bold"
+				class="row text-primary my-3 PageNavigation d-flex justify-content-between font-weight-bold"
 			>
 				{{with .NextInSection}}
 				<a class="d-block col-md-6" href="{{.Permalink}}">
@@ -23,6 +23,11 @@
 				<div class="clearfix"></div>
 			</div>
 			<!-- End Next and PrevPage -->
+			<div class="commentbox"></div>
+			<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+			<script>
+				commentBox("5709160817623040-proj");
+			</script>
 		</div>
 	</div>
 </div>

@@ -872,7 +872,7 @@ mark,
   outline: none;
   border-bottom: 2px solid #f7f7f7;
   caret-color: #3f3f3f;
-  background-color: #ffffff;
+  background-color: var(--white);
   padding: 5px;
   transition: .5s linear;
   font-family: monospace;
@@ -930,10 +930,10 @@ mark,
 }
 
 .article-post {
-  font-family: Merriweather;
-  font-size: 1.1rem;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.27rem;
   line-height: 1.84;
-  color: rgba(0, 0, 0, .8);
+  color: var(--dark);
 }
 
 .article-post p,
@@ -5828,6 +5828,11 @@ input[type="button"].btn-block {
 .font-bebas {
   font-family: 'Bebas Neue', 'Inter', sans-serif, cursive;
 }
+
+.font-garamond {
+  font-family: 'EB Garamond', serif;
+}
+
 
 .card {
   position: relative;
@@ -14303,7 +14308,7 @@ ol.list-featured li:before {
 }
 
 article {
-  font-family: "sans-serif", "Georgia";
+  font-family: "EB Garamond", "sans-serif", "Georgia";
   font-size: 20px;
   line-height: 1.7;
 }
@@ -14336,12 +14341,13 @@ article blockquote:before {
   line-height: 1;
 }
 
-/* article:first-letter {
-    float: left;
-    font-size: 5em;
-    line-height: 1;
-    margin: 0 .2em 0 0;
-    vertical-align: top; } */
+article:first-letter {
+  float: left;
+  font-size: 5em;
+  line-height: 1;
+  margin: 0 .2em 0 0;
+  vertical-align: top;
+}
 
 .spanborder {
   /* border-bottom: 1px solid #e8f3ec; */

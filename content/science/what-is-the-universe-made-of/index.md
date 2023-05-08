@@ -11,38 +11,49 @@ hasVideo: false
 featured: false
 ---
 
-The universe is a vast and complex entity that has been the subject of human curiosity for centuries. Despite our many advancements in science and technology, we still have much to learn about the universe and what it's made of. In this article, we'll explore the mysterious composition of the universe and what scientists have discovered so far.
+# OUTLINE
 
-### Dark Matter
+1. [The Enigma of Dark Matter](#heading1)
+2. [The Mysterious Force of Dark Energy](#heading2)
+3. [Visible Matter: The Tip of the Iceberg](#heading3)
+4. [Conclusion The Never-Ending Journey of Discovery](#end)
 
-One of the most intriguing mysteries of the universe is the presence of dark matter. Dark matter is a type of matter that cannot be seen with telescopes or detected with any of our current technology. Scientists believe that dark matter makes up about 27% of the universe, based on its gravitational effects on visible matter. However, the exact nature of dark matter remains unknown, and it continues to be one of the most fascinating and enigmatic mysteries of the universe. The following are six theories of what dark matter could be.
+Are you ready to explore the depths of the universe? Hold on tight, because it's going to be a wild ride! The universe is a vast and complex entity that has been the subject of human curiosity for centuries. Despite our many advancements in science and technology, we still have much to learn about the universe and what it's made of. So, let's dive in!
 
-WIMPs: Weakly Interacting Massive Particles (WIMPs) are the leading candidates for dark matter. WIMPs are particles that interact only through the weak nuclear force and gravity, making them difficult to detect. They are thought to have a mass of about 100 times that of a proton and may be produced in the early universe.
+## The Enigma of Dark Matter
 
-Axions: Axions are hypothetical particles that were proposed to explain why the strong nuclear force doesn't violate CP symmetry. They were later proposed as a possible candidate for dark matter. Axions are thought to have a very small mass and interact very weakly with matter, making them difficult to detect.
+<a name="heading1"></a>
+Dark matter is like that kid in class who always sits in the back and never raises their hand. We know it's there, but we can't see it or interact with it. Scientists believe that dark matter makes up about 27% of the universe, but we have yet to understand its true nature.
 
-MACHOs: Massive Compact Halo Objects (MACHOs) are objects such as brown dwarfs, black holes, or planets that are too small to be stars but too large to be planets. They could be dark matter if there are enough of them, but current observations suggest that they cannot account for all of the dark matter.
+Some people believe that dark matter is made up of tiny particles called WIMPs, while others think it could be sterile neutrinos or dark photons. And get this, some scientists have even proposed that the laws of gravity need to be modified to explain the observed gravitational effects of dark matter. Whoa!
 
-Sterile Neutrinos: Neutrinos are elementary particles that have a very small mass and interact only through the weak nuclear force. Sterile neutrinos are hypothetical particles that do not interact through any known forces except gravity. They could be a candidate for dark matter if they have a mass of a few keV.
+But one thing is for sure, we have a lot more to learn about dark matter. Who knows what secrets it's hiding!
 
-Modified Gravity: Some scientists have proposed that the laws of gravity need to be modified to explain the observed gravitational effects of dark matter. This theory, called Modified Newtonian Dynamics (MOND), suggests that gravity behaves differently at large scales than it does at small scales.
+## The Mysterious Force of Dark Energy
 
-Dark Photons: Dark photons are hypothetical particles that are thought to interact with dark matter through a force similar to the electromagnetic force. They could be a candidate for dark matter if they have a mass in the range of a few electronvolts.
+<a name="heading2"></a>
+Dark energy is like the unicorn of the universe. It's a mysterious force that makes up about 68% of the universe and is responsible for the accelerated expansion of the universe. Scientists have discovered the existence of dark energy through its effects on visible matter, but they still do not know what dark energy actually is or how it behaves.
 
-While scientists have proposed various theories about what dark matter could be, its true nature remains a mystery. Future research and observations may help to shed light on this enigmatic substance and unravel the secrets of the universe
+Some scientists believe that dark energy exists as one form called quintessence, while others think it could come in many different forms. And get this, some scientists even think that multiple universes are possible. Mind-blowing!
 
-### Dark Energy
+## Visible Matter: The Tip of the Iceberg
 
-Dark energy is a mysterious component of the universe that makes up about 68% of the universe. It is believed to be responsible for the accelerated expansion of the universe. Scientists have discovered the existence of dark energy through its effects on visible matter, but they still do not know what dark energy actually is or how it behaves. Dark energy is what most people think of when they hear the word "dark". It's a term used to describe an unknown and mysterious force within the universe. Dark energy seems to defy gravity, pushing the universe apart faster and faster. This is why it is also called "repulsive dark energy." In recent years, scientists have come up with two possible theories as to how dark energy behaves. The first theory says that it exists as one form called quintessence, while the second theory says that it comes in many different forms. Multiple universes are possible.
+<a name="heading3"></a>
+Visible matter, commonly referred to as baryonic matter, only accounts for 5% of the universe. It's everything we can see and interact with - stars, planets, galaxies and more. This type of matter is made up of atoms which further comprise of protons, neutrons, and electrons. It also seems to be the most abundant and fundamental form of matter. So, let's appreciate the visible matter we have and make the most of it!
 
-### Visible Matter
+The Afterglow of the Big Bang: Cosmic Background Radiation
+Cosmic background radiation is like the souvenir from the universe's biggest party - the Big Bang. It's the faint glow of light that fills the universe and serves as a reminder of the explosive event that created the universe.
 
-Visible matter, commonly referred to as baryonic matter, only accounts for 5% of the universe. It’s everything we can see and interact with - stars, planets, galaxies and more. This type of matter is made up of atoms which further comprise of protons, neutrons and electrons. It also seems to be the most abundant and fundamental form of matter.
+Cosmic background radiation provides valuable information about the early universe and helps scientists understand the origin and evolution of the universe. It is a remnant from the Big Bang and is composed of photons, or particles of light. And get this, the signal is strongest in the microwave region of the spectrum and can be detected with radar-based instruments. Cool, huh?
 
-### Cosmic Background Radiation
+## Conclusion: The Never-Ending Journey of Discovery
 
-Cosmic background radiation is the faint glow of light that fills the universe and serves as a reminder of the Big Bang. This radiation was discovered in the mid-1960s and is believed to be the afterglow of the Big Bang, the explosive event that created the universe. Cosmic background radiation provides valuable information about the early universe and helps scientists understand the origin and evolution of the universe. It is a remnant from the Big Bang and is composed of photons, or particles of light. The signal is strongest in the microwave region of the spectrum and can be detected with radar-based instruments. The strength of this radiation decreases as one moves further away from Earth, but it never completely disappears. This means that there are no large structures or sources that could absorb it to measure its original intensity, making cosmic background radiation a valuable tool for observational cosmology: providing information about where space-time begins and ends as well as detecting vast cosmic structures like galaxies.
+<a name="end"></a>
+The universe is a complex and mysterious entity that scientists are still trying to understand. But don't worry, we're on the case! Dark matter, dark energy, visible matter, and cosmic background radiation are just a few of the many components of the universe that continue to captivate the minds of scientists and the public alike. The study of the universe is a never-ending journey of discovery, and we look forward to learning more about the cosmos in the years to come.
 
-### Conclusion
+So, keep your eyes on the stars and your mind open to the possibilities!
 
-The universe is a complex and mysterious entity that scientists are still trying to understand. While we have made many advancements in our understanding of the universe, much remains unknown. Dark matter, dark energy, visible matter, and cosmic background radiation are just a few of the many components of the universe that continue to captivate the minds of scientists and the public alike. The study of the universe is a never-ending journey of discovery, and we look forward to learning more about the cosmos in the years to come.
+_References:_
+Luminet, J. (2021). The Dark Matter Enigma. ArXiv. /abs/2101.10127
+https://science.nasa.gov/astrophysics/focus-areas/what-is-dark-energy
+https://home.cern/science/physics/dark-matter

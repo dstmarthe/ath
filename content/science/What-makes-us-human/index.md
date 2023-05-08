@@ -4,7 +4,7 @@ date: 2023-03-02T19:27:07-05:00
 author: ["M&D"]
 summary:
 categories: ["Science"]
-tags: [meaning, symbolism, history]
+tags: ["meaning", "symbolism", "history"]
 keywords: []
 draft: false
 hasVideo: false
@@ -14,22 +14,22 @@ hasVideo: false
 
 As a species, humans have always been fascinated by what sets us apart from other animals. From our ability to think, communicate, and create, to our capacity for emotions, empathy, and morality, there are many traits that make us unique. But what exactly makes us human? In this article, we'll explore some of the key characteristics that define our species and what makes us truly unique.
 
- #### Cognitive Abilities
+#### Cognitive Abilities
 
-One of the most distinctive traits of humans is our advanced cognitive abilities. Unlike other animals, humans have the ability to think abstractly, reason logically, and solve complex problems. We are also capable of language and communication, which allows us to express our thoughts and ideas, convey information, and build relationships with others. These cognitive abilities have allowed us to create and build complex civilizations, develop technology, and achieve great feats of science and art.
+Have you ever seen a dolphin doing calculus? Yeah, me neither. Humans have some pretty amazing cognitive abilities that allow us to think abstractly, reason logically, and solve complex problems. Plus, we've got language and communication skills that would make any dolphin jealous. With all these smarts, it's no wonder we've been able to build complex civilizations and achieve great feats of science and art.
 
 #### Emotional Capacity
 
-Another defining characteristic of humans is our capacity for emotions. We are capable of experiencing a wide range of emotions, from happiness and joy to sadness and grief. Our ability to empathize and connect with others on an emotional level is what allows us to form strong bonds, build communities, and support each other. Our emotional capacity also plays a key role in our moral development and helps us to understand the feelings and perspectives of others.
+Humans are emotional creatures, and that's what makes us so darn lovable. We can experience a whole range of emotions, from happiness and joy to sadness and grief. And our ability to empathize with others and connect on an emotional level is what allows us to form strong bonds and build communities. So go ahead, let those tears flow. It's what makes us human!
 
 #### Morality and Ethics
 
-Humans are unique in our ability to develop and understand complex moral and ethical systems. From early societies that practiced communal living and shared resources, to modern nations with complex laws and social norms, humans have developed a rich tapestry of moral and ethical codes that shape our behavior and guide our interactions with others. These systems help us to navigate complex social relationships, make decisions, and find meaning in our lives.
+Humans are the only animals with a sense of morality and ethics. We've got complex systems of right and wrong, good and bad, and all sorts of other moral dilemmas. From our early days of communal living to our modern laws and social norms, we've been trying to figure out how to be good little humans. And let's be real, sometimes we mess up. But the fact that we're constantly striving to be better is what makes us truly unique.
 
 #### Creativity and Innovation
 
-Humans are also known for our remarkable creativity and ability to innovate. From our earliest tools and artworks to modern technology and innovations, humans have always sought to push the boundaries of what is possible. Our innate desire to create and explore has driven us to achieve great feats and make countless contributions to science, art, and culture.
+Humans are a creative bunch. We've been making art and tools since the dawn of time, and we're not stopping anytime soon. We've got an innate desire to create and explore, and that's what's driven us to achieve great feats and make countless contributions to science, art, and culture. So go ahead, let your imagination run wild. You never know what kind of crazy stuff us humans will come up with next!
 
-#### Conclusion
+#### The Weird and Wonderful
 
-Humans are a unique and remarkable species, defined by our advanced cognitive abilities, emotional capacity, morality and ethics, and creativity and innovation. These qualities set us apart from other animals and shape our experiences in the world. Whether you're exploring your own humanity or trying to understand what makes us truly unique, the study of what makes us human is a never-ending journey of discovery and insight.
+Humans are a weird and wonderful species, and that's what makes us so darn special. We've got advanced cognitive abilities, emotional depth, complex moral systems, and a never-ending thirst for creativity and innovation. So the next time you're feeling down about being human, just remember that you're part of a pretty amazing club. And who knows, maybe one day we'll even figure out how to do calculus underwater.

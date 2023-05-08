@@ -2,9 +2,9 @@
 title: "Why Is the Ocean Salty?" ## Means name of the article is filename
 date: 2023-04-05T23:33:20-04:00
 author: ["M&D"]
-summary: "Have you ever wondered why the ocean is salty?"
-categories: ["The All"]
-tags: ["sea"]
+summary: "Does it have to do anything with whales?"
+categories: ["The All", "Science"]
+tags: ["sea", "earth", "ocean"]
 keywords: []
 draft: false
 hasVideo: false

@@ -8,6 +8,7 @@ tags: ["cdda", "tile", "strategy", "tips", "keybindings", "walkthrough"]
 keywords: ["walkthrough", "cdda"]
 draft: false
 hasVideo: false
+attrib: "Colored by A.I., drawn by "
 attribLink: "<a href='https://www.instagram.com/p/CqWkOWhp2kY/'>Danke</a>"
 ---
 

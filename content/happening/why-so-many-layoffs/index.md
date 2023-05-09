@@ -9,6 +9,7 @@ keywords: ["ai", "meta"]
 draft: false
 hasVideo: false
 featured: true
+attrib: "Photo via Unsplash"
 ---
 
 The tech industry is often touted as one of the most lucrative and stable industries, but in recent years, we've seen a wave of layoffs and job cuts. From small start-ups to big tech giants such as Google, Amazon, Facebook and Twitter, no company is immune to the impact of a volatile economy. In this article, we'll explore some of the reasons why layoffs in the tech industry are so prevalent and what it means for workers and the industry as a whole.

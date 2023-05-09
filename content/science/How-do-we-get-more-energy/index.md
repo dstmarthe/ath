@@ -8,6 +8,7 @@ tags: ["energy", "clean", "green energy", "how"]
 keywords: ["solar energy", "photovoltaic"]
 draft: false
 hasVideo: false
+attrib: "Photo via Unsplash"
 ---
 
 The sun is one of the most abundant and reliable sources of energy in our solar system. It provides the light and heat that sustain life on Earth and is the ultimate source of all the energy that drives our planet. However, despite its abundance, we have only just begun to tap into the full potential of the sun's energy. In this article, we'll explore some of the ways we can get more energy from the sun and harness its power to meet our growing energy needs.

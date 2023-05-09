@@ -8,6 +8,7 @@ tags: ["history", "holidays"]
 keywords: ["history"]
 draft: false
 hasVideo: false
+attrib: "Photo via Unsplash"
 ---
 
 Have you ever heard of the fashion rule that says you shouldn't wear white after Labor Day? This age-old rule has been around for decades, but have you ever wondered where it came from and why it's still so prevalent today? 

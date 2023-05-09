@@ -8,6 +8,9 @@ tags: ["sea", "earth", "ocean"]
 keywords: []
 draft: false
 hasVideo: false
+attrib: "Photo via "
+attribname: "Unsplash"
+attriblink: "https://unsplash.com/photos/w5MLElx80P0"
 ---
 
 Have you ever wondered why the ocean is salty? The saltiness of the ocean is a mystery that has puzzled scientists for centuries. It's not just the ocean that's salty either, all seawater on the planet has a distinctive taste and composition. Here are some of the reasons why the ocean is salty and how this impacts the earth and its inhabitants.

@@ -7,6 +7,15 @@
 			<h5 class="font-weight-bold spanborder pt-4 display-4">
 				<span>{{ .CurrentSection.Params.category }}</span>
 			</h5>
+			<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fo-3j+92-6y-g7"
+     data-ad-client="ca-pub-6364158409116386"
+     data-ad-slot="3308906575"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 			{{ $post_paginator := .Paginate (.Pages) 10 }} {{ range
 			$post_paginator.Pages }} {{- partial "list-partials/postlist.html" . -}}
 			{{end}} {{- partial "list-partials/pagination.html" $post_paginator -}}

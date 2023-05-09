@@ -5392,6 +5392,8 @@ input[type="button"].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  transition: all .08s;
+  font-weight: 400;
 }
 
 .navbar>.container,
@@ -5451,7 +5453,7 @@ input[type="button"].btn-block {
   font-size: 1.15rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
   border-radius: 0.25rem;
 }
 
@@ -11753,13 +11755,6 @@ a.text-lightblue:focus {
     min-width: 992px !important;
   }
 
-  .navbar {
-    display: none;
-  }
-
-  .badge {
-    border: 1px solid #000;
-  }
 
   .table {
     border-collapse: collapse !important;
@@ -13804,11 +13799,6 @@ a.text-dark:hover {
   border-radius: 0px 30px 30px 0px;
 }
 
-.navbar {
-  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.05);
-  transition: all .08s;
-  font-weight: 400;
-}
 
 .navbar .highlight .nav-link {
   color: #03a87c !important;

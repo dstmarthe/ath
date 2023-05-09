@@ -385,7 +385,8 @@ template {
   --green: #078080;
   --teal: #80FFDB;
   --cyan: #35bdff;
-  --white: #f8f5f2;
+  /* --white: #f8f5f2; */
+  --white: #fff;
   --gray-dark: #343a40;
   --light-blue: #e8f3ec;
   --primary: #dfefe8;

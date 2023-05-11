@@ -15,9 +15,9 @@
 		<div class="col-md-4 col-12">
 			<div class="flex-md-row box-shadow bg-white h-100">
 				<a href="{{ .Site.BaseURL }}/theall" style="text-decoration: none;"><h5 class="font-weight-bold fs-3 section-title-root">
-					<span class="section-title-text">The All</span>
+					<span class="section-title-text">Gaming</span>
 				</h5></a>
-				{{- range first 3 ( where site.RegularPages "Section" "theall" ) }}
+				{{- range first 3 ( where site.RegularPages "Section" "gaming" ) }}
 				{{- partial "list-partials/postbox.html" . -}} 
 				{{- end}}
 			</div>

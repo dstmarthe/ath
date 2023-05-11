@@ -19,7 +19,7 @@ Below are some tips to keep you alive in the game for atleast a week.
 
 ### 1. Dying is fun
 
-Once this game becomes your next addiction - the dying won't matter. Cataclysm is one of those games where learning is a part of the fun, and that means dying, a lot.Despite this I myself absolutely love hitting "Play Now" and being set with a random character and starting scenerio. It's a new adventure everytime, and working with your character's strengths is an interesting, intimate and immersive experience. There's also a lot you can do, so each run gives you an opportunity to ask this question: "What do I want to do with this run?" Loading a new world is fast, and then your back into a new scenario, wiser than before.
+Once this game becomes your next addiction - the dying won't matter. Cataclysm is one of those games where learning is a part of the fun, and that means dying, a lot. Despite this, I myself absolutely love hitting "Play Now" and being set with a random character and starting scenerio. It's a new adventure everytime, and working with your character's strengths is an interesting, intimate and immersive experience. There's also a lot you can do, so each run gives you an opportunity to ask this question: "What do I want to do with this run?" Loading a new world is fast, and then your back into a new scenario, wiser than before.
 
 ### 2. It's a long game
 

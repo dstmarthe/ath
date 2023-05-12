@@ -46,20 +46,25 @@
 			class="card-img-overlay w-100 start-50 translate-middle-x text-center"
 			style="padding-top: 0em !important"
 		>
-			<div class="p-4" style="margin-top: 8vw">
-				<h5 class="card-title font-bold text-uppercase text-wrap">
+			<div class="p-4" style="margin-top: 7.5vw">
+				<h5 class="card-title text-uppercase text-wrap">
 					<span
 						class="d-inline-flex font-bebas"
-						style="text-shadow: 1px 1px 3px hsla(0, 0%, 0%, 0.126)"
+						style="
+							text-shadow: 1px 1px 3px hsla(0, 0%, 0%, 0.311);
+							letter-spacing: 0.05em;
+						"
 						>{{ .Title }}</span
 					>
 				</h5>
 				{{/*
 				<p class="card-text fs-6">{{ .Summary }}</p>
 				*/}}
-				<p class="card-text">
+				<p class="card-text font-weight-bold">
 					<small
-						>{{ dateFormat "Jan 2" .PublishDate }} in
+						><span style="text-shadow: 1px 1px 3px hsla(0, 0%, 0%, 0.311)"
+							>{{ dateFormat "Jan 2" .PublishDate }} in</span
+						>
 						<span class="text-danger badge badge-white"
 							>{{.CurrentSection.Params.category}}</span
 						></small

@@ -5700,10 +5700,10 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
+/* .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
   color: rgba(0, 0, 0, 0.7);
-}
+} */
 
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
@@ -5718,7 +5718,6 @@ input[type="button"].btn-block {
 
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -5789,20 +5788,42 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
-.rainbow {
-
-  background-image: linear-gradient(to right, rgba(255, 0, 0, 1) 0%,
-      rgba(255, 255, 0, 1) 33%,
-      rgba(0, 192, 255, 1) 66%,
-      rgba(192, 0, 255, 1) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-
+/*       rainbow light-nav           */
+.navbar-light .navbar-nav .nav-item:nth-of-type(1) a.nav-link:hover,
+.navbar-light .navbar-nav .nav-item:nth-of-type(1) a.nav-link:focus {
+  color: #e70000;
 }
+
+.navbar-light .navbar-nav .nav-item:nth-of-type(2) a.nav-link:hover,
+.navbar-light .navbar-nav .nav-item:nth-of-type(2) a.nav-link:focus {
+  color: #FB9649;
+}
+
+.navbar-light .navbar-nav .nav-item:nth-of-type(3) a.nav-link:hover,
+.navbar-light .navbar-nav .nav-item:nth-of-type(3) a.nav-link:focus {
+  color: #FFE680;
+}
+
+.navbar-light .navbar-nav .nav-item:nth-of-type(4) a.nav-link:hover,
+.navbar-light .navbar-nav .nav-item:nth-of-type(4) a.nav-link:focus {
+  color: #56f000;
+}
+
+.navbar-light .navbar-nav .nav-item:nth-of-type(5) a.nav-link:hover,
+.navbar-light .navbar-nav .nav-item:nth-of-type(5) a.nav-link:focus {
+  color: #2779ff;
+}
+
+.navbar-light .navbar-nav .nav-item:nth-of-type(6) a.nav-link:hover,
+.navbar-light .navbar-nav .nav-item:nth-of-type(6) a.nav-link:focus {
+  color: #7700ff;
+}
+
 
 .font-oswald {
   font-family: 'Oswald', sans-serif;
 }
+
 .font-inter {
   font-family: 'Inter', sans-serif;
 }
@@ -13855,10 +13876,10 @@ a.text-dark:hover {
   color: #170055;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
+/* .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
   color: #3E00FF;
-}
+} */
 
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);

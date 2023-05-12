@@ -841,6 +841,7 @@ mark,
   content: "\2014 \00A0";
 }
 
+/* Custom */
 .catbadge {
   background: rgba(3, 168, 124, 0.11);
   color: #03a87c;
@@ -897,7 +898,12 @@ mark,
   margin-top: 0;
 }
 
+.section-title-text:hover {
+  text-decoration: underline;
+}
 
+
+/* End Custom */
 
 
 

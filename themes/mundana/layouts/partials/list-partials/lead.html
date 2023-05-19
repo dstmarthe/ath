@@ -31,7 +31,7 @@
 <a href="{{.Permalink}}" title="Go to article">
 	<div
 		class="position-relative d-flex flex-column border-0 text-bg-dark w-100 m-0"
-		style="overflow: hidden"
+		style="overflow: visible"
 	>
 		{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
 		}}
@@ -39,7 +39,8 @@
 			src="{{ .Permalink }}"
 			class="card-img"
 			alt="Featured article"
-			style="filter: none; width: 70%"
+			height="500rem"
+			style="object-fit: cover"
 		/>
 		{{end}}
 
@@ -47,7 +48,7 @@
 			class="card-img-overlay w-100 start-50 translate-middle-x text-center"
 			style="padding-top: 0em !important"
 		>
-			<div class="p-4" style="margin-top: 7.5vw">
+			<div class="p-4" style="margin-top: 10vw">
 				<h5 class="card-title text-uppercase text-wrap">
 					<span
 						class="d-inline-flex font-bebas"

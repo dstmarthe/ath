@@ -31,14 +31,15 @@
 <a href="{{.Permalink}}" title="Go to article">
 	<div
 		class="position-relative d-flex flex-column border-0 text-bg-dark w-100 m-0"
+		style="overflow: hidden"
 	>
 		{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
 		}}
 		<img
 			src="{{ .Permalink }}"
 			class="card-img"
-			alt="featured article"
-			style="filter: url(#x-rays)"
+			alt="Featured article"
+			style="filter: none; width: 70%"
 		/>
 		{{end}}
 

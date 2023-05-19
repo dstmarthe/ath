@@ -3,7 +3,13 @@
 		<a href="{{ .Permalink }}">
 			{{$images := .Resources.ByType "image"}} {{with $images.GetMatch "*cover*"
 			}}
-			<img height="100" width="100%" src="{{ .Permalink }}" alt="thumb" />
+			<img
+				height="100"
+				width="100%"
+				src="{{ .Permalink }}"
+				alt="thumb"
+				style="object-fit: cover"
+			/>
 			{{end}}
 		</a>
 	</div>

@@ -41,8 +41,10 @@ HEADER
 					</div>
 				</div>
 				<div class="col-md-6 pr-0 align-self-center">
-					{{$images := .Resources.ByType "image"}} {{with $images.GetMatch
-					"*cover*"}}
+					<a href="{{.Params.coverlink}}"
+						>{{$images := .Resources.ByType "image"}} {{with $images.GetMatch
+						"*cover*"}}</a
+					>
 					<img src="{{ .Permalink }}" alt="{{.Params.imgalt}}" />
 					{{end}}
 					<small class="text-muted"

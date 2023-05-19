@@ -3,11 +3,11 @@ HEADER
 --------------------------------------->
 <div class="container">
 	<div
-		class="jumbotron jumbrotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative"
+		class="jumbotron jumbrotron-fluid mb-4 pl-0 pt-0 pb-0 bg-white position-relative"
 	>
 		<div class="h-100 tofront">
 			<div class="row justify-content-between">
-				<div class="col-md-6 pt-5 pb-3 pr-6 align-self-center">
+				<div class="col-md-6 pt-5 pb-3 pr-3 align-self-center">
 					<p class="text-uppercase font-weight-bold">
 						<a class="text-danger" href="{{ .Site.BaseURL }}/{{.Section}}"
 							>{{ .Section }}</a
@@ -41,7 +41,7 @@ HEADER
 					</div>
 				</div>
 				<div class="col-md-6 pr-0 align-self-center">
-					<a href="{{.Params.coverlink}}"
+					<a href="{{ .Params.coverlink }}"
 						>{{$images := .Resources.ByType "image"}} {{with $images.GetMatch
 						"*cover*"}}</a
 					>

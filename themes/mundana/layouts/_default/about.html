@@ -1,8 +1,7 @@
 {{ define "header"}} {{- partial "_shared/navbar.html" . -}} {{ end }} {{ define
 "main" }}
 <div class="container">
-	<div class="py-4 mt-2 mb-2 text-center">
-		{{/*
+	<div class="py-4 mt-3 text-center">
 		<a class="d-block mx-auto" href="{{ .Site.BaseURL }}/">
 			{{ with .Site.Params.logo }}
 			<img src="{{ . | urlize | relURL }}" alt="logo" style="width: 14em" />
@@ -10,14 +9,12 @@
 			<span style="font-family: Righteous">{{.Site.Title}}</span>
 			{{ end }}
 		</a>
-		*/}} {{/*
-		<h1 class="display-6 fw-bold">Vision</h1>
+		{{/*
+		<h1 class="display-6 fw-bold">About Us</h1>
 		*/}}
 		<div class="col-lg-9 mx-auto">
 			<div class="mb-4">
-				<h2
-					class="fw-bold display-1 d-block text-left font-inter mr-2 hover-underline"
-				>
+				<h2 class="fw-bold display-1 text-left font-inter hover-underline">
 					VISION
 				</h2>
 				<p class="font-garamond fs-4 text-justify mb-3">
@@ -30,7 +27,7 @@
 			</div>
 			<br />
 			<div class="mb-4">
-				<h2 class="fw-bold display-1 text-left font-inter hover-underline ml-2">
+				<h2 class="fw-bold display-1 text-left font-inter hover-underline">
 					MISSION
 				</h2>
 				<p class="font-garamond fs-4 text-justify mb-3 text-break">

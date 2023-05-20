@@ -196,6 +196,24 @@ a:not([href]):not([tabindex]):focus {
   filter: none;
 }
 
+.hover-white {
+  color: inherit;
+}
+
+.hover-white:hover {
+  color: #fff;
+  transition: ease 5ms;
+}
+
+.hover-underline {
+  text-decoration: none;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+  transition: ease 5ms;
+}
+
 /* ===== End Custom ====*/
 
 /*!

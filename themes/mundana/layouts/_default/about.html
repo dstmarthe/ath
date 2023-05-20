@@ -2,6 +2,7 @@
 "main" }}
 <div class="container">
 	<div class="py-4 mt-2 mb-2 text-center">
+		{{/*
 		<a class="d-block mx-auto" href="{{ .Site.BaseURL }}/">
 			{{ with .Site.Params.logo }}
 			<img src="{{ . | urlize | relURL }}" alt="logo" style="width: 14em" />
@@ -9,16 +10,39 @@
 			<span style="font-family: Righteous">{{.Site.Title}}</span>
 			{{ end }}
 		</a>
-		{{/*
-		<h1 class="display-6 fw-bold">About Us</h1>
+		*/}} {{/*
+		<h1 class="display-6 fw-bold">Vision</h1>
 		*/}}
-		<div class="col-lg-6 mx-auto">
-			<p class="lead text-justify mb-3">
-				Our vision is to provide informative and engaging content that answers
-				some of the most searched questions and ideas on the web. From gaming to
-				tech, science, and trends. Even the mundane things in life, we cover it
-				all. Join us on this journey of discovery and knowledge-sharing.
-			</p>
+		<div class="col-lg-9 mx-auto">
+			<div class="mb-4">
+				<h2
+					class="fw-bold display-1 d-block text-left font-inter mr-2 hover-underline"
+				>
+					VISION
+				</h2>
+				<p class="font-garamond fs-4 text-justify mb-3">
+					Our vision is to provide informative and engaging content that answers
+					some of the most searched questions and ideas on the web. From gaming
+					to tech, science, and trends. Even the mundane things in life, we
+					cover it all. Join us on this journey of discovery and
+					knowledge-sharing.
+				</p>
+			</div>
+			<br />
+			<div class="mb-4">
+				<h2 class="fw-bold display-1 text-left font-inter hover-underline ml-2">
+					MISSION
+				</h2>
+				<p class="font-garamond fs-4 text-justify mb-3 text-break">
+					Our goal and mission is to empower our readers' minds by providing
+					them with information and perspectives that challenge and expand their
+					thinking, while also fostering a community that encourages
+					intellectual curiosity, critical thinking, and constructive dialogue.
+					We believe that by staying informed and open-minded, our readers can
+					make informed decisions, navigate the world around them with
+					confidence and contribute positively to <br />.society
+				</p>
+			</div>
 			{{/*
 			<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
 				<button type="button" class="btn d-none btn-primary btn-lg px-4 gap-3">

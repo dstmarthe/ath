@@ -34,3 +34,5 @@ The messages were narrated by the site and the whole process was free after ente
 I would not promote anything this out-there and experimental if I had not recieved benefit from it myself. If you have even 10 minutes and want to take the most accurate "personality quiz," I highly recommend trying out [Numerologist](https://bit.ly/45fruYf), maybe through headphones on the train, or wherever, but just be prepared to be astounded!
 
 <a href="https://bit.ly/45fruYf" style="color: #fff;"><div class="btn btn-purple mb-3" >Try it.</div></a>
+<br/>
+<span class="small" style="line-height:.75;">\*We do get monetary kick-back from purchases through our link. In our reviews, we keep it :100:.</span>

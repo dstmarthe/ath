@@ -26,9 +26,9 @@ This blog was built with Hugo, and the Mundana theme.
 - Shortcodes allow you to quickly make components with pre-built code
 - Youtube videos: if you want to insert a Youtube video type `{{ youtube url}}` instead of "url" insert the string of characters of "v= in a Youtube link
   - eg:`{{ youtube salY_Sm6mv4&ab_channel=AaronJack }}`
-  `<figure >
-  <img src="/media/spf13.jpg"  />
+  {{ youtube salY_Sm6mv4&ab_channel=AaronJack }}
+  ``<figure > <img src="/media/spf13.jpg"  />
   <figcaption>
   <h4>Steve Francia</h4>
   </figcaption>
-  </figure>`
+  </figure>``

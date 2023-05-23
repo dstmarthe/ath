@@ -20,9 +20,15 @@ This blog was built with Hugo, and the Mundana theme.
 - Italicize with single asteriks eg: `*italics*` makes _italics_
 - To make text larger or otherwise edit individual peices of text, use the `<span>` tag with classes and styles eg: `"This is some example text and I want <span class="text-warning">this</span> to be red"`
 - Refer to the [Bootstrap](https://getbootstrap.com/docs/5.3/content/typography/) typography guide for quick edits to put into the class to edit text
-`<figure >
-<img src="/media/spf13.jpg"  />
-<figcaption>
-<h4>Steve Francia</h4>
-</figcaption>
-</figure>`
+
+## Shortcodes
+
+- Shortcodes allow you to quickly make components with pre-built code
+- Youtube videos: if you want to insert a Youtube video type `{{ youtube url}}` instead of "url" insert the string of characters of "v= in a Youtube link
+  - eg:`{{ youtube salY_Sm6mv4&ab_channel=AaronJack }}`
+  `<figure >
+  <img src="/media/spf13.jpg"  />
+  <figcaption>
+  <h4>Steve Francia</h4>
+  </figcaption>
+  </figure>`

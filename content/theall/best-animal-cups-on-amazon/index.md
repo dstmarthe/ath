@@ -1,5 +1,5 @@
 ---
-title: "14 Must-Have Animal Cups To Gift from Amazon in 2023" ## Means name of the article is filename
+title: "14 Must-Have Animal Themed Cups from Amazon | 2023" ## Means name of the article is filename
 date: 2023-05-23T16:30:17-04:00
 author: ["Dale S."]
 summary: "We've curated a number of the finest and cutest best-selling animal themed cups on Amazon."
@@ -15,6 +15,8 @@ tags:
     "giftguide",
     "cats",
     "amazon shopping",
+    "coffe cup",
+    "coffee mug",
   ]
 keywords: ["giftguide", "amazon shopping", "handcrafted"]
 draft: false

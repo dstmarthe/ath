@@ -29,7 +29,7 @@ featured: true
 
 Cool mugs are vital. I remember purchasing a mug from a famous waterpark when I went on a field-trip in middleschool. It had dolphins and sea turtles on a blue and green aquatic background. As all heavily used cups after a few years, a chance drop was all it took to break it. But I still remember how it looked, and how happy it made me feel to reflect upon it.
 
-Below are a collection of the coolest, highly reviewed _hand-crafted_ animal-themed cups on Amazon that you will want to hug instead of drink out of.
+Below are a collection of the coolest, highly reviewed _hand-crafted_ animal-themed cups on Amazon that you will want to hug instead of drink out of. As an Amazon Associate we earn from qualifying purchases.
 <br>
 <br>
 <br>

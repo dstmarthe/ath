@@ -7,6 +7,7 @@ This blog was built with Hugo, and the Mundana theme.
 
 - You can use markdown and html
 - Cover image thumbnails need have "cover" in filename, store in same article directory as index.md of article
+  - Ideal image dimensions: 750x500px
 - Date in the .md file should look like: 2023-05-16T21:10:44-04:00
   - YEAR-MONTH-DATE(T for time)(militarytime don't have to put seconds)-04:00(We will keep using -04:00 for EST time)
 - Images: `![Example alt text](exampleimg.jpg)` square braces is the alt text, and the curved braces are the path or url

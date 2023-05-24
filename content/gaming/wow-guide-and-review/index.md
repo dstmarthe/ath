@@ -6,7 +6,7 @@ summary:
 categories: [""]
 tags: []
 keywords: []
-draft: false
+draft: true
 hasVideo: false
 attrib: ""
 attribname: ""

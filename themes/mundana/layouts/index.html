@@ -110,6 +110,17 @@ data-full-width-responsive="true"></ins>
 		</div>
 	</div>
 </div>
+<script>
+	if (window.netlifyIdentity) {
+	  window.netlifyIdentity.on("init", user => {
+		if (!user) {
+		  window.netlifyIdentity.on("login", () => {
+			document.location.href = "/admin/";
+		  });
+		}
+	  });
+	}
+  </script>
 {{ if isset .Site.Params.index "alertbar" }} {{ if .Site.Params.index.alertbar
 }} {{- partial "_shared/alertbar.html" . -}} {{ end }} {{ end }} {{end}} {{
 define "footer" }} {{- partial "_shared/footer.html" . -}} {{end}}

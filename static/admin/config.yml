@@ -65,8 +65,10 @@ collections:
         label: Tags
         widget: list
         add_to_top: true
-        default: [""]
         max: 18
+        fields:
+          - { label: type..., name: tag, widget: text }
+
       - name: keywords
         label: Keywords
         widget: list

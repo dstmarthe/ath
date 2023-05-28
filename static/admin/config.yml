@@ -23,19 +23,19 @@ collections:
           name: section,
           label: Section,
           widget: select,
-          options: ["happening", "tech", "science", "gaming", "theall"],
+          options: ["happening", "tech", "science", "gaming", "theall"]
         }
         - {
           name: categories,
           label: Categories,
           widget: select,
-          options: ["Happening", "Tech", "Science", "Gaming", "The All"],
+          options: ["Happening", "Tech", "Science", "Gaming", "The All"]
         }
       - {
           label: "Featured Image",
           name: "thumbnail",
           widget: "image",
-          default: "./"
+          default: "./",
           required: false,
           media_library:
             config:

@@ -10,7 +10,7 @@ collections:
   - name: post
     label: Post
     folder: "content/{{section}}/{{title}}"
-    slug: "index.{{extension}}"
+    slug: "index"
     format: yaml-frontmatter
     create: true
     fields:

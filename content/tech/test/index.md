@@ -1,21 +1,12 @@
 ---
 title: test
 author: test
-summary: teseeststst
+summary: estsets
 place: tech
 categories:
   - Tech
 thumbnail: ""
-tags:
-  - ttttttt
-  - kkkkk
-keywords:
-  - ""
-  - jjjkkkkkh
-  - hh
-  - h
-  - h
-date: 2023-05-28T07:43:07.073Z
+date: 2023-05-28T07:50:37.266Z
 draft: false
 ---
-t﻿setsets
+t﻿estestesetsetssss

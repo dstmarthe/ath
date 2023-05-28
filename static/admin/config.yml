@@ -77,4 +77,4 @@ collections:
       - label: "Draft"
         name: draft
         widget: hidden
-        default: "false"
+        default: false

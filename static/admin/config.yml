@@ -44,6 +44,7 @@ collections:
           name: keywords,
           label: Keywords,
           widget: list,
+          field: text,
           default: [""],
           max: 18,
         }

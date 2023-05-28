@@ -6,7 +6,7 @@ publish_mode: editorial_workflow
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 site_url: https://allthathappens.com
-sortable_fields: ["section", "title", "author"]
+
 collections:
   - name: post
     label: Post
@@ -14,6 +14,7 @@ collections:
     path: "{{place}}/{{title}}/{{slug}}"
     slug: "index"
     format: yaml-frontmatter
+    sortable_fields: ["section", "title", "author"]
     create: true
     fields:
       - { name: title, label: Title, widget: string }
@@ -30,7 +31,12 @@ collections:
           label: Categories,
           widget: select,
           multiple: true,
-          options: ["Happening", "Tech", "Science", "Gaming", "The All"],
+          options:
+           - { label: "Happening", value: "Happening" }
+           - { label: "Tech", value: "Tech" }
+           - { label: "Science", value: "Science" }
+           - { label: "Gaming", value: "Gaming" }
+           - { label: "The All", value: "The All" }
         }
       - {
           label: "Featured Image",

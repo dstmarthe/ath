@@ -40,10 +40,10 @@ collections:
           - science
           - gaming
           - theall
-      - label: Categories,
-        name: categories,
-        widget: select,
-        multiple: true,
+      - label: Categories
+        name: categories
+        widget: select
+        multiple: true
         options:
           - label: Happening
             value: Happening

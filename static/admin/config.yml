@@ -14,7 +14,7 @@ collections:
     slug: index
     format: yaml-frontmatter
     sortable_fields:
-      - section
+      - place
       - title
       - author
     create: true
@@ -78,3 +78,5 @@ collections:
         name: draft
         widget: hidden
         default: false
+---
+

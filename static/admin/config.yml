@@ -37,7 +37,7 @@ collections:
           widget: "image",
           default: "./",
           required: false,
-          media_library:
+          media_library: 
             config:
               multiple: true
         }

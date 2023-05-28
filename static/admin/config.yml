@@ -25,6 +25,9 @@ collections:
       - name: author
         label: Author
         widget: string
+      - name: body
+        label: Body
+        widget: markdown
       - name: summary
         label: Summary
         widget: text
@@ -57,21 +60,18 @@ collections:
         widget: image
         default: ./
         required: false
-      - name: body
-        label: Body
-        widget: markdown
+
       - name: tags
         label: Tags
         widget: list
-        default:
-          - ""
+        add_to_top: true
+        default: [""]
         max: 18
       - name: keywords
         label: Keywords
         widget: list
-        field: text
-        default:
-          - ""
+        add_to_top: true
+        default: [""]
         max: 18
       - label: Publish Date
         name: date

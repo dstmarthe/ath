@@ -11,7 +11,7 @@ collections:
   - name: post
     label: Post
     folder: content
-    path: "{{section}}/{{title}}/{{slug}}"
+    path: "{{place}}/{{title}}/{{slug}}"
     slug: "index"
     format: yaml-frontmatter
     create: true
@@ -20,7 +20,7 @@ collections:
       - { name: author, label: Author, widget: string }
       - { name: summary, label: Summary, widget: text }
       - {
-          name: section,
+          name: place,
           label: Section,
           widget: select,
           options: ["happening", "tech", "science", "gaming", "theall"],
@@ -29,6 +29,7 @@ collections:
           name: categories,
           label: Categories,
           widget: select,
+          multiple: true,
           options: ["Happening", "Tech", "Science", "Gaming", "The All"],
         }
       - {

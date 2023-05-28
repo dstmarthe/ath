@@ -1,6 +1,5 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
@@ -9,9 +8,9 @@ site_url: https://allthathappens.com
 
 collections:
   - name: post
-    preview_path: "{{section}}/{{slug}}"
     label: Post
-    folder: content
+    folder: "content/{{section}}/{{title}}"
+    slug: "index.{{extension}}"
     format: yaml-frontmatter
     create: true
     fields:

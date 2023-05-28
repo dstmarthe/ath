@@ -9,7 +9,8 @@ site_url: https://allthathappens.com
 collections:
   - name: post
     label: Post
-    folder: "content/{{section}}/{{title}}"
+    folder: content
+    path: "{{field.section}}/{{slug}"
     slug: "index"
     format: yaml-frontmatter
     create: true

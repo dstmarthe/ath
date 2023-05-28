@@ -12,6 +12,7 @@ collections:
     preview_path: "{{section}}/{{slug}}"
     label: Post
     folder: content
+    format: yaml-frontmatter
     create: true
     fields:
       - { name: title, label: Title, widget: string }
@@ -21,7 +22,7 @@ collections:
           name: section,
           label: Section,
           widget: select,
-          options: ["Happening", "Tech", "Science", "Gaming", "The All"],
+          options: ["happening", "tech", "science", "gaming", "theall"],
         }
       - {
           label: "Featured Image",
@@ -30,4 +31,12 @@ collections:
           required: false,
         }
       - { name: body, label: Body, widget: markdown }
+      - { name: tags, label: Tags, widget: list, max: 18 }
+      - { name: keywords, label: Keywords, widget: list, max: 18 }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "article",
+        }

@@ -24,13 +24,14 @@ collections:
         widget: string
       - name: author
         label: Author
-        widget: string
+        widget: text
       - name: body
         label: Body
         widget: markdown
       - name: summary
         label: Summary
         widget: text
+        required: false
       - name: place
         label: Section
         widget: select
@@ -60,17 +61,18 @@ collections:
         widget: image
         default: ./
         required: false
-
       - name: tags
         label: Tags
         widget: list
         add_to_top: true
         max: 18
+        required: false
       - name: keywords
         label: Keywords
         widget: list
         add_to_top: true
         max: 18
+        required: false
       - label: Publish Date
         name: date
         widget: datetime

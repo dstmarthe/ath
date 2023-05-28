@@ -74,3 +74,7 @@ collections:
       - label: Publish Date
         name: date
         widget: datetime
+      - label: "Draft"
+        name: draft
+        widget: hidden
+        default: "false"

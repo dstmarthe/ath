@@ -1,58 +1,78 @@
+---
 backend:
   name: git-gateway
   branch: main
-
 publish_mode: editorial_workflow
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: static/images/uploads
+public_folder: /images/uploads
 site_url: https://allthathappens.com
-
 collections:
   - name: post
     label: Post
     folder: content
     path: "{{place}}/{{title}}/{{slug}}"
-    slug: "index"
+    slug: index
     format: yaml-frontmatter
-    sortable_fields: ["section", "title", "author"]
+    sortable_fields:
+      - section
+      - title
+      - author
     create: true
     fields:
-      - { name: title, label: Title, widget: string }
-      - { name: author, label: Author, widget: string }
-      - { name: summary, label: Summary, widget: text }
-      - {
-          name: place,
-          label: Section,
-          widget: select,
-          options: ["happening", "tech", "science", "gaming", "theall"],
-        }
-      - {
-          name: categories,
-          label: Categories,
-          widget: select,
-          multiple: true,
-          options:
-           - { label: "Happening", value: "Happening" }
-           - { label: "Tech", value: "Tech" }
-           - { label: "Science", value: "Science" }
-           - { label: "Gaming", value: "Gaming" }
-           - { label: "The All", value: "The All" }
-        }
-      - {
-          label: "Featured Image",
-          name: "thumbnail",
-          widget: "image",
-          default: "./",
-          required: false,
-        }
-      - { name: body, label: Body, widget: markdown }
-      - { name: tags, label: Tags, widget: list, default: [""], max: 18 }
-      - {
-          name: keywords,
-          label: Keywords,
-          widget: list,
-          field: text,
-          default: [""],
-          max: 18,
-        }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - name: title
+        label: Title
+        widget: string
+      - name: author
+        label: Author
+        widget: string
+      - name: summary
+        label: Summary
+        widget: text
+      - name: place
+        label: Section
+        widget: select
+        options:
+          - happening
+          - tech
+          - science
+          - gaming
+          - theall
+      - label: Categories,
+        name: categories,
+        widget: select,
+        multiple: true,
+        options:
+          - label: Happening
+            value: Happening
+          - label: Tech
+            value: Tech
+          - label: Science
+            value: Science
+          - label: Gaming
+            value: Gaming
+          - label: The All
+            value: The All
+      - label: Featured Image
+        name: thumbnail
+        widget: image
+        default: ./
+        required: false
+      - name: body
+        label: Body
+        widget: markdown
+      - name: tags
+        label: Tags
+        widget: list
+        default:
+          - ""
+        max: 18
+      - name: keywords
+        label: Keywords
+        widget: list
+        field: text
+        default:
+          - ""
+        max: 18
+      - label: Publish Date
+        name: date
+        widget: datetime

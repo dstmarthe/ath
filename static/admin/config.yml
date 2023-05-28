@@ -66,14 +66,10 @@ collections:
         widget: list
         add_to_top: true
         max: 18
-        fields:
-          - { label: type..., name: tag, widget: text }
-
       - name: keywords
         label: Keywords
         widget: list
         add_to_top: true
-        default: [""]
         max: 18
       - label: Publish Date
         name: date

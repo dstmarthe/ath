@@ -25,19 +25,24 @@ collections:
           widget: select,
           options: ["happening", "tech", "science", "gaming", "theall"],
         }
+        - {
+          name: categories,
+          label: Categories,
+          widget: select,
+          options: ["Happening", "Tech", "Science", "Gaming", "The All"],
+        }
       - {
           label: "Featured Image",
           name: "thumbnail",
           widget: "image",
+          default: "./"
           required: false,
+          media_library:
+            config:
+              multiple: true
         }
       - { name: body, label: Body, widget: markdown }
-      - { name: tags, label: Tags, widget: list, max: 18 }
-      - { name: keywords, label: Keywords, widget: list, max: 18 }
+      - { name: tags, label: Tags, widget: list,  default: [""], max: 18 }
+      - { name: keywords, label: Keywords, widget: list, default: [""], max: 18 }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "article",
-        }
+  

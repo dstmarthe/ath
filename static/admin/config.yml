@@ -25,7 +25,7 @@ collections:
           widget: select,
           options: ["happening", "tech", "science", "gaming", "theall"]
         }
-        - {
+      - {
           name: categories,
           label: Categories,
           widget: select,

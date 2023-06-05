@@ -14,7 +14,9 @@
 		*/}}
 		<div class="col-lg-9 mx-auto">
 			<div class="mb-4">
-				<h2 class="fw-bold display-1 text-left font-inter hover-underline">
+				<h2
+					class="fw-bold text-dark display-1 text-left font-inter hover-underline"
+				>
 					VISION
 				</h2>
 				<p class="font-garamond fs-4 text-justify mb-3">
@@ -27,7 +29,9 @@
 			</div>
 			<br />
 			<div class="mb-4">
-				<h2 class="fw-bold display-1 text-left font-inter hover-underline">
+				<h2
+					class="fw-bold text-dark display-1 text-left font-inter hover-underline"
+				>
 					MISSION
 				</h2>
 				<p class="font-garamond fs-4 text-justify mb-3 text-break">
@@ -55,15 +59,84 @@
 			</div>
 			*/}}
 		</div>
+
+		{{/*
+		<div class="col-lg-6 mx-auto mb-5">
+			<h3 class="mb-4 text-left">Get in Touch:</h3>
+			<form name="contact" class="d-flex flex-column" netlify>
+				<label for="name" class="label mb-4">
+					<span class="label-title">Your Name</span>
+					<input
+						id="name"
+						class="input"
+						name="text"
+						placeholder="Your Name..."
+						type="text"
+						autocomplete="off"
+					/>
+				</label>
+
+				<label for="email" class="label">
+					<span class="label-title">Email</span>
+					<input
+						id="email"
+						class="input"
+						name="email"
+						placeholder="user@example.com"
+						type="email"
+						autocomplete="off"
+					/>
+				</label>
+				<label for="message" class="label">
+					<span class="label-title">Email</span>
+					<input
+						id="email"
+						class="input"
+						name="email"
+						placeholder="user@example.com"
+						type="email"
+						autocomplete="off"
+					/>
+				</label>
+
+				<div>
+					<button type="submit" class="btn btn-purple mt-2">Send</button>
+				</div>
+			</form>
+		</div>
+		*/}}
+
 		<div class="col-lg-6 mx-auto">
 			{{- partial "_shared/subscribe.html" . -}}
 		</div>
-		<div class="col-lg-6 mx-auto">
-			<h5>Contact:</h5>
-			<p class="text-center">
-				For all inquires email: allthathappensnews@gmail.com
-			</p>
-		</div>
+
+		<h3 class="mb-4 text-left">Get in Touch:</h3>
+		<div id="forms-196707-2023"></div>
+		<script>
+			(async (f, o, r, m, s) => {
+				m = o.getElementsByTagName("head")[0];
+				s = o.createElement("script");
+				s.async = 1;
+				s.src = r;
+				s.onload = async () => {
+					let data = await f.wg.init(
+						"forms",
+						"us1",
+						196707,
+						226656,
+						"forms/2023/embed",
+						{ width: "1200px", height: "750px" },
+						"widget",
+						"forms-196707-2023"
+					);
+				};
+				m.appendChild(s);
+			})(
+				window,
+				document,
+				"https://infinity-public-js.500apps.com/widget.min.js"
+			);
+		</script>
 	</div>
 </div>
 <!-- End Main -->

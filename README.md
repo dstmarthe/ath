@@ -15,7 +15,7 @@ This blog was built with Hugo, and the Mundana theme.
 - Links: Use the HTML way - `<a href="https://" target="_blank"></a>`
 - Lists: Ordered - `1. Item 1` bullet - `* Item 2` make sure to leave one space between the number and info
 - Lists: Unordered - `- Item 1` bullet - `+ Item 2` make sure to leave one space between the number and info
-  - To make a sub-item, on the next line press tab and then start our list item
+  - To make a sub-item, on the next line press tab and then write a list item
 - Headings: Use hashtags to designate headings, the more hashes the smaller the heading eg "##" is an `<h2>` and "###" is an `<h3>` never use just one hash or `<h1>`.
 - Bold text with double asteriks eg: `**bold**` makes **bold**
 - Italicize with single asteriks eg: `*italics*` makes _italics_
@@ -28,11 +28,14 @@ This blog was built with Hugo, and the Mundana theme.
 - Youtube videos: if you want to insert a Youtube video type `{{ youtube url}}` instead of "url" insert the string of characters of "v=" in a Youtube link
   - eg: `{{ youtube salY_Sm6mv4&ab_channel=AaronJack }}`
 
-{{ youtube salY_Sm6mv4&ab_channel=AaronJack }}
 
-`<figure > <img src="/media/spf13.jpg"  />
 
+`<figure > <img src="/media/spf13.jpg"  />`
+
+- Figcaption
+
+`<figure>
 <figcaption>
 <h4>Steve Francia</h4>
 </figcaption>
-</figure> `
+</figure>`

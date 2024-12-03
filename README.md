@@ -34,8 +34,6 @@ This blog was built with Hugo, and the Mundana theme.
 
 - Figcaption
 
-`<figure>
-<figcaption>
-<h4>Steve Francia</h4>
-</figcaption>
-</figure>`
+`<figure > <img src="/media/spf13.jpg"  />
+
+Slap a `<figcaption>` tag to add caption at bottom of media.

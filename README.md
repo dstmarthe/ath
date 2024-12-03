@@ -12,7 +12,8 @@ This blog is built with Hugo, Bootstrap, and the Mundana theme.
   - YEAR-MONTH-DATE(T for time)(militarytime don't have to put seconds)-04:00(We will keep using -04:00 for EST time)
 - Images: `![Example alt text](exampleimg.jpg)` square braces is the alt text, and the curved braces are the path or url
 - Images: With HTML do images like - `<img src="path.jpg" target="_blank" alt="alt text" />` image tags do not have a closing tag
-- Links: Use the HTML way - `<a href="https://" target="_blank"></a>`
+- Links: Use the HTML way
+  - `<a href="https://" target="_blank"></a>`
 - Lists: Ordered - `1. Item 1` bullet - `* Item 2` make sure to leave one space between the number and info
 - Lists: Unordered - `- Item 1` bullet - `+ Item 2` make sure to leave one space between the number and info
   - To make a sub-item, on the next line press tab and then write a list item

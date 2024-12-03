@@ -1,7 +1,7 @@
 _All That Happens_
 
 All that happens - a blog dedicated to interesting news. Stories about things that move the zietgiest.
-This blog was built with Hugo, and the Mundana theme.
+This blog is built with Hugo, Bootstrap, and the Mundana theme.
 
 ## Article Tips
 

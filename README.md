@@ -34,6 +34,6 @@ This blog was built with Hugo, and the Mundana theme.
 
 - Figcaption
 
-`<figure > <img src="/media/spf13.jpg"  />
+`<figure > <img src="/media/spf13.jpg"  />`
 
 Slap a `<figcaption>` tag to add caption at bottom of media.
